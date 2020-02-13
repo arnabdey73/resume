@@ -5,7 +5,7 @@
 **Mail:** arnabdey009@gmail.com  
 <a href="https://about.me/arnabdey" target="_blank"> About Me</a>  
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> LinkedIn Profile</a>  
-<a href="hhttps://github.com/arnabdey73" target="_blank"> GitHub</a>  
+<a href="https://github.com/arnabdey73/resume/blob/master/resume.pdf" target="_blank"> GitHub</a>  
 <a href="https://join.skype.com/invite/DY98mJotGRxj" >Skype</a>
 
 ### Summary
