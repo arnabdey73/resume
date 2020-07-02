@@ -5,33 +5,35 @@
 **Mail:** arnabdey009@gmail.com  
 <a href="https://about.me/arnabdey" target="_blank"> About Me</a>  
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> LinkedIn Profile</a>  
-<a href="hhttps://github.com/arnabdey73" target="_blank"> GitHub</a>  
+<a href="https://github.com/arnabdey73/resume/blob/master/resume.pdf" target="_blank"> GitHub</a>  
 <a href="https://join.skype.com/invite/DY98mJotGRxj" >Skype</a>
 
 ### Summary
 
-* I am a Computer Science Graduate with **10** years of experience as a DevOps/CloudOps/Systems Engineer.
+* An accomplished professional with more than **9** years of proven experience as a DevOps/CloudOps/Systems Engineer the Information Technology industry.
 
-* My primary expertise is in providing solutions based on application requirements on public/hybrid cloud platforms and implementing the same solutions using several below mentioned **DevOps** tools and ensuring a smoother Agile transformation.  
+* Demonstrated knowledge in providing solutions based on application requirements on public/hybrid cloud platforms, implementing the same solutions using several **DevOps** tools and ensuring a smoother agile transformation.  
 
-* My expertise is in (inclusive but not limited to) building and managing CI/CD pipelines for **Java, NodeJS, Angular** based applications using **Jenkins, Maven, Gitlab, SonarQube** (For Code Review and Static Analysis).
+* Excels at spearheading the Continuous Integration/Continuous Development pipelines for **Java, NodeJS, Angular** based applications using **Jenkins, Maven, Gitlab, SonarQube**.
 
-* In conjuncture to the above points, my expertise also is in containerizing microservices of our client-facing applications using **Docker** and  orchestrating and deploying containers to Development/Stage/Production environments using **Kubernetes** (OpenShift Container Platform).
+* In conjuncture to the above points, my expertise also is in containerizing microservices of our client-facing applications using **Docker** and  orchestrating and deploying containers to Development/Stage/Production environments using **Swarm/Kubernetes** (OpenShift Container Platform).
 
 
 ### Skills/Technologies that I work with:
 
-**Linux**, Shell Scripting (bash), **AWS**, **Azure**, **Azure DevOps**, **CI Stack (Jenkins, Maven, Git, SonarQube)**, **CD Stack(Quay/Azure Container Registry, OpenShift Container Platform)**, **Gitlab CI**, ELK stack, Grafana, **Docker, Kubernetes**, Terraform, Ansible, Database management (Mysql), Python.  
+**Linux**, Shell Scripting (bash), **Azure Cloud**, **Azure DevOps**, **CI Stack (Jenkins, Maven, Git, SonarQube)**, **CD Stack(Quay/Azure Container Registry, Swarm/Kubernetes)**, **Gitlab CI**, ELK stack, Kafka, **Docker, Kubernetes**, Ansible, Database management (Mysql).  
 
 ## Experience
 
 ### Senior Business Consultant (DevOps) – 'Tech Mahindra' : Feb 2017 → Current
 
-* Providing solutions and implementing 
-  * **CI/CD** pipeline for Java, Python, NodeJS, Angular-based business applications hosted on public/Hybrid cloud platform.
-  * Orchestration of microservices using **Docker, Kubernetes**/OpenShift.
-  * **GitFlow** and follow a revised source control management system.
-* Previously worked on CI over BI using TravisCI on various Analytics applications (e.g. Tableau).
+* Performing a wide range of activities such as providing solutions and implementing CI/CD pipeline for **Java, Python, NodeJS, Angular**-based business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes/OpenShift** and also by implementing **GitFlow**.
+* Key role involvement in working with **Azure/Hybrid** cloud computing platform using different components and services.
+* Working with **Azure DevOps, Jenkins, Maven, Gitlab, SonarQube** platform and performing Continuous Integration/Continuous Development.
+* Active role involvement in configuration management and system orchestration of nodes/instances using Ansible.
+* Responsible for Log search, indexing and management using tools like Elasticsearch, Logstash, Kibana, Kafka.
+* Automating the regular activities, writing Shell (bash) scripts and resolving the escalated issues.
+* Accountable for preparing operational documentations, deployments SOPs and architectural diagrams.
 
 ### Lead Cloud Systems Engineer – 'ICF Next' : Sep 2015 → Jan 2017
 
@@ -53,19 +55,3 @@
 ## Education
 
 ### B. Tech in Computer Science – West Bengal University of Technology 2005 → 2009
-
-* Score: 7.04/10 CGPA.  
-
-**Projects:**  
-
-1. Image Processing tool using C/C++,
-2. Library Management tool using ASP.Net,
-3. Exam management tool using Java on Unix.
-
-### Higher Secondary (10+2) in Pure Science – W.B.C.H.S.E 2003 → 2005
-
-* Score: 66.9%
-
-### Secondary (10th) in General Science – W.B.B.S.E 2003 → 2005
-
-* Score: 75%
