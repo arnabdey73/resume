@@ -15,7 +15,7 @@
 
 * Mentored and supported many colleagues across different projects and domains.
 
-* Currently working as a Product Owner for a project that is working on an AI-based application for tailoring CVs as per business requirements.
+* Currently working as a Product Owner for a project that is working on an AI-based application for tailoring profiles as per business requirements.
 
 
 ### Skills/Technologies that I work with:
