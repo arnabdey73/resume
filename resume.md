@@ -11,9 +11,9 @@
 
 * Provided solutions for various business applications on public and hybrid Cloud platforms, using Continuous Integration/Continuous Development pipelines and DevOps, GitOps, and Agile tools.  
 
-* Collaborating closely with the development team and the scrum master to plan and execute sprints, defining DoRs and DoDs, and providing feedback and guidance.
+* Collaborated with scrum master to plan and execute sprints, defining DoRs and DoDs, and providing feedback and guidance.
 
-* Mentored and supported many colleagues across different projects and domains.
+* Well-versed in the SAFe framework and the roles and responsibilities of a Product Owner and a Scrum master.
 
 * Currently working as a Product Owner for a project that is working on an AI-based application for tailoring profiles as per business requirements.
 
