@@ -11,7 +11,7 @@
 
 * Provided solutions for various business applications on public and hybrid Cloud platforms, using Continuous Integration/Continuous Development pipelines and DevOps, GitOps, and Agile tools.  
 
-* Handled large and complex development, staging, and production environments, with a strong focus on quality and automation.
+* Collaborating closely with the development team and the scrum master to plan and execute sprints, defining DoRs and DoDs, and providing feedback and guidance.
 
 * Mentored and supported many colleagues across different projects and domains.
 
