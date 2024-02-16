@@ -5,22 +5,19 @@
 **Mail:** arnabdey009@gmail.com\
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> LinkedIn Profile</a>  
 <a href="https://github.com/arnabdey73/resume/blob/master/resume.pdf" target="_blank"> GitHub</a>  
-### Summary
 
-* An accomplished professional with more than **13** years of proven experience as a DevOps/CloudOps/Systems Engineer in the Information Technology industry.
+## Summary
 
-* Provided solutions for various business applications on public and hybrid Cloud platforms, using Continuous Integration/Continuous Development pipelines and DevOps, GitOps, and Agile tools.  
+* An accomplished professional with more than **13 years** of proven experience as a **DevOps/CloudOps/Systems** Engineer in the Information Technology industry.
 
-* Collaborated with scrum master to plan and execute sprints, defining DoRs and DoDs, and providing feedback and guidance.
+* Provided solutions for various business applications on public and hybrid Cloud platforms, using **CI/CD pipelines, orchestration, infrastructure automation, and Agile tools**.  
+* He has handled **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
+* As a senior team member, he has **mentored and supported** many colleagues across different projects and domains.
+* Well-versed in the **SAFe framework** and the roles and responsibilities of a Product Owner.
 
-* Well-versed in the SAFe framework and the roles and responsibilities of a Product Owner and a Scrum master.
+## Skills/Technologies that I work/worked with:
 
-* Currently working as a Product Owner for a project that is working on an AI-based application for tailoring profiles as per business requirements.
-
-
-### Skills/Technologies that I work with:
-
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Nexus, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes**, Terraform, Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
@@ -28,21 +25,22 @@
 
 * Defining and managing the product vision and strategy, based on stakeholder/sponsors' needs.
 
-* Creating and prioritizing backlog in Azure DevOps that aligns with the product vision and delivers value to sponsors and users.
+* Creating and prioritizing backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
-* Collaborating closely with the development team and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
+* Collaborating closely with the scrum teams and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
 
 * Communicating with the sponsors regularly to gather feedback, validate assumptions, and demonstrate the product increment.
 
-* Upgraded On-prem hardware cluster to Kubernetes cluster using xCAT and Rancher Server.
+* Upgraded On-prem hardware cluster to **Kubernetes cluster using xCAT and Rancher Server**.
 
-* Worked on MLOps platform (developed on a client architecture) to figure out solutions for the AI Agile Release Train.
+* Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
 
-* Created development environment and feature for scalable computing of Azure Databricks clusters using IaC (Terraform) and GitOps.
+* Created development environment and feature for scalable computing of Azure Databricks clusters using **IaC (Terraform) and GitOps**.
 
 ### Senior Business Consultant (DevOps) – 'Tech Mahindra' : Feb 2017 → Sep 2021
 
 * Performing a wide range of activities such as providing solutions and implementing CI/CD pipeline for business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes(Rancher)** and also by implementing **GitFlow**.
+
 * Working with **Azure DevOps, Jenkins, Gitlab**(as per requirements) and performing Continuous Integration/Continuous Development.
 * Responsible for Log search, indexing and management using tools like Elasticsearch, Logstash, Kibana.
 * Automating the regular activities writing Shell (bash) scripts, automating infrastructure provision through Terraform for hybrid cloud platforms and also resolving the escalated issues.
@@ -51,6 +49,7 @@
 ### Senior AEM Administrator (Cloud) – 'ICF Next' : Sep 2015 → Jan 2017
 
 * Managed public cloud-based Infrastructure(AWS) which hosted Production/Stage/UAT environments of the several clients’ web contents by using Ansible/Shell script and also by performing various AEM Administration essential tasks as well.
+
 * Implemented Disaster Recovery both at application and infrastructure level.
 
 ### Unix/Linux Systems Administrator – 'Hewlett Packard Enterprise' : Nov 2011 → Aug 2015
