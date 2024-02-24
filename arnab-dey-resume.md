@@ -17,7 +17,7 @@
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
