@@ -17,25 +17,25 @@
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Kubeflow, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → Current
 
-* Defining and managing the product vision and strategy, based on stakeholder/sponsors' needs.
-
 * Creating and prioritizing backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
-* Collaborating closely with the scrum teams and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
-
-* Communicating with the sponsors regularly to gather feedback, validate assumptions, and demonstrate the product increment.
-
-* Upgraded On-prem hardware cluster to **Kubernetes cluster using xCAT and Rancher Server**.
+* Upgraded On-prem hardware cluster to **Kubernetes cluster** using xCAT and **Rancher Server**.
 
 * Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
 
 * Created development environment and feature for scalable computing of Azure Databricks clusters using **IaC (Terraform) and GitOps**.
+
+* Defining and managing the product vision and strategy, based on stakeholder/sponsors' needs.
+
+* Collaborating closely with the scrum teams and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
+
+* Communicating with the sponsors regularly to gather feedback, validate assumptions, and demonstrate the product increment.
 
 ### Senior Business Consultant (DevOps) – 'Tech Mahindra' : Feb 2017 → Sep 2021
 
