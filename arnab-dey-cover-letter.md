@@ -1,8 +1,8 @@
 *Dear Hiring Manager*,
 
-I am writing to express my interest in the *DevOps Engineer* role in your company. I have a Bachelor's degree in Computer Science and more than **13 years** of experience as a DevOps/CloudOps/Systems Engineer.
+I am writing to express my interest in the *Platform Engineer* role in your company. I have a Bachelor's degree in Computer Science and more than **14 years** of experience as a DevOps/CloudOps/Systems Engineer.
 
-I am passionate about optimizing and automating the software development lifecycle, using the best practices of **DevOps** and **Cloud computing**. I have extensive experience in working with public Cloud platforms such as AWS, Azure, as well as Linux systems and various DevOps tools such as Docker, Kubernetes, Jenkins, Terraform, and Git (Github, Gitlab).
+I am passionate about optimizing and automating the software development lifecycle (Agile or otherwise), using the best practices of **DevOps** and **Cloud computing**. I have extensive experience in working with public Cloud platforms such as Azure, AWS as well as On-Prem Linux systems and various DevOps tools such as Azure DevOps, Jenkins, Terraform, Kubernetes, Git (Github, Gitlab), Jira.
 
 I am a team player who can also act as an individual contributor and can strategize project portfolio according to deliverable timelines.
 

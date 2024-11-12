@@ -8,20 +8,30 @@
 
 ## Summary
 
-* An accomplished professional with more than **13 years** of proven experience as a **DevOps/CloudOps/Systems** Engineer in the Information Technology industry.
+* An accomplished professional with more than **14 years** of proven experience as a **DevOps/CloudOps/Systems** Engineer in the Information Technology industry.
 
 * Provided solutions for various business applications on public and hybrid Cloud platforms, using **CI/CD pipelines, orchestration, infrastructure automation, and Agile tools**.  
-* He has handled **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
-* As a senior team member, he has **mentored and supported** many colleagues across different projects and domains.
+* Managed **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
+* As a senior team member, **mentored and supported** many colleagues across different projects and domains.
 * Well-versed in the **SAFe framework** and the roles and responsibilities of a Product Owner.
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Kubeflow, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
-### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → Current
+### Cloud Engineer - 'Stena Metall AB' : August 2024 - Present
+
+* Prioritizing and performing tasks from Azure DevOps Kanban board.
+
+* Handpicked and populated tasks in the 'backlog' by reviewing all Microsoft recommendations in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
+
+* Performing tasks mostly based on Azure Governance using Terraform (with Azure Pipelines) and/or Azure portal.
+
+* Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
+
+### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
 
 * Creating and prioritizing backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
