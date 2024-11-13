@@ -27,7 +27,7 @@
 
 * Handpicked and populated tasks in the 'backlog' by reviewing all Microsoft recommendations in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
-* Performing tasks mostly based on Azure Governance using Terraform (with Azure Pipelines) and/or Azure portal.
+* Performing tasks mostly based on Azure Governance using Terraform (with Azure Pipelines)and/or Azure portal.
 
 * Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
 
@@ -35,7 +35,7 @@
 
 * Creating and prioritizing backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
-* Upgraded On-prem hardware cluster to **Kubernetes cluster** using xCAT and **Rancher Server**.
+* Upgraded On-prem hardware cluster to **Kubernetes cluster** using xCAT and **Rancher Server and Rancher Kubernetes Engine(RKE)**.
 
 * Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
 
@@ -49,7 +49,7 @@
 
 ### Senior Business Consultant (DevOps) – 'Tech Mahindra' : Feb 2017 → Sep 2021
 
-* Performing a wide range of activities such as providing solutions and implementing CI/CD pipeline for business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes(Rancher)** and also by implementing **GitFlow**.
+* Performing a wide range of activities such as providing solutions and implementing CI/CD pipeline for business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes(Rancher and Bare Metal)** and also by implementing **GitFlow**.
 
 * Working with **Azure DevOps, Jenkins, Gitlab**(as per requirements) and performing Continuous Integration/Continuous Development.
 * Responsible for Log search, indexing and management using tools like Elasticsearch, Logstash, Kibana.
