@@ -17,15 +17,15 @@
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud**, **Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
 ### Cloud Engineer - 'Stena Metall AB' : August 2024 - Present
 
-* Prioritizing and performing tasks from Azure DevOps Kanban board.
+* Prioritizing and performing tasks from **Azure DevOps** Kanban board.
 
-* Handpicked and populated tasks in the 'backlog' by reviewing all Microsoft recommendations in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
+* Creating and populating tasks in the 'backlog' by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
 * Performing tasks mostly based on Azure Governance using Terraform (with Azure Pipelines)and/or Azure portal.
 
@@ -33,7 +33,7 @@
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
 
-* Creating and prioritizing backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
+* Created and prioritized backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
 * Upgraded On-prem hardware cluster to **Kubernetes cluster** using xCAT and **Rancher Server and Rancher Kubernetes Engine(RKE)**.
 
@@ -41,19 +41,19 @@
 
 * Created development environment and feature for scalable computing of Azure Databricks clusters using **IaC (Terraform) and GitOps**.
 
-* Defining and managing the product vision and strategy, based on stakeholder/sponsors' needs.
+* Defined and managed the product vision and strategy, based on stakeholder/sponsors' needs.
 
-* Collaborating closely with the scrum teams and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
+* Collaborated closely with the scrum teams and the scrum master to plan and execute sprints, review the work done, and provide feedback and guidance.
 
-* Communicating with the sponsors regularly to gather feedback, validate assumptions, and demonstrate the product increment.
+* Communicated with the sponsors regularly to gather feedback, validate assumptions, and demonstrate the product increment.
 
 ### Senior Business Consultant (DevOps) – 'Tech Mahindra' : Feb 2017 → Sep 2021
 
-* Performing a wide range of activities such as providing solutions and implementing CI/CD pipeline for business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes(Rancher and Bare Metal)** and also by implementing **GitFlow**.
+* Performed a wide range of activities such as providing solutions and implementing CI/CD pipeline for business applications hosted on **public/Hybrid** cloud platform, orchestrating Microservices using **Docker, Kubernetes(Rancher and Bare Metal)** and also by implementing **GitFlow**.
 
-* Working with **Azure DevOps, Jenkins, Gitlab**(as per requirements) and performing Continuous Integration/Continuous Development.
+* Worked with **Azure DevOps, Jenkins, Gitlab**(as per requirements) and performed Continuous Integration/Continuous Development.
 * Responsible for Log search, indexing and management using tools like Elasticsearch, Logstash, Kibana.
-* Automating the regular activities writing Shell (bash) scripts, automating infrastructure provision through Terraform for hybrid cloud platforms and also resolving the escalated issues.
+* Automated regular activities by writing Shell (bash) scripts, automated infrastructure provision through Terraform for hybrid cloud platforms and also resolved escalated issues.
 * Accountable for preparing operational documentations, deployments SOPs and architectural diagrams.
 
 ### Senior AEM Administrator (Cloud) – 'ICF Next' : Sep 2015 → Jan 2017
