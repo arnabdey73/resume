@@ -10,24 +10,24 @@
 
 * An accomplished professional with more than **14 years** of proven experience as a **DevOps/CloudOps/Systems** Engineer in the Information Technology industry.
 
-* Provided solutions for various business applications on public and hybrid Cloud platforms, using **CI/CD pipelines, orchestration, infrastructure automation, and Agile tools**.  
-* Managed **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
+* Providing solutions for various business applications on public and hybrid Cloud platforms, using **CI/CD pipelines, orchestration, infrastructure automation, and Agile tools**.  
+* Managing **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
 * As a senior team member, **mentored and supported** many colleagues across different projects and domains.
 * Well-versed in the **SAFe framework** and the roles and responsibilities of a Product Owner.
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab, GitHub**, ELK stack, Kafka, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab, GitHub**, ELK stack, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
 ### Cloud Engineer - 'Stena Metall AB' : August 2024 - Present
 
+* Performing **Azure Governance** tasks using **Terraform** (with Azure Pipelines) and/or Azure portal.
+
 * Prioritizing and performing tasks from **Azure DevOps** Kanban board.
 
-* Creating and populating tasks in the 'backlog' by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
-
-* Performing tasks mostly based on Azure Governance using Terraform (with Azure Pipelines)and/or Azure portal.
+* Creating tasks in the 'backlog' by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
 * Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
 
@@ -35,7 +35,7 @@
 
 * Created and prioritized backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
-* Upgraded On-prem hardware cluster to **Kubernetes cluster** using xCAT and **Rancher Server and Rancher Kubernetes Engine(RKE)**.
+* Upgraded On-prem hardware cluster to **Kubernetes cluster** using Ubuntu server(LTS), xCAT, **Rancher Server and Rancher Kubernetes Engine(RKE)**.
 
 * Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
 
