@@ -29,7 +29,7 @@
 
 * Creating tasks in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
-* Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
+* Also resolving incident and SRs as per SLA from the "Cloud Office" dashboard in ivanti.
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
 
