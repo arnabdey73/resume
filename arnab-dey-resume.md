@@ -23,11 +23,11 @@
 
 ### Cloud Engineer - 'Stena Metall AB' : August 2024 - Present
 
+* Performing Security Audit on **Azure** provisioned resources and provide feedback to Product/Project Team.
+
 * Performing **Azure Governance** tasks using **Terraform** (with Azure Pipelines) and/or Azure portal.
 
-* Prioritizing and performing tasks from **Azure DevOps** Kanban board.
-
-* Creating tasks in the 'backlog' by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
+* Creating tasks in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
 * Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
 
