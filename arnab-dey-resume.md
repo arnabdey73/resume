@@ -27,7 +27,7 @@
 
 * Performing **Azure Governance** tasks using **Terraform** (with Azure Pipelines) and/or Azure portal.
 
-* Creating tasks in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
+* Creating backlog in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
 * Working with Azure Services like Logic apps to automate certain tasks and have set up custom roles to restrict certain actions against Azure resources for non-contributing users programmatically.
 
@@ -35,9 +35,9 @@
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
 
-* Created and prioritized backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
-
 * Upgraded On-prem hardware cluster to **Kubernetes cluster** using Ubuntu server(LTS), xCAT, **Rancher Server and Rancher Kubernetes Engine(RKE)**.
+
+* Created and prioritized backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
 * Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
 
