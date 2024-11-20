@@ -1,6 +1,6 @@
 *Dear Hiring Manager*,
 
-I am writing to express my interest in the *DevOps Cloud Engineer* role in your company. I have a Bachelor's degree in Computer Science and more than **14 years** of experience as a DevOps/CloudOps/Systems Engineer.
+I am writing to express my interest in the *Azure Cloud Consultant* role in your company. I have a Bachelor's degree in Computer Science and more than **14 years** of experience as a DevOps/CloudOps/Systems Engineer.
 
 I am passionate about optimizing and automating the software development lifecycle (Agile or otherwise), using the best practices of **DevOps** and **Cloud computing**. I have extensive experience in working with public Cloud platforms such as Azure, AWS as well as On-Prem Linux systems and various DevOps tools such as Azure DevOps, Jenkins, Terraform, Kubernetes, Git (Github, Gitlab), Jira.
 

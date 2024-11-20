@@ -29,6 +29,8 @@
 
 * Creating tasks in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
 
+* Working with Azure Services like Logic apps to automate certain tasks and have set up custom roles to restrict certain actions against Azure resources for non-contributing users programmatically.
+
 * Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
