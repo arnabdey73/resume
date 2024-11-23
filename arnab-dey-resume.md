@@ -1,10 +1,10 @@
 # Arnab Dey
 
-**Location:** Gothenburg, Sweden  
+**Location:** <a href="https://maps.app.goo.gl/4hcwyrkSfcSjmnZBA" target="_blank">Gothenburg, Sweden</a>  
 **Mob:** (+46) 0764516092\
 **Mail:** arnabdey009@gmail.com\
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> LinkedIn Profile</a>  
-<a href="https://github.com/arnabdey73/resume/blob/master/resume.pdf" target="_blank"> GitHub</a>  
+<a href="https://github.com/arnabdey73/resume/blob/master/arnab-dey-resume.pdf" target="_blank"> GitHub</a>  
 
 ## Summary
 
