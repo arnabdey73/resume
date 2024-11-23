@@ -1,6 +1,6 @@
 # Arnab Dey
 
-**Location:** <a href="https://maps.app.goo.gl/4hcwyrkSfcSjmnZBA" target="_blank">Gothenburg, Sweden</a>  
+**Location:** <a href="https://maps.app.goo.gl/4hcwyrkSfcSjmnZBA" target="_blank">Göteborg, Sweden</a>  
 **Mob:** (+46) 0764516092\
 **Mail:** arnabdey009@gmail.com\
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> LinkedIn Profile</a>  
