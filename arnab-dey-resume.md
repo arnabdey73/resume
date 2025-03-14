@@ -71,34 +71,4 @@
 
 * Administered Unix-based cloud and on-premise **VMware** platforms, ensuring optimal performance and reliability for a majortransportation and logistics firm.
 
-* Developed and implemented Standard Operating Procedures (SOPs) and UML architectural diagrams to enhance deploymentefficiency and system architecture clarity, reducing system runtime.
-
-* Enhanced system performance and reliability, reducing system runtime through effective administration and implementation ofSOPs and UML diagrams.
-
-### Linux Systems Engineer – 'Axon Networks' : May 2011 → Oct 2011
-
-* Managed the installation and configuration of over 100 Linux-based servers, enhancing system performance through effective troubleshooting and performance tuning.
-
-* Executed system upgrades and downgrades seamlessly with minimal downtime, ensuring high availability for a leading online retail platform.
-
-* Conducted regular maintenance and optimisation of systems, resulting in a increase in operational efficiency.
-
-### Jr. System Administrator – 'Bobcares' : Nov 2009 → June 2010
-
-* Managed and maintained Linux VPS environments, ensuring high availability and performance for clients.
-
-* Configured and optimized DNS, DHCP, and SMTP servers to meet specific organizational needs.
-
-* Diagnosed and resolved RAID and LVM issues, improving system reliability and minimizing downtime.
-
-## Education
-
-### B. Tech in Computer Science – West Bengal University of Technology 2005 → 2009
-
-* The curriculum provided an extensive foundation in computer science principles, fostering skills essential for Network engineering and system administration.
-
-## Certifications
-
-### Microsoft Certified: Azure Fundamentals
-
-* Microsoft • 801D970BAA49297 • Issued Mar 2023
+* Developed and implemented Standard Operatin
