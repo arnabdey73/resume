@@ -4,36 +4,37 @@
 **Phone:** (+46) 0764516092\
 **Mail:** arnabdey009@gmail.com\
 <a href="https://www.linkedin.com/in/arnabdey73/" target="_blank"> **LinkedIn** Profile</a>  
-<a href="https://github.com/arnabdey73/resume/blob/master/arnab-dey-resume.pdf" target="_blank"> **GitHub**</a>  
+<a href="https://github.com/arnabdey73" target="_blank"> **GitHub**</a>  
 
 ## Summary
 
-* An accomplished professional with more than **14 years** of proven experience as a **DevOps/CloudOps/Systems** Engineer in the Information Technology industry.
+* Accomplished DevOps Engineer with **8+ years** of experience in public cloud environments and a solid **14-year** IT foundation. Skilled in designing, implementing, and managing **CI/CD pipelines** to optimize software quality and deployment speed in **public and hybrid cloud** settings.
 
-* Providing solutions for various business applications on public and hybrid Cloud platforms, using **CI/CD pipelines, orchestration, infrastructure automation, and Agile tools**.  
-* Managing **large and complex development, staging, and production environments**, with a strong focus on quality and automation.  
-* As a senior team member, **mentored and supported** many colleagues across different projects and domains.
-* Well-versed in the **SAFe framework** and the roles and responsibilities of a Product Owner.
+* Expert in **Azure DevOps, Jenkins, Kubernetes, Docker, GitHub, GitHub Actions, Ansible, and Terraform**, with strong scripting abilities in **Bash, Python, and PowerShell** for automated deployment and infrastructure management. Proficient in the **SAFe framework and Product Owner** roles, aligning product vision with stakeholder expectations.
+
+* A **proactive problem solver** with a focus on **performance monitoring and cloud security**. Renowned for fostering collaboration, mentoring, and promoting DevOps best practices throughout the development lifecycle.
 
 ## Skills/Technologies that I work/worked with:
 
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab, GitHub**, ELK stack, **Docker, Kubernetes, Terraform**, Ansible, Python(Scripting), Database management (Mysql/MongoDB), **Jira**, Miro.  
+**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab CI, GitHub Actions**, VMWare, ELK stack, **Docker, Kubernetes, Terraform**, Ansible, Python, Database (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
-### Cloud Engineer - 'Stena Metall AB' : August 2024 - Present
+### Cloud Engineer - 'Stena Metall AB' : August 2024 - January 2025
 
-* Performing Security Audit on **Azure** provisioned resources and provide feedback to Product/Project Team.
+* Upgraded the **Cloud Adoption Framework** (from v5.2.1 to v6.0.0) and enhanced **RBAC strategy** in accordance with **Azure Governance** standards.
 
-* Performing **Azure Governance** tasks using **Terraform** (with Azure Pipelines) and/or Azure portal.
+* Conducted security audits on Azure-provisioned resources per **Azure Advisor** recommendations, automating tasks using **Terraform and Azure Pipelines**, and aligning with Microsoft Cloud Adoption Framework for Azure (CAF).
 
-* Creating backlog in the **Azure DevOps** Kanban board by reviewing all Microsoft recommendations(Azure Advisor) in order to make sure that we don't miss any technical vulnerabilities, security threats or unnecessary costs.
+* Supported cloud platform operations, resolved incidents and SRs as per SLA from the 'Cloud Office' dashboard in Ivanti, and performed necessary bug fixes, updates, and optimizations.
 
-* Working with Azure Services like Logic apps to automate certain tasks and have set up custom roles to restrict certain actions against Azure resources for non-contributing users programmatically.
+* Utilized Terraform with Azure Pipelines for Azure Governance tasks, and maintained a backlog in the **Azure DevOps Kanban board** toaddress technical vulnerabilities, security threats, or unnecessary costs.
 
-* Also resolving incident and SRs as per SLA from the "Cloud Office" dashbaord in ivanti.
+* Worked extensively with Microsoft Azure services including **Logic Apps**, IaaS, PaaS, network services, security services, and **Entra ID**(formerly Azure AD).
 
 ### Senior Software Engineer (DevOps) - 'Capgemini Sverige AB' : Sep 2021 → July 2024
+
+* Implemented CI/CD pipeline automation using **Azure DevOps**, enhancing deployment efficiency and consistency.
 
 * Upgraded On-prem hardware cluster to **Kubernetes cluster** using Ubuntu server(LTS), xCAT, **Rancher Server and Rancher Kubernetes Engine(RKE)**.
 
@@ -60,22 +61,44 @@
 
 ### Senior AEM Administrator (Cloud) – 'ICF Next' : Sep 2015 → Jan 2017
 
-* Managed public cloud-based Infrastructure(AWS) which hosted Production/Stage/UAT environments of the several clients’ web contents by using Ansible/Shell script and also by performing various AEM Administration essential tasks as well.
+* Managed and optimized AWS cloud infrastructure for multiple clients, ensuring seamless performance across Production,Stage, and UAT environments with Ansible and Shell scripting, reducing system downtime.
 
-* Implemented Disaster Recovery both at application and infrastructure level.
+* Developed and maintained disaster recovery protocols, enhancing system resilience at both application and infrastructurelevels, improving recovery time.
+
+*    Implemented automation scripts to streamline cloud operations, resulting in a increase in operational efficiency.
 
 ### Unix/Linux Systems Administrator – 'Hewlett Packard Enterprise' : Nov 2011 → Aug 2015
 
-* Managed Unix-based Cloud/on-premise(VMware) platforms in Systems & Storage environment for a leading American Transportation and Logistics. Prepared deployments SOPs and UML-based architectural diagrams occasionally as per demand.
+* Administered Unix-based cloud and on-premise **VMware** platforms, ensuring optimal performance and reliability for a majortransportation and logistics firm.
+
+* Developed and implemented Standard Operating Procedures (SOPs) and UML architectural diagrams to enhance deploymentefficiency and system architecture clarity, reducing system runtime.
+
+* Enhanced system performance and reliability, reducing system runtime through effective administration and implementation ofSOPs and UML diagrams.
 
 ### Linux Systems Engineer – 'Axon Networks' : May 2011 → Oct 2011
 
-* Worked in platform administration in Systems & Storage environment for a leading Indian Online Retail client. Accountable for installation, configuration, upgrade, downgrade, troubleshooting, performance tuning and administration of various Linux based servers.
+* Managed the installation and configuration of over 100 Linux-based servers, enhancing system performance through effective troubleshooting and performance tuning.
+
+* Executed system upgrades and downgrades seamlessly with minimal downtime, ensuring high availability for a leading online retail platform.
+
+* Conducted regular maintenance and optimisation of systems, resulting in a increase in operational efficiency.
 
 ### Jr. System Administrator – 'Bobcares' : Nov 2009 → June 2010
 
-* Managed Linux VPSs and implemented DNS, DHCP, SMTP servers as per requirement. Performed troubleshooting for RAID/LVM issues.
+* Managed and maintained Linux VPS environments, ensuring high availability and performance for clients.
+
+* Configured and optimized DNS, DHCP, and SMTP servers to meet specific organizational needs.
+
+* Diagnosed and resolved RAID and LVM issues, improving system reliability and minimizing downtime.
 
 ## Education
 
 ### B. Tech in Computer Science – West Bengal University of Technology 2005 → 2009
+
+* The curriculum provided an extensive foundation in computer science principles, fostering skills essential for Network engineering and system administration.
+
+## Certifications
+
+### Microsoft Certified: Azure Fundamentals
+
+* Microsoft • 801D970BAA49297 • Issued Mar 2023
