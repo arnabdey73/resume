@@ -8,15 +8,12 @@
 
 ## Summary
 
-* Accomplished DevOps Engineer with **8+ years** of experience in public cloud environments and a solid **14-year** IT foundation. Skilled in designing, implementing, and managing **CI/CD pipelines** to optimize software quality and deployment speed in **public and hybrid cloud** settings.
+An accomplished **Senior Cloud DevOps Engineer** with 8+ years of experience in public cloud environments (14+ years in IT). Proven track record of optimizing CI/CD pipelines for fast, high-quality deployments on public and hybrid cloud platforms.  
 
-* Expert in **Azure DevOps, Jenkins, Kubernetes, Docker, GitHub, GitHub Actions, Ansible, and Terraform**, with strong scripting abilities in **Bash, Python, and PowerShell** for automated deployment and infrastructure management. Proficient in the **SAFe framework and Product Owner** roles, aligning product vision with stakeholder expectations.
+- Expertise in Azure DevOps, Jenkins, Kubernetes, Docker, GitHub, GitHub Actions, Ansible, and Terraform. Skilled in Bash, Python, and PowerShell for automated infrastructure management.  
+- Proficient in SAFe framework and Product Owner roles, aligning product vision with stakeholder needs.  
+- Strong problem solver with a focus on performance monitoring, cloud security, and promoting DevOps best practices.
 
-* A **proactive problem solver** with a focus on **performance monitoring and cloud security**. Renowned for fostering collaboration, mentoring, and promoting DevOps best practices throughout the development lifecycle.
-
-## Skills/Technologies that I work/worked with:
-
-**Linux**, Shell Scripting (bash), **Azure DevOps, Azure Cloud, Jenkins, Gitlab CI, GitHub Actions**, VMWare, ELK stack, **Docker, Kubernetes, Terraform**, Ansible, Python, Database (Mysql/MongoDB), **Jira**, Miro.  
 
 ## Experience
 
@@ -40,9 +37,9 @@
 
 * Created and prioritized backlog in **Azure DevOps** that aligns with the product vision and delivers value to sponsors and users.
 
-* Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.
+<!--* Worked on MLOps platform (developed on an in-house architecture) to figure out solutions for the AI Agile Release Train.-->
 
-* Created development environment and feature for scalable computing of Azure Databricks clusters using **IaC (Terraform) and GitOps**.
+* Created development environment and feature for scalable computing of Azure Databricks clusters using **IaC (Terraform) and Github Actions**.
 
 * Defined and managed the product vision and strategy, based on stakeholder/sponsors' needs.
 
@@ -71,4 +68,38 @@
 
 * Administered Unix-based cloud and on-premise **VMware** platforms, ensuring optimal performance and reliability for a majortransportation and logistics firm.
 
-* Developed and implemented Standard Operatin
+* Developed and implemented Standard Operating Procedures (SOPs) and UML architectural diagrams to enhance deploymentefficiency and system architecture clarity, reducing system runtime.
+
+* Enhanced system performance and reliability, reducing system runtime through effective administration and implementation ofSOPs and UML diagrams.
+
+### Linux Systems Engineer – 'Axon Networks' : May 2011 → Oct 2011
+
+* Managed the installation and configuration of over 100 Linux-based servers, enhancing system performance through effective troubleshooting and performance tuning.
+
+* Executed system upgrades and downgrades seamlessly with minimal downtime, ensuring high availability for a leading online retail platform.
+
+* Conducted regular maintenance and optimisation of systems, resulting in a increase in operational efficiency.
+
+### Jr. System Administrator – 'Bobcares' : Nov 2009 → June 2010
+
+* Managed and maintained Linux VPS environments, ensuring high availability and performance for clients.
+
+* Configured and optimized DNS, DHCP, and SMTP servers to meet specific organizational needs.
+
+* Diagnosed and resolved RAID and LVM issues, improving system reliability and minimizing downtime.
+
+## Core Skills:
+
+Azure Cloud, Azure DevOps, Kubernetes, Terraform, Linux, Shell Scripting, Jenkins, Gitlab CI, GitHub Actions, VMWare, ELK stack, Docker, Ansible, Python, Database (Mysql/MongoDB), Jira, Miro.  
+
+## Education
+
+### B. Tech in Computer Science – West Bengal University of Technology 2005 → 2009
+
+* The curriculum provided an extensive foundation in computer science principles, fostering skills essential for Network engineering and system administration.
+
+## Certifications
+
+### Microsoft Certified: Azure Fundamentals
+
+* Microsoft • 801D970BAA49297 • Issued Mar 2023
