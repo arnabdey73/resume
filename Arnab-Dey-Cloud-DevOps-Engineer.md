@@ -62,11 +62,11 @@ An accomplished Senior Cloud DevOps Engineer with 8+ years of experience in publ
 
 **Linux Systems Engineer – Axon Networks**(Now Trianz) *(May 2011 - October 2011)*
 
-- Managed the installation and optimization of over 100 Linux servers, achieving high availability.
+<!-- Managed the installation and optimization of over 100 Linux servers, achieving high availability.-->
 
 **Jr. System Administrator – Bobcares**(AKA Poornam Info Vision) *(November 2009 - June 2010)*
 
-- Maintained Linux VPS environments, ensuring high availability and performance.
+<!-- Maintained Linux VPS environments, ensuring high availability and performance.-->
 
 ## Education
 
@@ -80,5 +80,3 @@ An accomplished Senior Cloud DevOps Engineer with 8+ years of experience in publ
 
 - English: Bi-lingual or Native Proficiency
 - Swedish: SFI C level proficiency
-
-References available upon request.
