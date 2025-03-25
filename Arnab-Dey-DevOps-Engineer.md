@@ -75,10 +75,3 @@ An accomplished Senior Cloud DevOps Engineer with 8+ years of experience in publ
 ## Certifications
 
 - Microsoft Certified: Azure Fundamentals (Issued March 2023)
-
-## Languages
-
-- English: Bi-lingual or Native Proficiency
-- Swedish: Basic Communication
-
-References available upon request.
