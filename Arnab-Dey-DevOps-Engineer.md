@@ -1,3 +1,15 @@
+<div align="center">
+  <h1><b>Arnab Dey</b></h1>
+  <p>
+    📍 Göteborg, Sweden | 📞 (+46) 0764516092 |  
+    📧 <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a>  
+    🔗 <a href="https://www.linkedin.com/in/arnabdey73/">LinkedIn</a> |  
+    💻 <a href="https://github.com/arnabdey73/">GitHub</a>
+  </p>
+</div>
+
+
+<!--
 # Arnab Dey
 
 Location: Göteborg, Sweden\
@@ -5,6 +17,7 @@ Phone: (+46) 0764516092\
 Mail: [arnabdey009@gmail.com](mailto:arnabdey009@gmail.com)\
 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/arnabdey73/)\
 GitHub: [GitHub Profile](https://github.com/arnabdey73)
+-->
 
 ## Professional Summary
 
