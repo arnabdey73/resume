@@ -6,6 +6,7 @@
     🔗 <a href="https://www.linkedin.com/in/arnabdey73/">LinkedIn</a> |  
     💻 <a href="https://github.com/arnabdey73/">GitHub</a>
   </p>
+  <br>
 </div>
 
 
