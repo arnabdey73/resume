@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><b>Arnab Dey</b></h1><p>📍 Göteborg, Sweden | 📞 (+46) 0764516092 |  
+  <h1><b>Arnab Dey</b></h1><p>📍 Stockholm, Sweden | 📞 (+46) 0764516092 |  
     📧 <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a> |  
     🔗 <a href="https://www.linkedin.com/in/arnabdey73/">LinkedIn</a> |  
     💻 <a href="https://github.com/arnabdey73/">GitHub</a>
@@ -42,26 +42,45 @@ An accomplished Senior Cloud DevOps Engineer with 8+ years of experience in publ
 
 ## Professional Experience
 
-**Cloud Engineer – Stena Metall AB** *(August 2024 - January 2025)*
+**DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
+- Designed and deployed a **single-node GitOps-based DevOps platform** on Dell PowerEdge R540 with **K3s, Argo CD, Prometheus, Grafana, cert-manager, and sealed-secrets** for automated, version-controlled environment provisioning.  
+- Built **RPA workflows in Power Automate** to scrape tender data from **Tendsign’s dynamic web pages**, supporting business process automation.  
+- Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).  
 
-- Upgraded the Cloud Adoption Framework (v5.2.1 to v6.0.0), improving compliance with Azure Governance standards.
-- Conducted security audits and automated tasks using Terraform and Azure Pipelines, reducing manual intervention by 40%.
-- Monitored cloud platform patterns and anomalies using KQL and resolved incidents per SLA, achieving a 20% reduction in downtime.
-- Managed Azure services including Logic Apps, IaaS, PaaS, and Entra ID (formerly Azure AD).
 
-**Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(September 2021 - July 2024)*
+**Cloud Engineer – Stena Metall AB** *(August 2024 – January 2025)*
 
-- Implemented CI/CD pipeline automation using Azure DevOps, cutting deployment time by 30%.
-- Upgraded on-prem hardware to prepare for Kubeflow platform using Ubuntu, xCAT, and Rancher RKE.
-- Automated Azure Databricks cluster scaling with Terraform and GitHub Actions.
-- Acted as a Product Owner, coordinating backlog priorities and ensuring alignment with stakeholder vision by creating product roadmap and vision board.
+- Upgraded the **Azure Cloud Adoption Framework** (v5.2.1 → v6.0.0) to strengthen governance and compliance.
+- Conducted **security audits** and automated infrastructure tasks with **Terraform** and **Azure Pipelines**, reducing manual intervention by **40%**.
+- Monitored platform patterns and anomalies using **KQL**, resolving incidents within SLAs and cutting downtime by **20%**.
+- Managed Azure services including **Logic Apps, IaaS, PaaS, and Entra ID (Azure AD)**.
+- Published **sanitized duplicates of production infrastructure projects**, including:
+  - An **IaC governance template** to demonstrate Azure governance practices without exposing company data ([GitHub repository](https://github.com/arnabdey73/iac-azure-core-governance)).
+  - A **reusable Terraform module library for Azure infrastructure** ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
+  - An **Azure cost optimization template** for automated cost analysis and recommendations ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
+  
+**Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(September 2021 – July 2024)*  
 
-**Senior Business Consultant (DevOps) – Tech Mahindra** *(February 2017 - September 2021)*
+**Assignment: Volvo Cars Safety Department**  
+- Implemented **CI/CD pipeline automation** with **Azure DevOps**, reducing deployment time by **30%**.  
+- Upgraded on-prem hardware to support **Kubeflow** platform using **Ubuntu, xCAT, and Rancher RKE**.  
+- Automated **Azure Databricks** cluster scaling using **Terraform** and **GitHub Actions**.  
 
-- Deployed CI/CD pipelines using Jenkins and Azure DevOps for business applications hosted on public/hybrid cloud platforms.
-- Automated microservice orchestration with Docker and Kubernetes, enhancing resource utilization by 25%.
-- Managed ELK stack for indexing product generated CSVs as well as centralized logging and monitoring.
-- Reduced operational overhead by 20% through automated platform/infrastructure provisioning with Terraform/Ansible.
+**Internal Initiatives**  
+- Acted as **Product Owner** for internal initiatives, prioritizing backlogs and aligning deliverables with stakeholder vision.  
+- Led the **AI-powered Resume Builder Agent** project as a Product Owner and published a **sanitized version** to showcase workflow automation concepts ([GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
+- Maintained an **internal DevOps Python automation project** to streamline infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).  
+
+
+**Senior Business Consultant (DevOps) – Tech Mahindra** *(February 2017 – September 2021)*  
+
+**Assignment: Deutsche Telekom**  
+- Deployed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for applications on public and hybrid cloud platforms.  
+- Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.  
+- Managed the **ELK stack** for centralized logging and product data indexing.  
+- Reduced operational overhead by **20%** through automated platform/infrastructure provisioning using **Terraform** and **Ansible**.  
+- Published a **sanitized version** of the project's OpenStack DevOps solution, showcasing provisioning, monitoring, and automation workflows ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).  
+
 
 **Senior AEM Administrator (Cloud) – ICF Next** *(September 2015 - January 2017)*
 
