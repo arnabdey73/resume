@@ -10,8 +10,11 @@
 
 ## **Professional Summary**
 
-DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost-efficient infrastructure**, and driven by **technical excellence and curiosity**. Proven track in building scalable, secure, and governed platforms on Azure using Terraform and GitOps. Thrives in agile, learning-focused environments where technical trust and collaboration matter.
+Cloud & DevOps Engineer with 8+ years of experience delivering **cloud transformation and infrastructure automation** in Azure, AWS and Openstack. Skilled in **Terraform, Ansible, CI/CD pipelines, and Kubernetes**, with a proven ability to modernize platforms, improve efficiency, and enable reliable operations. Curious, adaptable, and collaborative — thrives in consultancy settings where problem-solving and client success matter most.
 
+<!--
+DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost-efficient infrastructure**, and driven by **technical excellence and curiosity**. Proven track in building scalable, secure, and governed platforms on Azure using Terraform and GitOps. Thrives in agile, learning-focused environments where technical trust and collaboration matter.
+-->
 <br>
 
 ## **Core Skills**
@@ -42,6 +45,7 @@ DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost
 - Upgraded the **Azure Cloud Adoption Framework (CAF)** to strengthen **governance and compliance**.  
 - Automated infrastructure provisioning using **Terraform** and **Azure Pipelines**, reducing manual tasks by **40%**.  
 - Configured **Azure Policies** to enforce governance and implemented automated cost recommendations via **Azure Advisor**, improving cost visibility and reducing non-compliant resources by **30%**.  
+- Improved reliability with **KQL-based monitoring** and reduced downtime by **20%**.  
 - Developed reusable **Azure cost optimization templates** (sanitized) for standardized cost-saving practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
 - Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
 

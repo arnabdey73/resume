@@ -1,15 +1,18 @@
-# Arnab Dey
+<div align="center">
+	<h1><b>Arnab Dey</b></h1>
+	<p>
+		Stockholm, Sweden | <a href="tel:+46764516092">+46 764516092</a> | <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a><br>
+		<a href="https://www.linkedin.com/in/arnabdey73">LinkedIn</a> | <a href="https://github.com/arnabdey73">GitHub</a>
+	</p>
+</div>
 
-Solna, Sweden | +46 0764516092 | [arnabdey009@gmail.com](mailto:arnabdey009@gmail.com)  
-[LinkedIn](https://www.linkedin.com/in/arnabdey73) | [GitHub](https://github.com/arnabdey73)
-
----
+<br>
 
 ## **Professional Summary**
 
 DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD automation** and **Linux-based cloud platforms**. Skilled in **Azure DevOps, Jenkins, GitHub Actions**, and **infrastructure automation** using Terraform and Ansible. Strong foundation in **Linux systems administration**, container orchestration (Kubernetes, Docker), and observability tools. Proven success in reducing downtime, accelerating deployments, and enabling teams with secure, scalable, and reliable infrastructure.
 
----
+<br>
 
 ## **Core Skills**
 
@@ -22,7 +25,7 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 - **Scripting & Automation:** Python, Bash, PowerShell  
 - **Collaboration & Delivery:** Agile/SAFe, Product Ownership, Cross-functional teamwork  
 
----
+<br>
 
 ## **Professional Experience**
 
@@ -32,7 +35,7 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 - Built **RPA workflows** in Power Automate for automation of data collection.  
 - Maintained the GitOps platform as a live demo project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 
----
+
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
@@ -42,7 +45,7 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 - Published reusable (sanitized) **Terraform modules** ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
 - Built an (sanitized) **Azure cost optimization toolkit** ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
 
----
+
 
 ### **Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(Sep 2021 – Jul 2024)*  
 
@@ -58,50 +61,59 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 - Developed an (sanitized) **AI-powered Resume Builder Agent** ([GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
 - Maintained a **DevOps automation toolkit in Python** ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
----
+
 
 ### **Senior Business Consultant (DevOps) – Tech Mahindra** *(Feb 2017 – Sep 2021)*  
+
 **Assignment: Deutsche Telekom**  
+
 - Delivered **CI/CD pipelines** using Jenkins and Azure DevOps for hybrid cloud deployments.  
 - Automated **Kubernetes/Docker orchestration**, improving efficiency by **25%**.  
 - Managed **ELK stack** for centralized logging and observability.  
 - Reduced infra overhead by **20%** through Terraform + Ansible automation.  
 - Published a sanitized **OpenStack DevOps solution** ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
----
 
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
+
 - Administered AWS and VMware platforms, increasing uptime by **15%**.  
 - Automated repetitive tasks with Ansible and shell scripting.  
 
----
+
 
 ### **Unix/Linux Systems Administrator – Hewlett Packard Enterprise** *(Nov 2011 – Aug 2015)*  
+
 - Managed large-scale **Linux and VMware environments**, improving performance and reliability.  
 - Authored SOPs and runbooks, reducing incident response time by **20%**.  
 
----
 
 ### **Linux Systems Engineer – Trianz (Axon Networks)** *(May 2011 – Oct 2011)*  
+
 - Installed and optimized **100+ Linux servers**, ensuring uptime and scalability.  
 
----
+
 
 ### **Jr. System Administrator – Poornam Info Vision (Bobcares)** *(Nov 2009 – Jun 2010)*  
+
 - Maintained **Linux VPS environments**, providing high availability and troubleshooting critical incidents.  
 
----
+<br>
+<br>
 
 ## **Education**
+
 - **B.Tech in Computer Science** – West Bengal University of Technology, Kolkata, India (2005 – 2009)
 
----
+<br>
+<br>
 
 ## **Certifications**
+
 - **Microsoft Certified: Azure Fundamentals** (Issued Mar 2023) – Credential ID: 801D970BAA49297  
 
----
+<br>
 
 ## **Languages**
+
 - English: Bilingual / Native  
 - Swedish: SFI C Level Proficiency  
