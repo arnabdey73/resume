@@ -6,11 +6,12 @@
 	</p>
 </div>
 
----
+<br>
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 8+ years of experience delivering **cloud transformation and infrastructure automation** in Azure, AWS and Openstack. Skilled in **Terraform, Ansible, CI/CD pipelines, and Kubernetes**, with a proven ability to modernize platforms, improve efficiency, and enable reliable operations. Curious, adaptable, and collaborative — thrives in consultancy settings where problem-solving and client success matter most.
+Cloud & DevOps Engineer with 8+ years of experience in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and Prometheus — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
+
 
 <!--
 DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost-efficient infrastructure**, and driven by **technical excellence and curiosity**. Proven track in building scalable, secure, and governed platforms on Azure using Terraform and GitOps. Thrives in agile, learning-focused environments where technical trust and collaboration matter.
