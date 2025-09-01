@@ -1,0 +1,221 @@
+# Mapping of job posting keywords to your actual skills
+# This ensures we only emphasize skills you actually have
+
+your_skills:
+  cloud_platforms:
+    - "Azure (IaaS, PaaS, Entra ID, Logic Apps)"
+    - "AWS"
+    - "OpenStack"
+  
+  iac_automation:
+    - "Terraform"
+    - "ARM templates"
+    - "Ansible"
+    - "Infrastructure as Code"
+  
+  cicd_tools:
+    - "Azure DevOps"
+    - "Jenkins"
+    - "GitHub Actions"
+    - "GitLab CI"
+    - "CI/CD pipelines"
+  
+  containers_orchestration:
+    - "Kubernetes (AKS, Rancher)"
+    - "Docker"
+    - "Container orchestration"
+  
+  monitoring_observability:
+    - "Prometheus"
+    - "Grafana"
+    - "Azure Monitor"
+    - "ELK Stack"
+    - "KQL queries"
+  
+  scripting_programming:
+    - "Python"
+    - "Bash"
+    - "PowerShell"
+    - "Shell scripting"
+  
+  methodologies:
+    - "Agile"
+    - "SAFe"
+    - "DevOps"
+    - "GitOps"
+    - "DevSecOps"
+  
+  cost_governance:
+    - "Azure Cost Management"
+    - "Azure Advisor"
+    - "Azure Policies"
+    - "cost optimization"
+    - "right-sizing"
+  
+  architecture_frameworks:
+    - "Azure CAF"
+    - "Cloud Adoption Framework"
+    - "governance frameworks"
+    - "compliance"
+
+# Keyword mappings from job postings to your actual skills
+keyword_mappings:
+  # FinOps related
+  "finops":
+    - "cost optimization"
+    - "Azure Cost Management"
+    - "financial accountability"
+    - "right-sizing"
+  
+  "cost management":
+    - "Azure Cost Management"
+    - "Azure Advisor"
+    - "cost optimization"
+  
+  "cost optimization":
+    - "Azure Cost Management"
+    - "Azure Advisor"
+    - "cost optimization templates"
+  
+  # Infrastructure
+  "infrastructure as code":
+    - "Terraform"
+    - "ARM templates"
+    - "Infrastructure as Code"
+  
+  "iac":
+    - "Terraform"
+    - "ARM templates"
+  
+  "automation":
+    - "Terraform"
+    - "Ansible"
+    - "Azure Pipelines"
+    - "automation"
+  
+  # CI/CD
+  "ci/cd":
+    - "Azure DevOps"
+    - "Jenkins"
+    - "GitHub Actions"
+    - "CI/CD pipelines"
+  
+  "continuous integration":
+    - "Azure DevOps"
+    - "Jenkins"
+    - "GitHub Actions"
+  
+  "continuous deployment":
+    - "Azure DevOps"
+    - "Azure Pipelines"
+    - "GitOps"
+  
+  # Cloud
+  "cloud architecture":
+    - "Azure"
+    - "cloud infrastructure"
+    - "Azure CAF"
+  
+  "azure":
+    - "Azure (IaaS, PaaS, Entra ID, Logic Apps)"
+    - "Azure DevOps"
+    - "Azure Monitor"
+  
+  # Containers
+  "containerization":
+    - "Kubernetes (AKS, Rancher)"
+    - "Docker"
+  
+  "kubernetes":
+    - "Kubernetes (AKS, Rancher)"
+    - "Container orchestration"
+  
+  "docker":
+    - "Docker"
+    - "Container orchestration"
+  
+  # Monitoring
+  "monitoring":
+    - "Prometheus"
+    - "Grafana"
+    - "Azure Monitor"
+  
+  "observability":
+    - "Prometheus"
+    - "Grafana"
+    - "Azure Monitor"
+    - "ELK Stack"
+  
+  # Methodologies
+  "agile":
+    - "Agile"
+    - "SAFe"
+    - "cross-functional collaboration"
+  
+  "devops":
+    - "DevOps"
+    - "CI/CD pipelines"
+    - "automation"
+  
+  "gitops":
+    - "GitOps"
+    - "ArgoCD"
+  
+  # Architecture & Leadership
+  "technical leadership":
+    - "Product Owner"
+    - "technical design sessions"
+    - "stakeholder collaboration"
+  
+  "stakeholder management":
+    - "Product Owner"
+    - "stakeholder collaboration"
+    - "cross-functional teams"
+  
+  "architecture":
+    - "Azure CAF"
+    - "solution design"
+    - "technical design sessions"
+
+# Company-specific emphasis (when we know the company)
+company_emphasis:
+  "Nordcloud":
+    priority_skills:
+      - "Azure"
+      - "cost optimization"
+      - "stakeholder collaboration"
+      - "cloud architecture"
+  
+  "Telia":
+    priority_skills:
+      - "Agile"
+      - "CI/CD pipelines"
+      - "Azure DevOps"
+      - "automation"
+  
+  "Microsoft":
+    priority_skills:
+      - "Azure"
+      - "Azure DevOps"
+      - "Azure Monitor"
+      - "PowerShell"
+
+# ATS optimization keywords to always include when relevant
+ats_keywords:
+  cloud_roles:
+    - "cloud infrastructure"
+    - "solution design"
+    - "technical leadership"
+    - "stakeholder engagement"
+  
+  devops_roles:
+    - "CI/CD automation"
+    - "infrastructure automation"
+    - "DevOps practices"
+    - "continuous improvement"
+  
+  architect_roles:
+    - "architecture design"
+    - "cost optimization"
+    - "governance frameworks"
+    - "strategic planning"

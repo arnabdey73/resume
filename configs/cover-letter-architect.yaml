@@ -1,0 +1,15 @@
+role: "Cloud Architect"
+location: "Stockholm, Sweden"
+opening_type: "architect_focused"
+experience_focus: "cloud_architecture"
+technical_focus: "azure_focus"
+company_type: "consultancy"
+closing_type: "technical"
+
+# Specific customizations
+highlight_keywords:
+  - "Cloud architecture"
+  - "Azure solutions"
+  - "Cost optimization"
+  - "Stakeholder engagement"
+  - "Technical leadership"

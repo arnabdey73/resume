@@ -1,0 +1,15 @@
+role: "DevOps Engineer"
+location: "Stockholm, Sweden"
+opening_type: "devops_focused"
+experience_focus: "devops_automation"
+technical_focus: "cicd_focus"
+company_type: "enterprise"
+closing_type: "enthusiastic"
+
+# Specific customizations
+highlight_keywords:
+  - "CI/CD automation"
+  - "Azure DevOps"
+  - "Infrastructure as Code"
+  - "Agile methodologies"
+  - "Cost optimization"
