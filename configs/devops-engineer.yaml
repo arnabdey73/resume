@@ -1,0 +1,29 @@
+role: "DevOps Engineer"
+location: "Stockholm, Sweden"
+focus: "devops"
+
+summary_type: "devops_focused"
+skills_profile: "devops_skills"
+
+highlight_keywords:
+  - "CI/CD"
+  - "Automation"
+  - "Infrastructure as Code"
+  - "Kubernetes" 
+  - "Linux"
+  - "Azure DevOps"
+  - "Jenkins"
+  - "Terraform"
+  - "Ansible"
+
+experience_emphasis:
+  - "automation_bullets"
+  - "cicd_bullets" 
+  - "linux_bullets"
+  - "kubernetes_bullets"
+
+soft_skills:
+  - "Agile/SAFe methodologies"
+  - "Cross-functional collaboration" 
+  - "Problem-solving"
+  - "Technical leadership"

@@ -1,0 +1,28 @@
+role: "Azure Cloud Specialist"
+location: "Stockholm, Sweden"
+focus: "azure"
+
+summary_type: "azure_specialist"
+skills_profile: "azure_specialist"
+
+highlight_keywords:
+  - "Azure"
+  - "Azure DevOps"
+  - "Azure Governance"
+  - "Terraform"
+  - "AKS"
+  - "Azure Monitor"
+  - "Cost Management"
+  - "Azure Policies"
+
+experience_emphasis:
+  - "azure_bullets"
+  - "governance_bullets"
+  - "automation_bullets"
+  - "monitoring_bullets"
+
+soft_skills:
+  - "Azure expertise"
+  - "Technical consulting"
+  - "Process optimization"
+  - "Documentation"

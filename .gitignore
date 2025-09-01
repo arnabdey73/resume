@@ -1,0 +1,59 @@
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.atom
+
+# Office temporary files
+~$*.docx
+~$*.doc
+~$*.pptx
+~$*.ppt
+~$*.xlsx
+~$*.xls
+
+# PDF generation artifacts
+*.aux
+*.log
+*.out
+*.toc
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Build/Output directories
+build/
+dist/
+output/
+
+# Personal notes (optional)
+notes.md
+todo.md
+scratch.md
+
+# Sensitive information
+secrets.txt
+passwords.txt
+api-keys.txt

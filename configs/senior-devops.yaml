@@ -1,0 +1,28 @@
+role: "Senior DevOps Engineer"
+location: "Stockholm, Sweden"
+focus: "senior"
+
+summary_type: "senior_focused"
+skills_profile: "senior_skills"
+
+highlight_keywords:
+  - "Technical Leadership"
+  - "Product Ownership"
+  - "Strategic Planning"
+  - "Team Mentoring"
+  - "Cross-functional Collaboration"
+  - "Platform Engineering"
+  - "DevOps Excellence"
+  - "Innovation"
+
+experience_emphasis:
+  - "leadership_bullets"
+  - "strategy_bullets"
+  - "mentoring_bullets"
+  - "innovation_bullets"
+
+soft_skills:
+  - "Leadership and mentoring"
+  - "Strategic planning"
+  - "Stakeholder management"
+  - "Innovation and automation"
