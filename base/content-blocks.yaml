@@ -1,0 +1,56 @@
+# Content blocks for resume generation
+# Customize these blocks with your actual experience
+
+professional_summaries:
+  software_engineer: "Experienced software engineer with expertise in full-stack development"
+  devops_engineer: "DevOps engineer specializing in cloud infrastructure and automation"
+  qa_engineer: "Quality assurance engineer with strong background in test automation and framework development"
+  data_scientist: "Data scientist with strong background in machine learning and analytics"
+
+experience_templates:
+  senior_level:
+    - "Led development of scalable applications"
+    - "Mentored junior team members"
+    - "Designed system architecture"
+  
+  mid_level:
+    - "Developed and maintained applications"
+    - "Collaborated with cross-functional teams"
+    - "Implemented best practices"
+  
+  junior_level:
+    - "Contributed to feature development"
+    - "Learned new technologies quickly"
+    - "Supported team objectives"
+
+qa_specific_achievements:
+  automation:
+    - "Developed comprehensive test automation frameworks"
+    - "Reduced manual testing effort by X% through automation"
+    - "Implemented continuous testing in CI/CD pipelines"
+  
+  quality_improvement:
+    - "Improved defect detection rate through systematic testing"
+    - "Established quality gates and standards"
+    - "Implemented risk-based testing strategies"
+  
+  collaboration:
+    - "Collaborated with development teams to ensure quality"
+    - "Provided technical guidance on testing best practices"
+    - "Facilitated cross-team communication on quality issues"
+
+achievements:
+  performance:
+    - "Improved system performance by X%"
+    - "Reduced test execution time by X minutes"
+    - "Optimized test coverage for critical features"
+  
+  leadership:
+    - "Led team of X QA engineers"
+    - "Mentored X junior testers"
+    - "Established testing standards and guidelines"
+  
+  business_impact:
+    - "Increased product quality through comprehensive testing"
+    - "Reduced production defects by X%"
+    - "Delivered testing projects X weeks ahead of schedule"

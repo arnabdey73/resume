@@ -1,0 +1,51 @@
+# QA/Test Engineer Role Template
+# Optimized for Quality Assurance and Test Automation positions
+
+role: "QA Engineer"
+location: "Your City, State"
+focus: "automation"  # Options: automation, manual, performance, api, mobile
+
+# Summary focus for QA roles
+summary_focus: "quality assurance and test automation"
+
+# Core skills to emphasize for QA roles
+core_skills_emphasis:
+  - "Python"
+  - "Test Automation"
+  - "Selenium"
+  - "API Testing"
+  - "Quality Assurance"
+  - "Test Planning"
+
+# Experience highlights relevant to QA role
+experience_highlights:
+  - "automated testing frameworks"
+  - "comprehensive test planning"
+  - "defect identification and resolution"
+  - "cross-functional collaboration"
+  - "quality process improvement"
+
+# Technical strengths for QA
+technical_strengths:
+  - "Test automation frameworks"
+  - "API testing and validation"
+  - "UI/UX testing"
+  - "Performance testing"
+  - "Continuous integration testing"
+
+# Soft skills relevant to QA role
+soft_skills_focus:
+  - "Attention to detail"
+  - "Problem-solving"
+  - "Communication"
+  - "Analytical thinking"
+
+# Project types to highlight for QA
+project_types:
+  - "Test automation frameworks"
+  - "API testing suites"
+  - "Performance testing"
+  - "Mobile app testing"
+
+# Certifications/education emphasis
+education_focus: "computer_science"  # computer_science, engineering, qa_certification

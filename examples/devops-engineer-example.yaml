@@ -1,0 +1,44 @@
+# Example Role Template: DevOps Engineer
+# Copy to configs/role-templates/ and customize
+
+role: "DevOps Engineer"
+location: "Your City, State"
+focus: "automation"  # Options: automation, infrastructure, security, platform
+
+summary_focus: "infrastructure automation and CI/CD"
+
+core_skills_emphasis:
+  - "Docker"
+  - "Kubernetes"
+  - "AWS"
+  - "Terraform"
+  - "CI/CD pipelines"
+  - "Infrastructure as Code"
+
+experience_highlights:
+  - "automated deployment pipelines"
+  - "container orchestration"
+  - "infrastructure as code"
+  - "monitoring and alerting"
+  - "security best practices"
+
+technical_strengths:
+  - "Container orchestration"
+  - "Cloud infrastructure"
+  - "Automation scripting"
+  - "Monitoring systems"
+  - "Security hardening"
+
+soft_skills_focus:
+  - "Cross-team collaboration"
+  - "Incident response"
+  - "Documentation"
+  - "Process improvement"
+
+project_types:
+  - "CI/CD pipelines"
+  - "Infrastructure automation"
+  - "Container platforms"
+  - "Monitoring systems"
+
+education_focus: "engineering"

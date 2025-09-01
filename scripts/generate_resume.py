@@ -29,9 +29,35 @@ class ResumeGenerator:
             print(f"❌ Error parsing YAML config: {e}")
             sys.exit(1)
     
+    def load_personal_config(self):
+        """Load personal information from configuration"""
+        personal_path = self.base_dir / "configs" / "personal-info.yaml"
+        try:
+            with open(personal_path, 'r', encoding='utf-8') as f:
+                return yaml.safe_load(f)
+        except FileNotFoundError:
+            print(f"❌ Personal config file not found at {personal_path}")
+            sys.exit(1)
+        except yaml.YAMLError as e:
+            print(f"❌ Error parsing personal config YAML: {e}")
+            sys.exit(1)
+    
+    def load_skill_mappings(self):
+        """Load skill mappings from configuration"""
+        skills_path = self.base_dir / "configs" / "skill-mappings.yaml"
+        try:
+            with open(skills_path, 'r', encoding='utf-8') as f:
+                return yaml.safe_load(f)
+        except FileNotFoundError:
+            print(f"❌ Skill mappings file not found at {skills_path}")
+            sys.exit(1)
+        except yaml.YAMLError as e:
+            print(f"❌ Error parsing skill mappings YAML: {e}")
+            sys.exit(1)
+
     def load_content_blocks(self):
         """Load reusable content blocks"""
-        content_path = self.base_dir / "base" / "core-content-blocks.yaml"
+        content_path = self.base_dir / "base" / "content-blocks.yaml"
         try:
             with open(content_path, 'r', encoding='utf-8') as f:
                 return yaml.safe_load(f)
@@ -53,10 +79,12 @@ class ResumeGenerator:
         
         # Load configuration and content
         config = self.load_config(config_file)
+        personal_config = self.load_personal_config()
+        skill_mappings = self.load_skill_mappings()
         content_blocks = self.load_content_blocks()
         
         # Load template
-        template_path = "base/arnab-dey-template.md"
+        template_path = "base/resume-template.md"
         try:
             template = self.env.get_template(template_path)
         except Exception as e:
@@ -65,7 +93,10 @@ class ResumeGenerator:
         
         # Prepare template variables
         template_vars = {
-            'config': config,
+            'role_config': config,
+            'personal': personal_config.get('personal', {}),
+            'professional_summary': personal_config.get('professional_summary', {}),
+            'skills': skill_mappings.get('your_skills', {}),
             'content_blocks': content_blocks,
             'company_name': company_name,
             'generation_date': datetime.now().strftime("%Y-%m-%d"),

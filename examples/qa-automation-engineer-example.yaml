@@ -1,0 +1,63 @@
+# QA Automation Engineer Role Template
+# Based on AppLogic Networks job posting - Quality Assurance Automation Engineer
+
+role: "Quality Assurance Automation Engineer"
+location: "Your City, State"
+focus: "automation"  # Specialized in test automation
+
+# Summary focus specific to automation QA
+summary_focus: "quality assurance automation and test framework development"
+
+# Core skills emphasis based on job requirements
+core_skills_emphasis:
+  - "Python"
+  - "Test Automation"
+  - "Pytest"
+  - "Selenium"
+  - "TestCafe"
+  - "REST API Testing"
+  - "JIRA"
+
+# Experience highlights for automation QA
+experience_highlights:
+  - "automated testing frameworks using Python"
+  - "comprehensive test plans and strategies"
+  - "UI automation with Selenium and TestCafe"
+  - "REST API testing and validation"
+  - "defect identification and resolution"
+  - "collaboration with development teams"
+
+# Technical strengths for automation QA
+technical_strengths:
+  - "Python automation frameworks"
+  - "UI automation tools (Selenium, TestCafe)"
+  - "API testing and validation"
+  - "Test case design and execution"
+  - "CI/CD pipeline integration"
+  - "Performance and stress testing"
+
+# Soft skills for QA automation role
+soft_skills_focus:
+  - "Analytical problem-solving"
+  - "Attention to detail"
+  - "Cross-functional collaboration"
+  - "Independent work capability"
+
+# Project types specific to automation QA
+project_types:
+  - "Python test automation frameworks"
+  - "UI automation test suites"
+  - "API testing frameworks"
+  - "Performance testing solutions"
+  - "CI/CD testing integration"
+
+# Tools and technologies emphasis
+tools_emphasis:
+  - "Pytest framework"
+  - "Selenium WebDriver"
+  - "TestCafe"
+  - "REST API testing tools"
+  - "JIRA and Atlassian suite"
+
+# Education focus
+education_focus: "engineering"  # BE/ME in Engineering or Computer Science

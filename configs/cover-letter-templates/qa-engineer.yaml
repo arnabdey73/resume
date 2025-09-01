@@ -1,0 +1,33 @@
+# Cover Letter Template: QA Engineer
+# Optimized for Quality Assurance and Test Automation positions
+
+role: "QA Engineer"
+location: "Your City, State"
+
+# Opening style for QA roles
+opening_type: "technical_focused"  # technical_focused, quality_focused, problem_solving
+
+# Experience focus for QA
+experience_focus: "quality_assurance"  # quality_assurance, test_automation, defect_prevention
+
+# Technical focus for QA
+technical_focus: "test_automation"  # test_automation, manual_testing, api_testing, performance_testing
+
+# Company type customization
+company_type: "tech_company"  # startup, tech_company, enterprise, consulting
+
+# Closing style
+closing_type: "enthusiastic"  # professional, enthusiastic, direct
+
+# Technologies to highlight (must match your skills)
+highlight_technologies:
+  - "Python"
+  - "Selenium"
+  - "API Testing"
+
+# Key achievements for QA roles
+key_achievements:
+  - "Developed comprehensive test automation frameworks"
+  - "Reduced manual testing effort by 60% through automation"
+  - "Improved defect detection rate through systematic testing"
+  - "Collaborated with development teams to ensure quality"

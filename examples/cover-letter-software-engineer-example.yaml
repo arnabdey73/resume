@@ -1,0 +1,32 @@
+# Example Cover Letter Template: Software Engineer
+# Copy to configs/cover-letter-templates/ and customize
+
+role: "Software Engineer"
+location: "Your City, State"
+
+# Opening style
+opening_type: "technical_focused"  # technical_focused, enthusiasm_first, experience_led
+
+# What to emphasize from your experience
+experience_focus: "software_development"  # software_development, leadership, problem_solving
+
+# Technical aspects to highlight
+technical_focus: "fullstack_development"  # frontend_focus, backend_focus, fullstack_development
+
+# Company type customization
+company_type: "tech_company"  # startup, tech_company, enterprise, consulting
+
+# Closing style
+closing_type: "enthusiastic"  # professional, enthusiastic, direct
+
+# Optional: specific technologies to mention (must be in your skills)
+highlight_technologies:
+  - "Python"
+  - "React"
+  - "AWS"
+
+# Optional: specific achievements to mention
+key_achievements:
+  - "Led development of high-traffic applications"
+  - "Improved system performance by 40%"
+  - "Mentored junior developers"

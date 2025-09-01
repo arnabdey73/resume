@@ -1,0 +1,51 @@
+# Example Role Template: Software Engineer
+# Copy to configs/role-templates/ and customize for your target roles
+
+role: "Software Engineer"
+location: "Your City, State"  # Will be replaced with your actual location
+focus: "fullstack"  # Options: frontend, backend, fullstack, mobile, embedded
+
+# Summary focus for this role
+summary_focus: "full-stack development"
+
+# Skills to emphasize for this role (must be in your skill-mappings.yaml)
+core_skills_emphasis:
+  - "Python"
+  - "JavaScript"
+  - "React"
+  - "API development"
+  - "Database design"
+  - "Cloud platforms"
+
+# Experience highlights relevant to this role
+experience_highlights:
+  - "scalable web applications"
+  - "RESTful API development"
+  - "database optimization"
+  - "agile development"
+  - "code review and mentoring"
+
+# Technical focus areas
+technical_strengths:
+  - "Full-stack web development"
+  - "Modern JavaScript frameworks"
+  - "Backend API design"
+  - "Database architecture"
+  - "Cloud deployment"
+
+# Soft skills relevant to this role
+soft_skills_focus:
+  - "Problem-solving"
+  - "Team collaboration"
+  - "Technical communication"
+  - "Continuous learning"
+
+# Project types to highlight
+project_types:
+  - "Web applications"
+  - "API services"
+  - "Database systems"
+  - "Cloud deployments"
+
+# Certifications/education emphasis
+education_focus: "computer_science"  # computer_science, engineering, bootcamp, self_taught

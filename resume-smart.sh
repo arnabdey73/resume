@@ -1,299 +1,275 @@
 #!/bin/bash
 
-# Smart Resume & Cover Letter Generation Script
-# Includes job posting analysis and intelligent document generation
+# Generic Smart Resume & Cover Letter Generator
+# Configurable system for any user - edit configs/ to customize
 
-# Color codes for output
+set -e
+
+# Configuration
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON_CMD="python3"
+
+# Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
-PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
-# Set Python command to specific version
-PYTHON_CMD="/c/Users/mno527/AppData/Local/Programs/Python/Python311/python"
-
-print_help() {
-    echo -e "${BLUE}Smart Resume & Cover Letter Generator${NC}"
-    echo ""
-    echo "Usage: $0 [COMMAND] [OPTIONS]"
-    echo ""
-    echo -e "${PURPLE}Smart Commands:${NC}"
-    echo "  smart [job-url] [output-name]           - Analyze job & generate tailored docs"
-    echo "  analyze [job-url] [output-name]         - Only analyze job posting"
-    echo ""
-    echo -e "${BLUE}Manual Commands:${NC}"
-    echo "  generate [config] [output] [company]    - Generate resume manually"
-    echo "  cover [config] [output] [company]       - Generate cover letter manually"
-    echo "  both [resume-config] [cover-config] [output] [company] - Generate both manually"
-    echo ""
-    echo -e "${YELLOW}Utility Commands:${NC}"
-    echo "  list                                    - List available configurations"
-    echo "  configs                                 - Show configuration files"
-    echo "  versions                                - Show generated versions"
-    echo "  analysis                                - Show job analysis files"
-    echo ""
-    echo -e "${GREEN}Examples:${NC}"
-    echo "  $0 smart https://linkedin.com/jobs/view/123456 telia-devops"
-    echo "  $0 smart https://nordcloud-career.breezy.hr/p/37592336774701 nordcloud-architect"
-    echo "  $0 analyze https://company.com/careers/job-posting my-analysis"
-    echo ""
-    echo -e "${PURPLE}Smart Generation Features:${NC}"
-    echo "  • Automatically scrapes job postings from LinkedIn, Breezy HR, and other sites"
-    echo "  • Analyzes job requirements and maps them to your existing skills"
-    echo "  • Generates ATS-optimized resume and cover letter"
-    echo "  • Creates detailed analysis reports for reference"
-    echo "  • Only emphasizes skills you actually have (no fake additions)"
-}
-
-check_python() {
-    if [ ! -f "$PYTHON_CMD" ]; then
-        echo -e "${RED}❌ Python not found at: $PYTHON_CMD${NC}"
-        echo "Please check your Python installation or update the PYTHON_CMD in this script"
+# Check if Python command exists
+if ! command -v $PYTHON_CMD &> /dev/null; then
+    if command -v python &> /dev/null; then
+        PYTHON_CMD="python"
+    else
+        echo -e "${RED}❌ Python not found. Please install Python 3.8+ and try again.${NC}"
         exit 1
     fi
+fi
+
+# Functions
+check_setup() {
+    echo -e "${BLUE}Checking setup...${NC}"
+    
+    # Check if configuration files exist
+    local required_files=(
+        "configs/personal-info.yaml"
+        "configs/skill-mappings.yaml"
+        "base/resume-template.md"
+    )
+    
+    local missing_files=()
+    for file in "${required_files[@]}"; do
+        if [ ! -f "$file" ]; then
+            missing_files+=("$file")
+        fi
+    done
+    
+    if [ ${#missing_files[@]} -gt 0 ]; then
+        echo -e "${RED}❌ Missing required configuration files:${NC}"
+        for file in "${missing_files[@]}"; do
+            echo -e "   ${RED}✗${NC} $file"
+        done
+        echo -e "\n${YELLOW}💡 Run 'bash setup-generic.sh' to create these files${NC}"
+        echo -e "${YELLOW}   Then edit them with your personal information${NC}"
+        exit 1
+    fi
+    
+    # Check if scripts directory exists
+    if [ ! -d "scripts" ]; then
+        echo -e "${RED}❌ scripts/ directory not found${NC}"
+        exit 1
+    fi
+    
+    # Check if Python packages are installed
+    if ! $PYTHON_CMD -c "import requests, bs4, yaml, jinja2" 2>/dev/null; then
+        echo -e "${RED}❌ Required Python packages not installed${NC}"
+        echo -e "${YELLOW}💡 Run 'bash setup-generic.sh' to install them${NC}"
+        exit 1
+    fi
+    
+    echo -e "${GREEN}✅ Setup check passed${NC}"
 }
 
-check_dependencies() {
-    echo -e "${YELLOW}🔍 Checking dependencies...${NC}"
-    
-    # Check if required Python packages are installed
-    if ! "$PYTHON_CMD" -c "import requests, bs4, yaml" 2>/dev/null; then
-        echo -e "${RED}❌ Missing required packages${NC}"
-        echo "Installing required packages..."
-        "$PYTHON_CMD" -m pip install requests beautifulsoup4 pyyaml jinja2
-        if [ $? -ne 0 ]; then
-            echo -e "${RED}❌ Failed to install packages${NC}"
-            exit 1
-        fi
-        echo -e "${GREEN}✅ Packages installed successfully${NC}"
-    else
-        echo -e "${GREEN}✅ All dependencies available${NC}"
-    fi
+show_help() {
+    cat << EOF
+${GREEN}Smart Resume & Cover Letter Generator${NC}
+
+${BLUE}USAGE:${NC}
+  bash resume-smart.sh [COMMAND] [OPTIONS]
+
+${BLUE}COMMANDS:${NC}
+  ${GREEN}smart${NC} [job-url] [output-name]    Generate from job posting URL
+  ${GREEN}generate${NC} [role-config] [output]   Generate from role template
+  ${GREEN}both${NC} [role-config] [cover-config] [output] [company]
+                                     Generate both resume and cover letter
+  ${GREEN}setup${NC}                           Check configuration setup
+  ${GREEN}help${NC}                            Show this help message
+
+${BLUE}EXAMPLES:${NC}
+  # Smart generation from job posting
+  bash resume-smart.sh smart https://linkedin.com/jobs/view/123456 my-application
+
+  # Generate resume from role template
+  bash resume-smart.sh generate configs/role-templates/software-engineer.yaml my-resume
+
+  # Generate both resume and cover letter
+  bash resume-smart.sh both configs/role-templates/devops-engineer.yaml configs/cover-letter-templates/devops.yaml cloud-role "Cloud Company"
+
+  # Check setup
+  bash resume-smart.sh setup
+
+${BLUE}SMART GENERATION:${NC}
+  Smart generation analyzes job postings and creates perfectly tailored documents:
+  - Scrapes job requirements from career sites
+  - Maps requirements to your actual skills (from skill-mappings.yaml)
+  - Creates optimized configurations
+  - Generates ATS-friendly documents
+
+${BLUE}CONFIGURATION:${NC}
+  - ${YELLOW}configs/personal-info.yaml${NC}     Your personal information
+  - ${YELLOW}configs/skill-mappings.yaml${NC}    Your skills and keyword mappings
+  - ${YELLOW}base/resume-template.md${NC}        Resume template (Jinja2)
+  - ${YELLOW}configs/role-templates/${NC}        Role-specific configurations
+  - ${YELLOW}configs/cover-letter-templates/${NC} Cover letter configurations
+
+${BLUE}OUTPUT:${NC}
+  - Generated documents: ${YELLOW}versions/${NC}
+  - Analysis reports: ${YELLOW}analysis/${NC}
+
+EOF
 }
 
 smart_generate() {
-    local job_url=$1
-    local output_name=$2
-    local doc_type=${3:-"both"}
+    local job_url="$1"
+    local output_name="$2"
+    local doc_type="${3:-both}"
     
     if [ -z "$job_url" ] || [ -z "$output_name" ]; then
-        echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 smart [job-url] [output-name] [type]"
-        echo "Example: $0 smart https://linkedin.com/jobs/view/123456 telia-devops both"
+        echo -e "${RED}❌ Smart generation requires job URL and output name${NC}"
+        echo -e "${YELLOW}Usage: bash resume-smart.sh smart [job-url] [output-name]${NC}"
         exit 1
     fi
     
-    check_python
-    check_dependencies
-    
-    echo -e "${PURPLE}🤖 Starting Smart Generation...${NC}"
-    echo -e "${BLUE}Job URL:${NC} $job_url"
-    echo -e "${BLUE}Output:${NC} $output_name"
-    echo -e "${BLUE}Type:${NC} $doc_type"
+    echo -e "${GREEN}🎯 Starting smart generation...${NC}"
+    echo -e "Job URL: ${BLUE}$job_url${NC}"
+    echo -e "Output: ${BLUE}$output_name${NC}"
+    echo -e "Type: ${BLUE}$doc_type${NC}"
     echo ""
     
-    # Create required directories
-    mkdir -p analysis configs versions
+    # Run the smart generator
+    cd scripts
+    $PYTHON_CMD smart_generator.py smart "$job_url" "$output_name" --type "$doc_type"
+    local exit_code=$?
+    cd ..
     
-    # Run smart generator
-    "$PYTHON_CMD" scripts/smart_generator.py "$job_url" --output "$output_name" --type "$doc_type"
-    
-    if [ $? -eq 0 ]; then
-        echo ""
-        echo -e "${GREEN}🎉 Smart generation completed successfully!${NC}"
-        echo -e "${BLUE}Check the 'versions' folder for your tailored documents.${NC}"
+    if [ $exit_code -eq 0 ]; then
+        echo -e "\n${GREEN}🎉 Smart generation completed successfully!${NC}"
+        echo -e "${BLUE}📁 Check the versions/ directory for your generated documents${NC}"
     else
-        echo -e "${RED}❌ Smart generation failed${NC}"
+        echo -e "\n${RED}❌ Smart generation failed${NC}"
         exit 1
     fi
 }
 
-analyze_only() {
-    local job_url=$1
-    local output_name=$2
+manual_generate() {
+    local role_config="$1"
+    local output_name="$2"
+    local company_name="$3"
     
-    if [ -z "$job_url" ] || [ -z "$output_name" ]; then
-        echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 analyze [job-url] [output-name]"
+    if [ -z "$role_config" ] || [ -z "$output_name" ]; then
+        echo -e "${RED}❌ Manual generation requires role config and output name${NC}"
+        echo -e "${YELLOW}Usage: bash resume-smart.sh generate [role-config] [output-name] [company-name]${NC}"
         exit 1
     fi
     
-    check_python
-    check_dependencies
-    
-    echo -e "${YELLOW}🔍 Analyzing job posting only...${NC}"
-    
-    # Create required directories
-    mkdir -p analysis configs
-    
-    # Run job analyzer only
-    "$PYTHON_CMD" scripts/job_analyzer.py "$job_url" --output "$output_name"
-}
-
-list_analysis() {
-    echo -e "${BLUE}📊 Job Analysis Files:${NC}"
-    if [ -d "analysis" ]; then
-        find analysis -name "*_analysis.json" -type f | sort | sed 's/analysis\//  /'
-    else
-        echo "  No analysis files found"
-    fi
-}
-
-# Include all the original functions from resume-enhanced.sh
-list_configs() {
-    echo -e "${BLUE}📋 Available Resume Configurations:${NC}"
-    if [ -d "configs" ]; then
-        ls configs/*.yaml 2>/dev/null | grep -v "cover-letter" | sed 's/configs\//  /' || echo "  No resume configs found"
-    else
-        echo "  configs/ directory not found"
-    fi
-    
-    echo ""
-    echo -e "${BLUE}📝 Available Cover Letter Configurations:${NC}"
-    if [ -d "configs" ]; then
-        ls configs/cover-letter*.yaml 2>/dev/null | sed 's/configs\//  /' || echo "  No cover letter configs found"
-    else
-        echo "  configs/ directory not found"
-    fi
-    
-    echo ""
-    echo -e "${PURPLE}🤖 Smart Generated Configurations:${NC}"
-    if [ -d "configs" ]; then
-        ls configs/*_smart.yaml 2>/dev/null | sed 's/configs\//  /' || echo "  No smart configs found"
-    fi
-}
-
-show_configs() {
-    echo -e "${BLUE}📁 All Configuration Files:${NC}"
-    if [ -d "configs" ]; then
-        find configs -name "*.yaml" -type f | sort
-    else
-        echo "configs/ directory not found"
-    fi
-}
-
-show_versions() {
-    echo -e "${BLUE}📄 Generated Documents:${NC}"
-    if [ -d "versions" ]; then
-        find versions -name "*.md" -type f | sort
-    else
-        echo "versions/ directory not found"
-    fi
-}
-
-generate_resume() {
-    local config=$1
-    local output=$2
-    local company=$3
-    
-    if [ -z "$config" ] || [ -z "$output" ]; then
-        echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 generate [config] [output] [company]"
+    if [ ! -f "$role_config" ]; then
+        echo -e "${RED}❌ Role configuration file not found: $role_config${NC}"
         exit 1
     fi
     
-    check_python
-    
-    echo -e "${YELLOW}🚀 Generating resume...${NC}"
-    echo "   Config: $config"
-    echo "   Output: $output"
-    echo "   Company: ${company:-'General'}"
+    echo -e "${GREEN}📄 Generating resume...${NC}"
+    echo -e "Config: ${BLUE}$role_config${NC}"
+    echo -e "Output: ${BLUE}$output_name${NC}"
+    if [ -n "$company_name" ]; then
+        echo -e "Company: ${BLUE}$company_name${NC}"
+    fi
     echo ""
     
-    if [ -n "$company" ]; then
-        "$PYTHON_CMD" scripts/generate_resume.py "$config" "$output" --company "$company"
-    else
-        "$PYTHON_CMD" scripts/generate_resume.py "$config" "$output"
-    fi
-}
-
-generate_cover_letter() {
-    local config=$1
-    local output=$2
-    local company=$3
+    # Run the resume generator
+    cd scripts
+    $PYTHON_CMD generate_resume.py "$role_config" "$output_name" "$company_name"
+    local exit_code=$?
+    cd ..
     
-    if [ -z "$config" ] || [ -z "$output" ]; then
-        echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 cover [config] [output] [company]"
+    if [ $exit_code -eq 0 ]; then
+        echo -e "\n${GREEN}✅ Resume generated successfully!${NC}"
+        echo -e "${BLUE}📁 Check: versions/$output_name.md${NC}"
+    else
+        echo -e "\n${RED}❌ Resume generation failed${NC}"
         exit 1
-    fi
-    
-    check_python
-    
-    echo -e "${YELLOW}📝 Generating cover letter...${NC}"
-    echo "   Config: $config"
-    echo "   Output: $output"
-    echo "   Company: ${company:-'General'}"
-    echo ""
-    
-    if [ -n "$company" ]; then
-        "$PYTHON_CMD" scripts/generate_cover_letter.py "$config" "$output" --company "$company"
-    else
-        "$PYTHON_CMD" scripts/generate_cover_letter.py "$config" "$output"
     fi
 }
 
 generate_both() {
-    local resume_config=$1
-    local cover_config=$2
-    local output=$3
-    local company=$4
+    local role_config="$1"
+    local cover_config="$2"
+    local output_name="$3"
+    local company_name="$4"
     
-    if [ -z "$resume_config" ] || [ -z "$cover_config" ] || [ -z "$output" ]; then
-        echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 both [resume-config] [cover-config] [output] [company]"
+    if [ -z "$role_config" ] || [ -z "$cover_config" ] || [ -z "$output_name" ] || [ -z "$company_name" ]; then
+        echo -e "${RED}❌ Both generation requires role config, cover config, output name, and company name${NC}"
+        echo -e "${YELLOW}Usage: bash resume-smart.sh both [role-config] [cover-config] [output-name] [company-name]${NC}"
         exit 1
     fi
     
-    echo -e "${BLUE}🎯 Generating complete application package...${NC}"
-    echo ""
+    echo -e "${GREEN}📄📧 Generating resume and cover letter...${NC}"
     
     # Generate resume
-    generate_resume "$resume_config" "$output" "$company"
-    echo ""
+    manual_generate "$role_config" "$output_name" "$company_name"
     
     # Generate cover letter
-    generate_cover_letter "$cover_config" "$output" "$company"
-    echo ""
+    echo -e "\n${GREEN}📧 Generating cover letter...${NC}"
+    cd scripts
+    $PYTHON_CMD generate_cover_letter.py "$cover_config" "$output_name" "$company_name"
+    local exit_code=$?
+    cd ..
     
-    echo -e "${GREEN}✅ Complete application package generated!${NC}"
-    echo -e "${BLUE}📦 Files created:${NC}"
-    echo "   Resume: versions/${output}.md"
-    echo "   Cover Letter: versions/${output}-cover-letter.md"
+    if [ $exit_code -eq 0 ]; then
+        echo -e "\n${GREEN}🎉 Both documents generated successfully!${NC}"
+        echo -e "${BLUE}📁 Resume: versions/$output_name.md${NC}"
+        echo -e "${BLUE}📁 Cover letter: versions/$output_name-cover-letter.md${NC}"
+    else
+        echo -e "\n${RED}❌ Cover letter generation failed${NC}"
+        exit 1
+    fi
+}
+
+setup_check() {
+    echo -e "${GREEN}🔧 Configuration Check${NC}"
+    echo -e "${GREEN}=====================${NC}\n"
+    
+    check_setup
+    
+    # Run Python configuration check
+    cd scripts
+    $PYTHON_CMD smart_generator.py check
+    cd ..
+    
+    echo -e "\n${GREEN}🎉 Setup is complete and ready to use!${NC}"
+    echo -e "\n${BLUE}Next steps:${NC}"
+    echo -e "1. Try smart generation: ${YELLOW}bash resume-smart.sh smart [job-url] [output-name]${NC}"
+    echo -e "2. Or manual generation: ${YELLOW}bash resume-smart.sh generate configs/role-templates/software-engineer.yaml test-output${NC}"
 }
 
 # Main script logic
-case "$1" in
-    "smart")
-        smart_generate "$2" "$3" "$4"
-        ;;
-    "analyze")
-        analyze_only "$2" "$3"
-        ;;
-    "list")
-        list_configs
-        ;;
-    "configs")
-        show_configs
-        ;;
-    "versions")
-        show_versions
-        ;;
-    "analysis")
-        list_analysis
-        ;;
-    "generate")
-        generate_resume "$2" "$3" "$4"
-        ;;
-    "cover")
-        generate_cover_letter "$2" "$3" "$4"
-        ;;
-    "both")
-        generate_both "$2" "$3" "$4" "$5"
-        ;;
-    *)
-        print_help
-        ;;
-esac
+main() {
+    case "${1:-help}" in
+        "smart")
+            check_setup
+            smart_generate "$2" "$3" "$4"
+            ;;
+        "generate")
+            check_setup
+            manual_generate "$2" "$3" "$4"
+            ;;
+        "both")
+            check_setup
+            generate_both "$2" "$3" "$4" "$5"
+            ;;
+        "setup")
+            setup_check
+            ;;
+        "help"|"-h"|"--help")
+            show_help
+            ;;
+        *)
+            echo -e "${RED}❌ Unknown command: $1${NC}"
+            echo ""
+            show_help
+            exit 1
+            ;;
+    esac
+}
+
+# Run main function with all arguments
+main "$@"

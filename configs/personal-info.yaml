@@ -1,0 +1,26 @@
+# Example Personal Information Configuration
+# Copy this file to configs/personal-info.yaml and customize with your details
+
+personal:
+  name: "Your Full Name"
+  location: "Your City, State/Country"
+  phone: "+1 (234) 567-8900"
+  email: "your.email@domain.com"
+  linkedin: "https://linkedin.com/in/yourprofile"
+  github: "https://github.com/yourusername"
+  website: "https://yourwebsite.com"  # Optional - remove if you don't have one
+
+professional_summary:
+  experience_years: 5  # Adjust to your experience level
+  industry_focus: "Software Development"  # e.g., "Cloud Engineering", "Data Science", "DevOps"
+  key_strengths:
+    - "Full-Stack Development"
+    - "Cloud Architecture" 
+    - "Team Leadership"
+    - "Problem Solving"
+
+contact_preferences:
+  preferred_contact: "email"  # email, phone, linkedin
+  availability: "immediate"   # immediate, 2_weeks, 1_month
+  relocation_willing: false   # true if willing to relocate
+  remote_preference: "hybrid" # remote, hybrid, onsite
