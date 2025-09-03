@@ -20,9 +20,9 @@ except ImportError as e:
     sys.exit(1)
 
 class SmartGenerator:
-    def __init__(self, base_dir=None):
+    def __init__(self, base_dir=None, use_gpt=False):
         self.base_dir = Path(base_dir) if base_dir else Path(__file__).parent.parent
-        self.job_analyzer = JobAnalyzer(base_dir)
+        self.job_analyzer = JobAnalyzer(base_dir, use_gpt=use_gpt)
         self.resume_generator = ResumeGenerator(base_dir)
         self.cover_generator = CoverLetterGenerator(base_dir)
     
@@ -206,11 +206,12 @@ Examples:
     parser.add_argument('--type', '-t', choices=['resume', 'cover', 'both'], default='both',
                        help='Type of documents to generate (default: both)')
     parser.add_argument('--base-dir', help='Base directory path')
+    parser.add_argument('--gpt', action='store_true', help='Enable GPT enhancement (requires OpenAI API key)')
     
     args = parser.parse_args()
     
     # Initialize smart generator
-    generator = SmartGenerator(args.base_dir)
+    generator = SmartGenerator(args.base_dir, use_gpt=args.gpt)
     
     # Run the complete workflow
     success = generator.analyze_and_generate(args.job_url, args.output, args.type)

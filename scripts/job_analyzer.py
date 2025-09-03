@@ -16,10 +16,29 @@ import json
 from datetime import datetime
 from collections import Counter
 
+# Try to import GPT enhancer (optional)
+try:
+    from gpt_enhancer import GPTEnhancer
+    GPT_AVAILABLE = True
+except ImportError:
+    GPT_AVAILABLE = False
+
 class JobAnalyzer:
-    def __init__(self, base_dir=None):
+    def __init__(self, base_dir=None, use_gpt=False):
         self.base_dir = Path(base_dir) if base_dir else Path(__file__).parent.parent
         self.load_skill_mappings()
+        
+        # Initialize GPT enhancer if requested and available
+        self.use_gpt = use_gpt and GPT_AVAILABLE
+        if self.use_gpt:
+            self.gpt_enhancer = GPTEnhancer(base_dir=self.base_dir)
+            if not self.gpt_enhancer.api_key:
+                print("⚠️ OpenAI API key not found. GPT enhancement disabled.")
+                print("💡 Add your API key to .env file or config.yaml")
+                self.use_gpt = False
+        elif use_gpt and not GPT_AVAILABLE:
+            print("⚠️ GPT enhancer not available. Install with: pip install openai")
+            self.use_gpt = False
         
     def load_skill_mappings(self):
         """Load mapping of job keywords to your actual skills"""
@@ -263,7 +282,12 @@ class JobAnalyzer:
         title = job_data.get('title', '').lower()
         matched_skills = skill_analysis.get('matched_skills', [])
         
-        # Generate dynamic professional summary
+        # Only generate dynamic content if we have substantial job description
+        description_length = len(description.split())
+        if description_length < 10:
+            return None  # Fall back to templates
+        
+        # Generate dynamic professional summary focus areas
         summary_focus = []
         if any(skill in ['Kubernetes', 'Docker', 'AKS'] for skill in matched_skills):
             summary_focus.append("container orchestration and cloud-native platforms")
@@ -275,6 +299,29 @@ class JobAnalyzer:
             summary_focus.append("cost optimization and FinOps practices")
         if 'monitor' in description or 'observability' in description:
             summary_focus.append("monitoring and observability solutions")
+        
+        # Only return focus areas if we found specific matches
+        if not summary_focus:
+            summary_focus = None
+        
+        # Generate enhanced core skills (use all your skills but prioritize matched ones)
+        all_your_skills = []
+        for category, skills in self.skill_mappings.get('your_skills', {}).items():
+            all_your_skills.extend(skills)
+        
+        # Prioritize matched skills but include comprehensive skill set
+        core_skills = []
+        # First add matched skills
+        for skill in matched_skills[:6]:  # Top 6 matched
+            if skill not in core_skills:
+                core_skills.append(skill)
+        
+        # Then add other important skills to maintain comprehensiveness
+        important_base_skills = ['Azure', 'Terraform', 'Kubernetes', 'Docker', 'Python', 'Bash', 'PowerShell', 
+                               'Prometheus', 'Grafana', 'Ansible', 'GitOps', 'Agile']
+        for skill in important_base_skills:
+            if skill in all_your_skills and skill not in core_skills and len(core_skills) < 12:
+                core_skills.append(skill)
         
         # Generate dynamic experience bullets based on job requirements
         experience_bullets = []
@@ -298,18 +345,10 @@ class JobAnalyzer:
         if any(tech in description for tech in ['monitor', 'prometheus', 'grafana', 'observability']):
             experience_bullets.append("Strengthened operational reliability through KQL-driven monitoring and incident resolution, reducing downtime by 20%")
         
-        # Default technical bullets if no specific matches
-        if not experience_bullets:
-            experience_bullets = [
-                "Automated infrastructure provisioning and configuration management using modern DevOps tools",
-                "Implemented comprehensive monitoring and alerting solutions for enhanced system reliability",
-                "Optimized CI/CD workflows to improve deployment speed and reduce manual interventions"
-            ]
-        
         return {
             'summary_focus': summary_focus,
-            'experience_bullets': experience_bullets,
-            'core_skills': matched_skills[:8],  # Top 8 relevant skills
+            'experience_bullets': experience_bullets if experience_bullets else None,
+            'core_skills': core_skills if len(core_skills) >= 6 else None,  # Only use if substantial
         }
 
     def map_to_existing_skills(self, job_keywords):
@@ -392,10 +431,19 @@ class JobAnalyzer:
         config['priority_skills'] = priority_skills[:8]
         config['matched_skills'] = skill_analysis['matched_skills']
         
-        # Add dynamic content to config
-        config['dynamic_summary_focus'] = dynamic_content['summary_focus']
-        config['dynamic_experience_bullets'] = dynamic_content['experience_bullets']
-        config['dynamic_core_skills'] = dynamic_content['core_skills']
+        # Add dynamic content to config only if substantial
+        if dynamic_content:
+            if dynamic_content['summary_focus']:
+                config['dynamic_summary_focus'] = dynamic_content['summary_focus']
+            if dynamic_content['experience_bullets']:
+                config['dynamic_experience_bullets'] = dynamic_content['experience_bullets']
+            if dynamic_content['core_skills']:
+                config['dynamic_core_skills'] = dynamic_content['core_skills']
+        
+        # Apply GPT enhancement if enabled
+        if self.use_gpt:
+            print("🤖 Applying GPT enhancements...")
+            self.apply_gpt_enhancements(config, job_data, skill_analysis)
         
         # Add job-specific keywords for ATS optimization
         job_technical_terms = job_data.get('technical_terms', [])
@@ -408,6 +456,46 @@ class JobAnalyzer:
         
         return config
     
+    def apply_gpt_enhancements(self, config, job_data, skill_analysis):
+        """Apply GPT enhancements to config content"""
+        
+        try:
+            # Load base content blocks for current summary
+            base_path = self.base_dir / "base" / "core-content-blocks.yaml"
+            with open(base_path, 'r', encoding='utf-8') as f:
+                content_blocks = yaml.safe_load(f)
+            
+            # Get current summary
+            summary_type = config.get('summary_type', 'devops_focused')
+            current_summary = content_blocks.get('summaries', {}).get(summary_type, 'DevOps Engineer with 8+ years of experience')
+            
+            # Enhance professional summary
+            enhanced_summary = self.gpt_enhancer.enhance_professional_summary(
+                current_summary, 
+                job_data, 
+                skill_analysis.get('matched_skills', [])
+            )
+            
+            if enhanced_summary != current_summary:
+                config['gpt_enhanced_summary'] = enhanced_summary
+            
+            # Enhance experience bullets if we have dynamic ones
+            if config.get('dynamic_experience_bullets'):
+                job_requirements = job_data.get('description', '')[:500]
+                role_focus = config.get('focus', 'devops')
+                
+                enhanced_bullets = self.gpt_enhancer.enhance_experience_bullets(
+                    config['dynamic_experience_bullets'],
+                    job_requirements,
+                    role_focus
+                )
+                
+                if enhanced_bullets:
+                    config['gpt_enhanced_bullets'] = enhanced_bullets
+                    
+        except Exception as e:
+            print(f"⚠️ GPT enhancement failed: {e}")
+
     def save_analysis(self, job_data, analysis, config, output_name):
         """Save analysis results for reference"""
         analysis_data = {

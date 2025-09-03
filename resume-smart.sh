@@ -20,8 +20,8 @@ print_help() {
     echo "Usage: $0 [COMMAND] [OPTIONS]"
     echo ""
     echo -e "${PURPLE}Smart Commands:${NC}"
-    echo "  smart [job-url] [output-name]           - Analyze job & generate tailored docs"
-    echo "  analyze [job-url] [output-name]         - Only analyze job posting"
+    echo "  smart [job-url] [output-name] [type] [--gpt]  - Analyze job & generate tailored docs"
+    echo "  analyze [job-url] [output-name]              - Only analyze job posting"
     echo ""
     echo -e "${BLUE}Manual Commands:${NC}"
     echo "  generate [config] [output] [company]    - Generate resume manually"
@@ -77,11 +77,12 @@ smart_generate() {
     local job_url=$1
     local output_name=$2
     local doc_type=${3:-"both"}
+    local use_gpt=$4
     
     if [ -z "$job_url" ] || [ -z "$output_name" ]; then
         echo -e "${RED}❌ Error: Missing arguments${NC}"
-        echo "Usage: $0 smart [job-url] [output-name] [type]"
-        echo "Example: $0 smart https://linkedin.com/jobs/view/123456 telia-devops both"
+        echo "Usage: $0 smart [job-url] [output-name] [type] [--gpt]"
+        echo "Example: $0 smart https://linkedin.com/jobs/view/123456 telia-devops both --gpt"
         exit 1
     fi
     
@@ -92,13 +93,20 @@ smart_generate() {
     echo -e "${BLUE}Job URL:${NC} $job_url"
     echo -e "${BLUE}Output:${NC} $output_name"
     echo -e "${BLUE}Type:${NC} $doc_type"
+    if [ "$use_gpt" = "--gpt" ]; then
+        echo -e "${BLUE}GPT Enhancement:${NC} Enabled"
+    fi
     echo ""
     
     # Create required directories
     mkdir -p analysis configs versions
     
     # Run smart generator
-    "$PYTHON_CMD" scripts/smart_generator.py "$job_url" --output "$output_name" --type "$doc_type"
+    if [ "$use_gpt" = "--gpt" ]; then
+        "$PYTHON_CMD" scripts/smart_generator.py "$job_url" --output "$output_name" --type "$doc_type" --gpt
+    else
+        "$PYTHON_CMD" scripts/smart_generator.py "$job_url" --output "$output_name" --type "$doc_type"
+    fi
     
     if [ $? -eq 0 ]; then
         echo ""
@@ -267,7 +275,7 @@ generate_both() {
 # Main script logic
 case "$1" in
     "smart")
-        smart_generate "$2" "$3" "$4"
+        smart_generate "$2" "$3" "$4" "$5"
         ;;
     "analyze")
         analyze_only "$2" "$3"

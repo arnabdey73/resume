@@ -5,6 +5,10 @@
 *.swo
 *~
 
+# Environment files with secrets
+.env
+config.yaml
+
 # System files
 .DS_Store
 .DS_Store?

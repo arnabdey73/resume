@@ -14,7 +14,25 @@ Welcome to my automated resume and cover letter generation system. This reposito
 ### **Intelligent Document Generation**
 - **Role-Specific Content**: Automatically adjusts tone and focus for DevOps, Architect, or Azure Specialist roles
 - **Company Customization**: Includes company-specific content for known organizations
+- **GPT Enhancement**: Optional AI-powered content enhancement for more natural, compelling language
 - **Truthful Enhancement**: Only emphasizes skills I actually possess while maximizing relevance
+
+## ⚡ Setup & Requirements
+
+### **Quick Setup**
+```bash
+# Install Python dependencies
+pip install requests beautifulsoup4 pyyaml jinja2
+
+# Optional: Install OpenAI for GPT enhancement
+pip install openai
+```
+
+### **GPT Enhancement Setup**
+For AI-powered content enhancement, see [GPT Setup Guide](docs/GPT_SETUP.md):
+- Get OpenAI API key from [platform.openai.com](https://platform.openai.com/api-keys)
+- Add to `config.yaml` or `.env` file
+- Use `--gpt` flag for enhanced generation
 
 ## 🚀 Quick Start - Generate from Job Posting
 
@@ -23,9 +41,12 @@ Welcome to my automated resume and cover letter generation system. This reposito
 # Analyze any job posting and generate tailored resume + cover letter
 bash resume-smart.sh smart https://linkedin.com/jobs/view/123456789 company-role-name
 
+# With GPT-4o enhancement (requires API key)
+bash resume-smart.sh smart https://linkedin.com/jobs/view/123456789 company-role-name both --gpt
+
 # Examples:
 bash resume-smart.sh smart https://nordcloud-career.breezy.hr/p/37592336774701 nordcloud-architect
-bash resume-smart.sh smart https://telia.com/careers/senior-devops-engineer telia-devops
+bash resume-smart.sh smart https://telia.com/careers/senior-devops-engineer telia-devops both --gpt
 ```
 
 ### **What It Does:**
@@ -146,6 +167,16 @@ For recruiters and hiring managers, pre-generated documents are available in the
 - ✅ **Company Aware** - Customizes content for specific companies (Nordcloud, Telia, Microsoft)
 - ✅ **Role Adaptive** - Adjusts tone and focus for DevOps, Architect, Azure Specialist roles
 - ✅ **Time Saving** - Generates perfect application packages in minutes instead of hours
+
+---
+
+## 📚 Documentation
+
+- **[GPT Setup Guide](docs/GPT_SETUP.md)** - Complete setup for AI-powered content enhancement
+- **[Technical Reference Guide](docs/TECHNICAL_GUIDE.md)** - Traditional generation, customization, and advanced configuration
+- **[Main README](README.md)** - This file, overview and quick start
+
+---
 
 ## 👤 About Me
 

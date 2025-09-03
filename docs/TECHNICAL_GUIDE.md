@@ -1,96 +1,6 @@
 # Technical Reference Guide - Resume Generator
 
-This technical guide covers traditional generation methods## 🛠️ Customization & Configuration
-
-### Adding a New Role Configuration
-
-1. Create a new YAML file in `configs/` directory
-2. Define the role configuration structure:
-
-```yaml
-role:
-  title: "Senior Cloud Engineer"
-  focus: "cloud infrastructure and automation"
-  industry_focus: "enterprise cloud solutions"
-
-skills:
-  primary:
-    - "Azure"
-    - "Terraform"
-    - "Kubernetes"
-  secondary:
-    - "GitOps"
-    - "Monitoring"
-
-keywords:
-  technical:
-    - "infrastructure as code"
-    - "cloud governance"
-  soft:
-    - "collaboration"
-    - "mentoring"
-
-company_customizations:
-  default:
-    emphasis: "technical expertise"
-  known_companies:
-    Microsoft:
-      emphasis: "Azure expertise and enterprise solutions"
-```
-
-3. Test with the new configuration:
-```bash
-python scripts/generate_resume.py your-new-config.yaml test-output --company "Test Company"
-```
-
-### Modifying Content Blocks
-
-Edit `base/core-content-blocks.yaml` to customize content sections:
-
-```yaml
-professional_summary:
-  devops_focus: |
-    DevOps Engineer with {experience_years}+ years of experience in {primary_skills}.
-    Proven track record in {achievements} and {focus_areas}.
-
-experience_bullets:
-  leadership:
-    - "Led cross-functional teams of {team_size} engineers"
-    - "Mentored {mentee_count} junior developers"
-  
-  technical:
-    azure:
-      - "Implemented Azure {service} resulting in {improvement}"
-      - "Optimized {azure_resource} reducing costs by {percentage}%"
-```
-
-### Customizing Templates
-
-Edit `base/arnab-dey-template.md` using Jinja2 syntax:
-
-```jinja2
-## Professional Summary
-{% if gpt_enhanced_summary %}
-{{ gpt_enhanced_summary }}
-{% elif dynamic_summary %}
-{{ dynamic_summary }}
-{% else %}
-{{ config.professional_summary[config.role.focus] }}
-{% endif %}
-
-## Core Skills
-{% for category, skills in organized_skills.items() %}
-**{{ category }}**: {{ skills | join(', ') }}
-{% endfor %}
-```
-
-### Configuration Priority
-
-The system uses the following priority order:
-1. **GPT-enhanced content** (if `--gpt` flag used and API available)
-2. **Dynamic content** (generated from job analysis)
-3. **Template content** (from YAML configurations)
-4. **Fallback content** (default templates)ion, and advanced configuration options for the resume generator system. For quick start and smart generation, see the [main README](../README.md).
+This technical guide covers traditional generation methods, system customization, and advanced configuration options for the resume generator system. For quick start and smart generation, see the [main README](../README.md).
 
 ## 🔧 Traditional Generation Methods
 
@@ -154,7 +64,7 @@ resume/
 │   └── [legacy utility scripts]
 ├── 📁 docs/                     # Documentation
 │   ├── GPT_SETUP.md            # GPT configuration guide
-│   └── GENERATOR_README.md      # This technical guide
+│   └── TECHNICAL_GUIDE.md       # This technical guide
 ├── 📁 versions/                 # Generated resumes (auto-created)
 ├── 📁 analysis/                 # Job analysis outputs
 └── 📁 Backlog/                  # Archive of previous versions
@@ -174,7 +84,7 @@ resume/
 - `configs/*.yaml` - Role-specific generation configurations
 - `base/*.yaml` - Content blocks and template data
 
-## � Traditional Generation Examples
+## 💻 Traditional Generation Examples
 
 ```bash
 # DevOps Engineer for specific company
@@ -196,61 +106,142 @@ python scripts/generate_cover_letter.py cover-letter-devops.yaml company-role --
 python scripts/generate_resume.py --list
 ```
 
-## ️ Customization
+## 🛠️ Customization & Configuration
 
 ### Adding a New Role Configuration
 
-1. Create a new YAML file in `configs/` folder
-2. Define role, focus, skills, and keywords
-3. Run generation with the new config
+1. Create a new YAML file in `configs/` directory
+2. Define the role configuration structure:
+
+```yaml
+role:
+  title: "Senior Cloud Engineer"
+  focus: "cloud infrastructure and automation"
+  industry_focus: "enterprise cloud solutions"
+
+skills:
+  primary:
+    - "Azure"
+    - "Terraform"
+    - "Kubernetes"
+  secondary:
+    - "GitOps"
+    - "Monitoring"
+
+keywords:
+  technical:
+    - "infrastructure as code"
+    - "cloud governance"
+  soft:
+    - "collaboration"
+    - "mentoring"
+
+company_customizations:
+  default:
+    emphasis: "technical expertise"
+  known_companies:
+    Microsoft:
+      emphasis: "Azure expertise and enterprise solutions"
+```
+
+3. Test with the new configuration:
+
+```bash
+python scripts/generate_resume.py your-new-config.yaml test-output --company "Test Company"
+```
 
 ### Modifying Content Blocks
 
-1. Edit `base/core-content-blocks.yaml`
-2. Add new sections or modify existing ones
-3. Update template if needed
+Edit `base/core-content-blocks.yaml` to customize content sections:
 
-### Customizing the Template
+```yaml
+professional_summary:
+  devops_focus: |
+    DevOps Engineer with {experience_years}+ years of experience in {primary_skills}.
+    Proven track record in {achievements} and {focus_areas}.
 
-1. Edit `base/arnab-dey-template.md`
-2. Use Jinja2 syntax for dynamic content
-3. Test with different configurations
+experience_bullets:
+  leadership:
+    - "Led cross-functional teams of {team_size} engineers"
+    - "Mentored {mentee_count} junior developers"
+  
+  technical:
+    azure:
+      - "Implemented Azure {service} resulting in {improvement}"
+      - "Optimized {azure_resource} reducing costs by {percentage}%"
+```
 
-## � Available Role Configurations
+### Customizing Templates
 
-- **devops-engineer.yaml** - Focus on CI/CD, automation, Linux, Kubernetes
-- **cloud-architect.yaml** - Focus on architecture, cost optimization, governance
-- **azure-specialist.yaml** - Focus on Azure services, governance, monitoring
-- **senior-devops.yaml** - Focus on leadership, strategy, mentoring
+Edit `base/arnab-dey-template.md` using Jinja2 syntax:
 
-## 📊 Generated Features
+```jinja2
+## Professional Summary
+{% if gpt_enhanced_summary %}
+{{ gpt_enhanced_summary }}
+{% elif dynamic_summary %}
+{{ dynamic_summary }}
+{% else %}
+{{ config.professional_summary[config.role.focus] }}
+{% endif %}
 
-### Smart Generation
-- ✅ **Job-specific content** based on posting analysis
-- ✅ **GPT-4o enhancement** for natural language
-- ✅ **Dynamic skill mapping** to job requirements
-- ✅ **Company-specific customization**
-- ✅ **ATS optimization** with keyword placement
+## Core Skills
+{% for category, skills in organized_skills.items() %}
+**{{ category }}**: {{ skills | join(', ') }}
+{% endfor %}
+```
 
-### Traditional Generation
-- ✅ **Role-specific professional summary**
-- ✅ **Tailored core skills section**
-- ✅ **Experience bullets optimized for role focus**
-- ✅ **Consistent formatting and structure**
+### Configuration Priority
 
-## � Troubleshooting
+The system uses the following priority order:
+
+1. **GPT-enhanced content** (if `--gpt` flag used and API available)
+2. **Dynamic content** (generated from job analysis)
+3. **Template content** (from YAML configurations)
+4. **Fallback content** (default templates)
+
+## 📊 Traditional Generation Features
+
+- ✅ **Role-specific professional summary** based on YAML configuration
+- ✅ **Tailored core skills section** mapped to job requirements
+- ✅ **Experience bullets optimized** for role focus
+- ✅ **Consistent formatting** and structure
+- ✅ **Company-specific customization** options
+
+## 🔍 Troubleshooting
 
 **Exit code 127**: Check Python path in `resume-smart.sh`
-**Import errors**: Install dependencies with `pip install requests beautifulsoup4 pyyaml jinja2 openai`
-**GPT enhancement failed**: Check API key in `config.yaml` or `.env`
-**Job scraping failed**: Verify URL format and internet connection
+
+**Import errors**: Install dependencies:
+
+```bash
+pip install requests beautifulsoup4 pyyaml jinja2 openai
+```
+
 **Template errors**: Check YAML syntax in config files
 
-## 📈 Migration from Old System
+**Generation fails**: Verify all required files exist in correct directories
 
-If you have old scripts in root directory, they've been moved to `scripts/`:
-- `resume.sh`, `setup.sh`, `git-resume.sh`, etc. are now in `scripts/`
-- Use `resume-smart.sh` for new intelligent generation
+**Python script errors**: Use absolute paths and check file permissions
+
+**Configuration not found**: Ensure YAML files are in `configs/` directory
+
+**Template rendering errors**: Check Jinja2 syntax in template files
+
+## 📈 Migration Notes
+
+If you have old scripts from previous versions:
+
+- Legacy scripts moved to `scripts/` directory
+- Use `resume-smart.sh` for new intelligent generation  
 - Traditional generation still available via Python scripts
+- Configuration files remain compatible
+
+## 🔗 Related Documentation
+
+- **[Main README](../README.md)** - Quick start and smart generation
+- **[GPT Setup Guide](GPT_SETUP.md)** - AI enhancement configuration
+
+---
 
 Generated on: 2025-09-03
