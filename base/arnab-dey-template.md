@@ -9,23 +9,41 @@
 ---
 
 ## **Professional Summary**
+{% if config.dynamic_summary_focus %}
+{{ config.focus|title }} {{ config.role.split()[-1] }} with 8+ years of experience in {{ config.dynamic_summary_focus|join(', ') }}. 
+Proven track record in platform scalability, operational excellence, and delivering secure, resilient systems in enterprise environments.
+{% else %}
 {{ content_blocks.summaries[config.summary_type] }}
+{% endif %}
 
 ---
 
 ## **Core Skills**
+{% if config.dynamic_core_skills %}
+{% set skill_groups = config.dynamic_core_skills|batch(4) %}
+{% for group in skill_groups %}
+- **{{ group[0] }}{% if group|length > 1 %}, {{ group[1:] |join(', ') }}{% endif %}**
+{% endfor %}
+{% else %}
 {% for skill_category in content_blocks.skills[config.skills_profile] %}
 - {{ skill_category }}
 {% endfor %}
+{% endif %}
 
 ---
 
 ## **Professional Experience**
 
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*
+{% if config.dynamic_experience_bullets %}
+{% for bullet in config.dynamic_experience_bullets[:3] %}
+- {{ bullet }}
+{% endfor %}
+{% else %}
 {% for bullet in content_blocks.experience.afry[config.focus] %}
 - {{ bullet }}
 {% endfor %}
+{% endif %}
 
 ---
 

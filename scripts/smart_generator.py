@@ -108,13 +108,22 @@ class SmartGenerator:
         
         # Determine cover letter style based on role
         title_lower = job_data['title'].lower()
+        description_lower = job_data.get('description', '').lower()
+        
+        # Check if leadership skills are explicitly mentioned in job description
+        leadership_keywords = ['lead', 'leadership', 'mentor', 'manage', 'team lead', 'technical lead', 'supervise', 'coordinate team']
+        has_leadership_requirements = any(keyword in description_lower for keyword in leadership_keywords)
+        
+        # Also check if description is too minimal (likely scraping issue)
+        description_length = len(description_lower.split())
+        is_minimal_description = description_length < 10
         
         if 'architect' in title_lower:
             opening_type = "architect_focused"
             experience_focus = "cloud_architecture"
             technical_focus = "azure_focus"
             closing_type = "technical"
-        elif 'senior' in title_lower or 'lead' in title_lower:
+        elif ('senior' in title_lower or 'lead' in title_lower) and has_leadership_requirements and not is_minimal_description:
             opening_type = "senior_focused"
             experience_focus = "technical_leadership"
             technical_focus = "infrastructure_focus"
@@ -143,7 +152,7 @@ class SmartGenerator:
             'company_type': company_type,
             'closing_type': closing_type,
             'target_company': job_data['company'],
-            'priority_skills': skill_analysis['priority_skills'][:5],
+            'priority_skills': [skill for skill, weight in skill_analysis['priority_skills'][:5]],
             'ats_keywords': resume_config.get('ats_keywords', [])
         }
         

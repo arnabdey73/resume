@@ -256,6 +256,62 @@ class JobAnalyzer:
             'top_keywords': [word for word, count in word_freq.most_common(20)]
         }
     
+    def generate_dynamic_content(self, job_data, skill_analysis):
+        """Generate dynamic content based on job requirements instead of fixed templates"""
+        
+        description = job_data.get('description', '').lower()
+        title = job_data.get('title', '').lower()
+        matched_skills = skill_analysis.get('matched_skills', [])
+        
+        # Generate dynamic professional summary
+        summary_focus = []
+        if any(skill in ['Kubernetes', 'Docker', 'AKS'] for skill in matched_skills):
+            summary_focus.append("container orchestration and cloud-native platforms")
+        if any(skill in ['Terraform', 'ARM templates', 'Ansible'] for skill in matched_skills):
+            summary_focus.append("Infrastructure-as-Code and automation")
+        if any(skill in ['Azure DevOps', 'Jenkins', 'GitHub Actions'] for skill in matched_skills):
+            summary_focus.append("CI/CD pipeline optimization")
+        if 'cost' in description or 'finops' in description:
+            summary_focus.append("cost optimization and FinOps practices")
+        if 'monitor' in description or 'observability' in description:
+            summary_focus.append("monitoring and observability solutions")
+        
+        # Generate dynamic experience bullets based on job requirements
+        experience_bullets = []
+        
+        # Cloud platform bullets
+        if any(platform in description for platform in ['azure', 'aws', 'cloud']):
+            if 'Azure' in matched_skills:
+                experience_bullets.append("Automated Azure infrastructure provisioning with Terraform and Azure Pipelines, reducing manual effort by 40%")
+            if 'cost' in description:
+                experience_bullets.append("Implemented cost optimization strategies using Azure Cost Management and Azure Policies, achieving 30% reduction in non-compliant resources")
+        
+        # Container/K8s bullets
+        if any(tech in description for tech in ['kubernetes', 'docker', 'container', 'k8s']):
+            experience_bullets.append("Designed and deployed GitOps-based Kubernetes platform using ArgoCD, Prometheus, and Grafana for scalable infrastructure automation")
+        
+        # CI/CD bullets
+        if any(tech in description for tech in ['ci/cd', 'pipeline', 'jenkins', 'devops']):
+            experience_bullets.append("Built robust CI/CD pipelines across Azure DevOps, Jenkins, and GitHub Actions, improving deployment efficiency and reliability")
+        
+        # Monitoring bullets
+        if any(tech in description for tech in ['monitor', 'prometheus', 'grafana', 'observability']):
+            experience_bullets.append("Strengthened operational reliability through KQL-driven monitoring and incident resolution, reducing downtime by 20%")
+        
+        # Default technical bullets if no specific matches
+        if not experience_bullets:
+            experience_bullets = [
+                "Automated infrastructure provisioning and configuration management using modern DevOps tools",
+                "Implemented comprehensive monitoring and alerting solutions for enhanced system reliability",
+                "Optimized CI/CD workflows to improve deployment speed and reduce manual interventions"
+            ]
+        
+        return {
+            'summary_focus': summary_focus,
+            'experience_bullets': experience_bullets,
+            'core_skills': matched_skills[:8],  # Top 8 relevant skills
+        }
+
     def map_to_existing_skills(self, job_keywords):
         """Map job requirements to your existing skills"""
         matched_skills = []
@@ -288,15 +344,27 @@ class JobAnalyzer:
     def generate_tailored_config(self, job_data, skill_analysis, output_type='devops'):
         """Generate configuration for tailored resume/cover letter"""
         
-        # Determine role type from job title
+        # Determine role type from job title and description
         title_lower = job_data['title'].lower()
+        description_lower = job_data.get('description', '').lower()
+        
+        # Check if leadership skills are explicitly mentioned in job description
+        # Only apply leadership emphasis if job explicitly asks for it
+        leadership_keywords = ['lead', 'leadership', 'mentor', 'manage', 'team lead', 'technical lead', 'supervise', 'coordinate team']
+        has_leadership_requirements = any(keyword in description_lower for keyword in leadership_keywords)
+        
+        # Also check if description is too minimal (likely scraping issue)
+        description_length = len(description_lower.split())
+        is_minimal_description = description_length < 10
+        
         if 'architect' in title_lower:
             base_config = 'cloud-architect'
         elif 'azure' in title_lower:
             base_config = 'azure-specialist'
-        elif 'senior' in title_lower or 'lead' in title_lower:
+        elif ('senior' in title_lower or 'lead' in title_lower) and has_leadership_requirements and not is_minimal_description:
             base_config = 'senior-devops'
         else:
+            # Default to regular devops config unless leadership is explicitly required
             base_config = 'devops-engineer'
         
         # Load base configuration
@@ -316,13 +384,27 @@ class JobAnalyzer:
         config['target_company'] = job_data['company']
         config['job_url'] = job_data.get('url', '')
         
+        # Generate dynamic content based on job requirements
+        dynamic_content = self.generate_dynamic_content(job_data, skill_analysis)
+        
         # Update skills based on analysis
         priority_skills = [skill for skill, weight in skill_analysis['priority_skills']]
         config['priority_skills'] = priority_skills[:8]
         config['matched_skills'] = skill_analysis['matched_skills']
         
+        # Add dynamic content to config
+        config['dynamic_summary_focus'] = dynamic_content['summary_focus']
+        config['dynamic_experience_bullets'] = dynamic_content['experience_bullets']
+        config['dynamic_core_skills'] = dynamic_content['core_skills']
+        
         # Add job-specific keywords for ATS optimization
-        config['ats_keywords'] = list(set(job_data.get('technical_terms', []) + priority_skills))[:15]
+        job_technical_terms = job_data.get('technical_terms', [])
+        if not job_technical_terms:
+            # Extract from keyword analysis if available
+            keyword_analysis = self.analyze_keywords(job_data.get('description', ''))
+            job_technical_terms = keyword_analysis.get('technical_terms', [])
+        
+        config['ats_keywords'] = list(set(job_technical_terms + priority_skills))[:15]
         
         return config
     
