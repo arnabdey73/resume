@@ -11,7 +11,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
-# Set Python command to specific version
+# Set Python command to system default
 PYTHON_CMD="/c/Users/mno527/AppData/Local/Programs/Python/Python311/python"
 
 print_help() {
