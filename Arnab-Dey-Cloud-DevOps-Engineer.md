@@ -10,7 +10,7 @@
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 8+ years of experience in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and Prometheus — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
+Cloud & DevOps Engineer with 8+ years of experience (14+ years in IT) in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and Prometheus — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
 
 
 <!--

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arnab-Dey-Cloud-DevOps-Engineer.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<div align="center">
+	<h1><b>Arnab Dey</b></h1>
+	<p>
+		Stockholm, Sweden | +46 0764516092 | <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a><br>
+		<a href="https://www.linkedin.com/in/arnabdey73">LinkedIn</a> | <a href="https://github.com/arnabdey73">GitHub</a>
+	</p>
+</div>
+<br>
+<h2 id="professional-summary"><strong>Professional Summary</strong></h2>
+<p>Cloud &amp; DevOps Engineer with 8+ years of experience (14+ years in IT) in <strong>automation, platform engineering, and cloud infrastructure</strong> across Azure, AWS, and OpenStack. Skilled in building and managing <strong>CI/CD pipelines, Kubernetes clusters, and self-service platforms</strong> using tools such as Terraform, Azure DevOps, Docker, and Prometheus — always with a focus on improving the developer experience. I thrive in environments that value <strong>curiosity, learning, and technical ownership</strong>, and I am eager to contribute to <strong>cloud transformation journeys, platform improvements, and highly available services</strong> within consultancy and engineering teams.</p>
+<!--
+DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost-efficient infrastructure**, and driven by **technical excellence and curiosity**. Proven track in building scalable, secure, and governed platforms on Azure using Terraform and GitOps. Thrives in agile, learning-focused environments where technical trust and collaboration matter.
+-->
+<br>
+<h2 id="core-skills"><strong>Core Skills</strong></h2>
+<ul>
+<li><strong>Cloud Platforms:</strong> Azure (landing zones, governance, Entra ID, Logic Apps), AWS, Openstack</li>
+<li><strong>Infrastructure Automation:</strong> Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)</li>
+<li><strong>Cost &amp; Governance:</strong> Azure Policies, Azure Advisor, cost optimization templates</li>
+<li><strong>Containerization &amp; Orchestration:</strong> Kubernetes (Rancher, K3s), Docker</li>
+<li><strong>Observability &amp; Reliability:</strong> Prometheus, Grafana, Azure Monitor, KQL, ELK Stack</li>
+<li><strong>Security &amp; Compliance:</strong> DevSecOps, policy-driven infra, cloud governance frameworks</li>
+<li><strong>Scripting &amp; Tooling:</strong> Python, Bash, PowerShell, Ansible</li>
+<li><strong>Collaboration &amp; Delivery:</strong> Agile/SAFe, stakeholder engagement, product ownership</li>
+</ul>
+<br>
+<h2 id="professional-experience"><strong>Professional Experience</strong></h2>
+<h3 id="devops-engineer-%E2%80%93-afry-digital-solutions-ab-may-2025-%E2%80%93-present"><strong>DevOps Engineer – AFRY Digital Solutions AB</strong> <em>(May 2025 – Present)</em></h3>
+<ul>
+<li>Designed and deployed a <strong>GitOps-based Kubernetes platform</strong> using <strong>ArgoCD, Prometheus, Grafana</strong>, enabling version-controlled, automated infrastructure provisioning.</li>
+<li>Built <strong>RPA workflows in Power Automate</strong> to automate data collection from <strong>Tendsign</strong>, supporting business process optimization.</li>
+<li>Maintained the GitOps platform as a live project (<a href="https://github.com/arnabdey73/single-node-gitops">GitHub repository</a>).</li>
+</ul>
+<h3 id="cloud-engineer-%E2%80%93-stena-metall-ab-aug-2024-%E2%80%93-jan-2025"><strong>Cloud Engineer – Stena Metall AB</strong> <em>(Aug 2024 – Jan 2025)</em></h3>
+<ul>
+<li>Upgraded the <strong>Azure Cloud Adoption Framework (CAF)</strong> to strengthen <strong>governance and compliance</strong>.</li>
+<li>Automated infrastructure provisioning using <strong>Terraform</strong> and <strong>Azure Pipelines</strong>, reducing manual tasks by <strong>40%</strong>.</li>
+<li>Configured <strong>Azure Policies</strong> to enforce governance and implemented automated cost recommendations via <strong>Azure Advisor</strong>, improving cost visibility and reducing non-compliant resources by <strong>30%</strong>.</li>
+<li>Improved reliability with <strong>KQL-based monitoring</strong> and reduced downtime by <strong>20%</strong>.</li>
+<li>Developed reusable <strong>Azure cost optimization templates</strong> (sanitized) for standardized cost-saving practices (<a href="https://github.com/arnabdey73/azure-cost-optimizer">GitHub repository</a>).</li>
+<li>Published a <strong>Terraform module library</strong> (sanitized) for consistent Azure infrastructure deployment (<a href="https://github.com/arnabdey73/iac-module-library-azure">GitHub repository</a>).</li>
+</ul>
+<h3 id="senior-software-engineer-devops-%E2%80%93-capgemini-sverige-ab-sep-2021-%E2%80%93-jul-2024"><strong>Senior Software Engineer (DevOps) – Capgemini Sverige AB</strong> <em>(Sep 2021 – Jul 2024)</em></h3>
+<p><strong>Assignment: Volvo Cars Car Safety R&amp;D</strong></p>
+<ul>
+<li>Implemented <strong>CI/CD pipeline automation</strong> in <strong>Azure DevOps</strong>, reducing deployment times by <strong>30%</strong>.</li>
+<li>Automated <strong>Azure Databricks cluster scaling</strong> with <strong>Terraform</strong> and <strong>GitHub Actions</strong>, improving efficiency in data workflows.</li>
+<li>Upgraded on-prem hardware for <strong>Kubeflow</strong> workloads, integrating with Kubernetes (Rancher RKE).</li>
+</ul>
+<p><strong>Internal Initiatives</strong></p>
+<ul>
+<li>Acted as <strong>Product Owner</strong> for internal initiatives, driving automation projects aligned with stakeholder needs.</li>
+<li>Led an <strong>AI-powered Resume Builder Agent</strong> project (sanitized version <a href="https://github.com/arnabdey73/resume-builder-agent">GitHub repository</a>).</li>
+<li>Maintained a <strong>DevOps Python automation toolkit</strong> for infrastructure tasks (<a href="https://github.com/arnabdey73/devops-python-automation-project">GitHub repository</a>).</li>
+</ul>
+<h3 id="senior-business-consultant-devops-%E2%80%93-tech-mahindra-feb-2017-%E2%80%93-sep-2021"><strong>Senior Business Consultant (DevOps) – Tech Mahindra</strong> <em>(Feb 2017 – Sep 2021)</em></h3>
+<p><strong>Assignment: Deutsche Telekom</strong></p>
+<ul>
+<li>Designed and managed <strong>CI/CD pipelines</strong> using <strong>Jenkins</strong> and <strong>Azure DevOps</strong> for hybrid cloud applications.</li>
+<li>Automated <strong>microservice orchestration</strong> with <strong>Docker</strong> and <strong>Kubernetes</strong>, improving resource utilization by <strong>25%</strong>.</li>
+<li>Managed the <strong>ELK Stack</strong> for centralized logging and data indexing.</li>
+<li>Reduced operational overhead by <strong>20%</strong> via <strong>Terraform</strong> and <strong>Ansible</strong>-based infrastructure automation.</li>
+<li>Published a <strong>sanitized OpenStack DevOps solution</strong>  (sanitized) showcasing provisioning, monitoring, and automation (<a href="https://github.com/arnabdey73/openstack-devops-suite">GitHub repository</a>).</li>
+</ul>
+<h3 id="senior-aem-administrator-cloud-%E2%80%93-icf-next-sep-2015-%E2%80%93-jan-2017"><strong>Senior AEM Administrator (Cloud) – ICF Next</strong> <em>(Sep 2015 – Jan 2017)</em></h3>
+<ul>
+<li>Managed AWS and VMware environments, improving uptime by <strong>15%</strong> through optimized resource utilization.</li>
+<li>Automated operations using <strong>Ansible</strong> and shell scripting.</li>
+</ul>
+<h3 id="unixlinux-systems-administrator-%E2%80%93-hewlett-packard-enterprise-nov-2011-%E2%80%93-aug-2015"><strong>Unix/Linux Systems Administrator – Hewlett Packard Enterprise</strong> <em>(Nov 2011 – Aug 2015)</em></h3>
+<ul>
+<li>Administered Unix-based and VMware platforms, enhancing system performance and reliability.</li>
+<li>Authored <strong>SOPs and UML diagrams</strong>, reducing incident response times by <strong>20%</strong>.</li>
+</ul>
+<br>
+<h2 id="education"><strong>Education</strong></h2>
+<ul>
+<li><strong>B.Tech in Computer Science</strong> – West Bengal University of Technology, Kolkata, India (2005 – 2009)</li>
+</ul>
+<h2 id="certifications"><strong>Certifications</strong></h2>
+<ul>
+<li><strong>Microsoft Certified: Azure Fundamentals</strong> (Issued March 2023)<br>
+Credential ID: 801D970BAA49297</li>
+</ul>
+<h2 id="languages"><strong>Languages</strong></h2>
+<ul>
+<li>English: Bilingual / Native Proficiency</li>
+<li>Swedish: SFI C Level Proficiency</li>
+</ul>
+
+</body>
+</html>
