@@ -6,24 +6,26 @@
 	</p>
 </div>
 
-<br>
+
 
 ## **Professional Summary**
 
-DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD automation** and **Linux-based cloud platforms**. Skilled in **Azure DevOps, Jenkins, GitHub Actions**, and **infrastructure automation** using Terraform and Ansible. Strong foundation in **Linux systems administration**, container orchestration (Kubernetes, Docker), and observability tools. Proven success in reducing downtime, accelerating deployments, and enabling teams with secure, scalable, and reliable infrastructure.
+DevOps Engineer with 8+ years of experience building and automating **Azure cloud platforms** with a focus on **security, scalability, and developer enablement**. Skilled in **RBAC**, infrastructure as code with **Terraform**, CI/CD automation, and Kubernetes orchestration. Experienced in implementing **Azure best practices**, including elements of the Cloud Adoption Framework (CAF), and improving operational visibility through advanced monitoring and logging.
 
-<br>
+Additional experience with **AWS** and **OpenStack** cloud platforms, enabling hybrid and multi-cloud solutions. Passionate about streamlining workflows, enhancing reliability, and enabling teams to deliver high-quality solutions efficiently.
+
+
 
 ## **Core Skills**
 
-- **CI/CD Pipelines:** Azure DevOps, Jenkins, GitHub Actions, GitLab CI  
-- **Linux & Systems Administration:** RHEL, Ubuntu, CentOS, Shell scripting, VMware  
-- **Infrastructure as Code:** Terraform, ARM templates, Ansible  
-- **Containers & Orchestration:** Kubernetes (AKS, Rancher), Docker  
-- **Monitoring & Logging:** Prometheus, Grafana, Azure Monitor, ELK, KQL  
-- **Cloud Platforms:** Azure (IaaS, PaaS, Entra ID, Logic Apps), AWS, OpenStack  
+- **Cloud Platforms:** Azure (Entra ID, RBAC, Logic Apps, Cloud Adoption Framework), AWS, OpenStack  
+- **Infrastructure as Code (IaC):** Terraform, ARM templates, GitOps (ArgoCD)  
+- **CI/CD Pipelines:** Azure DevOps, GitHub Actions, Jenkins  
+- **Containers & Orchestration:** Kubernetes (Rancher, K3s), Docker  
+- **Monitoring & Observability:** Azure Monitor, App Insights, Prometheus, Grafana, ELK Stack, KQL  
+- **Identity & Security:** Entra ID, Role-based access controls, policy automation  
 - **Scripting & Automation:** Python, Bash, PowerShell  
-- **Collaboration & Delivery:** Agile/SAFe, Product Ownership, Cross-functional teamwork  
+- **Ways of Working:** Agile/SAFe, DevOps mentoring, documentation, cross-team collaboration  
 
 <br>
 
@@ -39,21 +41,20 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
-- Automated provisioning with **Terraform + Azure Pipelines**, cutting manual effort by **40%**.  
-- Strengthened operational reliability through **KQL-driven monitoring and incident resolution**, reducing downtime by **20%**.  
-- Managed Azure services (Logic Apps, IaaS, PaaS, Entra ID).  
-- Published reusable (sanitized) **Terraform modules** ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
-- Built an (sanitized) **Azure cost optimization toolkit** ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
-
+- Enhanced **Azure platform security** by implementing **RBAC, Entra ID policies**, and role-based access controls.  
+- Automated infrastructure provisioning using **Terraform and Azure Pipelines**, reducing manual work by **40%**.  
+- Developed reusable Terraform modules to standardize infrastructure delivery ([GitHub repo](https://github.com/arnabdey73/iac-module-library-azure)).  
+- Strengthened monitoring and incident management with **Azure Monitor, App Insights, and KQL**, improving response times and operational visibility.  
+- Supported adoption of Azure best practices, including elements of the **Cloud Adoption Framework (CAF)**.
 
 
 ### **Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(Sep 2021 – Jul 2024)*  
 
 **Assignment: Volvo Cars Car Safety R&D**  
 
-- Built and optimized **CI/CD pipelines in Azure DevOps**, cutting release cycles by **30%**.  
+- Designed and optimized **CI/CD pipelines in Azure DevOps**, reducing release cycle times by **30%**.  
 - Automated **Azure Databricks scaling** with Terraform and GitHub Actions.  
-- Upgraded infra for **Kubeflow workloads** with Rancher/Kubernetes.  
+- Upgraded infrastructure for **Kubeflow workloads** with Kubernetes and Rancher, improving platform scalability and performance.
 
 **Internal Initiatives**  
 
@@ -67,11 +68,10 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 
 **Assignment: Deutsche Telekom**  
 
-- Delivered **CI/CD pipelines** using Jenkins and Azure DevOps for hybrid cloud deployments.  
-- Automated **Kubernetes/Docker orchestration**, improving efficiency by **25%**.  
-- Managed **ELK stack** for centralized logging and observability.  
-- Reduced infra overhead by **20%** through Terraform + Ansible automation.  
-- Published a sanitized **OpenStack DevOps solution** ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
+- Delivered hybrid cloud automation using **OpenStack** for scalable deployments.  
+- Built and managed **Jenkins-based CI/CD pipelines** supporting microservices running on Kubernetes and Docker.  
+- Centralized observability with **ELK stack** and improved system reliability through infrastructure automation with Terraform and Ansible.  
+- Published a sanitized **OpenStack DevOps toolkit** for internal use ([GitHub link](https://github.com/arnabdey73/openstack-devops-suite)).
 
 
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
@@ -98,20 +98,16 @@ DevOps Engineer with 8+ years of experience (14+ years in IT) delivering **CI/CD
 - Maintained **Linux VPS environments**, providing high availability and troubleshooting critical incidents.  
 
 <br>
-<br>
 
 ## **Education**
 
 - **B.Tech in Computer Science** – West Bengal University of Technology, Kolkata, India (2005 – 2009)
 
-<br>
-<br>
 
 ## **Certifications**
 
 - **Microsoft Certified: Azure Fundamentals** (Issued Mar 2023) – Credential ID: 801D970BAA49297  
 
-<br>
 
 ## **Languages**
 
