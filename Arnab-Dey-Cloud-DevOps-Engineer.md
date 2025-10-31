@@ -10,7 +10,7 @@
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 8+ years of experience (14+ years in IT) in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and Prometheus — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
+Cloud & DevOps Engineer with 8+ years of experience (14+ years in IT) in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and monitoring solutions — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
 
 
 <!--
@@ -24,7 +24,7 @@ DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost
 - **Infrastructure Automation:** Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)  
 - **Cost & Governance:** Azure Policies, Azure Advisor, cost optimization templates  
 - **Containerization & Orchestration:** Kubernetes (Rancher, K3s), Docker  
-- **Observability & Reliability:** Prometheus, Grafana, Azure Monitor, KQL, ELK Stack  
+- **Observability & Reliability:** Monitoring and alerting systems, Grafana, Azure Monitor, KQL, ELK Stack  
 - **Security & Compliance:** DevSecOps, policy-driven infra, cloud governance frameworks  
 - **Scripting & Tooling:** Python, Bash, PowerShell, Ansible  
 - **Collaboration & Delivery:** Agile/SAFe, stakeholder engagement, product ownership  
