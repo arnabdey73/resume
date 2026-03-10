@@ -38,6 +38,7 @@ DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost
 - Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana**, enabling version-controlled, automated infrastructure provisioning.  
 - Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
+- Supported and maintained radio communication test infrastructure, covering hardware, servers, and **end-to-end CI pipelines** for smoke and regression testing, improving reliability and continuity across software validation workflows.
 
 
 
