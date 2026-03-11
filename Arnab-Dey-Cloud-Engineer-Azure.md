@@ -10,7 +10,7 @@
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 8+ years of experience (15+ years in IT) in **Azure**, AWS, and OpenStack, including hands-on work in **cloud governance, landing zones, IAM, platform automation, and infrastructure standardization**. Experienced in translating platform and business requirements into scalable Azure solutions using **Terraform, Azure DevOps, and policy-driven infrastructure**. Strong background in cloud transformation, stakeholder collaboration, and building reliable, governed platforms in consultancy and enterprise environments.
+Cloud & DevOps Engineer with 15+ years of overall IT experience, including 9+ years focused on Cloud and DevOps with a strong emphasis on Azure, as well as experience in AWS and OpenStack. Hands-on expertise in Azure governance, landing zones, IAM, platform automation, and infrastructure standardization. Experienced in translating platform and business requirements into scalable Azure solutions using Terraform, Azure DevOps, and policy-driven infrastructure. Strong background in cloud transformation, stakeholder collaboration, and building reliable, governed platforms in consultancy and enterprise environments.
 
 <br>
 

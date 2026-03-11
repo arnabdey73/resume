@@ -10,7 +10,7 @@
 
 ## **Professional Summary**
 
-Cloud Engineer with 8+ years of experience (15+ years in IT) across **OpenStack**, Azure, AWS, and **Linux-based infrastructure**, with hands-on work in cloud operations, automation, platform reliability, and infrastructure standardization. Experienced in building and supporting cloud platforms using Terraform, Ansible, CI/CD, monitoring, and policy-driven infrastructure, with a strong background in troubleshooting complex environments across compute, storage, networking, and virtualization. Also bring Azure experience in governance, landing zones, IAM, and platform automation.
+Cloud Engineer with 15+ years of overall IT experience, including **9+ years** across cloud and infrastructure engineering in **public and hybrid** cloud environments. Experienced with **OpenStack**, Azure, AWS, and **Linux-based infrastructure**, with hands-on work in **cloud operations, automation, platform reliability, and infrastructure standardization**. Strong background in building, operating, and troubleshooting cloud platforms using Terraform, Ansible, CI/CD, and observability tooling across compute, storage, networking, and virtualization, while collaborating across infrastructure teams to improve **reliability, scalability, and day-to-day operability**.
 
 <br>
 
