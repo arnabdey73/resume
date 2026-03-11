@@ -10,25 +10,29 @@
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 8+ years of experience (14+ years in IT) in **automation, platform engineering, and cloud infrastructure** across Azure, AWS, and OpenStack. Skilled in building and managing **CI/CD pipelines, Kubernetes clusters, and self-service platforms** using tools such as Terraform, Azure DevOps, Docker, and monitoring solutions — always with a focus on improving the developer experience. I thrive in environments that value **curiosity, learning, and technical ownership**, and I am eager to contribute to **cloud transformation journeys, platform improvements, and highly available services** within consultancy and engineering teams.
+Cloud & DevOps Engineer with 8+ years of experience (15+ years in IT) in **Azure**, AWS, and OpenStack, including hands-on work in **cloud governance, landing zones, IAM, platform automation, and infrastructure standardization**. Experienced in translating platform and business requirements into scalable Azure solutions using **Terraform, Azure DevOps, and policy-driven infrastructure**. Strong background in cloud transformation, stakeholder collaboration, and building reliable, governed platforms in consultancy and enterprise environments.
 
-
-<!--
-DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost-efficient infrastructure**, and driven by **technical excellence and curiosity**. Proven track in building scalable, secure, and governed platforms on Azure using Terraform and GitOps. Thrives in agile, learning-focused environments where technical trust and collaboration matter.
--->
 <br>
 
 ## **Core Skills**
 
+- **Azure Architecture**: landing zones, governance, subscription design, IAM, policy guardrails
+- **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins
+- **Azure Security & Access**: Entra ID, RBAC, Azure Policy, compliance controls
+- **Cost & Governance:** Azure Advisor, cost optimization templates
+- **Platform Engineering**: GitHub Actions, self-service infrastructure, Kubernetes, Docker
+- **Cloud Operations & Observability**: Azure Monitor, KQL, Grafana, ELK
+- **Stakeholder Collaboration**: requirement analysis, platform standardization, cross-team alignment
+- **Scripting & Tooling:** Python, Bash, PowerShell, Ansible  
+
+<!--
+- **Infrastructure Automation:** Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)
 - **Cloud Platforms:** Azure (landing zones, governance, Entra ID, Logic Apps), AWS, Openstack  
-- **Infrastructure Automation:** Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)  
-- **Cost & Governance:** Azure Policies, Azure Advisor, cost optimization templates  
-- **Containerization & Orchestration:** Kubernetes (Rancher, K3s), Docker  
 - **Observability & Reliability:** Monitoring and alerting systems, Grafana, Azure Monitor, KQL, ELK Stack  
 - **Security & Compliance:** DevSecOps, policy-driven infra, cloud governance frameworks  
-- **Scripting & Tooling:** Python, Bash, PowerShell, Ansible  
+- **Containerization & Orchestration:** Kubernetes (Rancher, K3s), Docker
 - **Collaboration & Delivery:** Agile/SAFe, stakeholder engagement, product ownership  
-
+-->
 <br>
 
 ## **Professional Experience**
@@ -36,18 +40,22 @@ DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
 - Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana**, enabling version-controlled, automated infrastructure provisioning.  
-- Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
-- Supported and maintained radio communication test infrastructure, covering hardware, servers, and **end-to-end CI pipelines** for smoke and regression testing, improving reliability and continuity across software validation workflows.
+- Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
+
+
+**Assignment: Ericsson AB**  
+
+- Maintain radio communication test infrastructure across **hardware, servers, and end-to-end CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
 
 
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
-- Upgraded the **Azure Cloud Adoption Framework (CAF)** to strengthen **governance and compliance**.  
-- Automated infrastructure provisioning using **Terraform** and **Azure Pipelines**, reducing manual tasks by **40%**.  
-- Configured **Azure Policies** to enforce governance and implemented automated cost recommendations via **Azure Advisor**, improving cost visibility and reducing non-compliant resources by **30%**.  
-- Improved reliability with **KQL-based monitoring** and reduced downtime by **20%**.  
+- Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and platform guardrails for enterprise Azure usage.  
+- Implemented **Terraform and Azure Pipelines**-based infrastructure patterns aligned with **Azure governance** standards, enabling more consistent and controlled platform provisioning.  
+- Defined and implemented **Azure Policy guardrails** and supported IAM and access governance using **Entra ID** and **RBAC** to strengthen security, compliance, and operational consistency.
+- Improved reliability with **KQL-based monitoring**, reducing downtime by **20%**.  
 - Developed reusable **Azure cost optimization templates** (sanitized) for standardized cost-saving practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
 - Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
 
@@ -59,10 +67,8 @@ DevOps & Cloud Engineer passionate about **public-cloud transformation**, **cost
 - Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency in data workflows.  
 - Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE).  
 
-**Internal Initiatives**  
-
-- Acted as **Product Owner** for internal initiatives, driving automation projects aligned with stakeholder needs.  
-- Led an **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
+- Worked across engineering and stakeholder groups to align requirements, shape technical approaches, and support delivery decisions for internal platform initiatives.  
+- Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
 - Maintained a **DevOps Python automation toolkit** for infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 
