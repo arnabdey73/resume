@@ -10,20 +10,21 @@
 
 ## **Professional Summary**
 
-Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering with strong Azure focus. Experienced in designing and operating secure, scalable cloud environments with emphasis on automation, CI/CD, Infrastructure as Code, and observability. Hands-on background in Terraform, Azure DevOps, GitHub Actions, Kubernetes, KQL, and monitoring tooling, with a track record of improving reliability, operational efficiency, and platform maintainability across enterprise environments. Strong at translating technical and business requirements into robust cloud platforms that enable engineering teams to build and deliver effectively.
+Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating internal platforms that improve developer workflows through Infrastructure as Code, CI/CD, scripting, automation, observability, and platform standardization. Hands-on background in Terraform, GitHub Actions, Azure DevOps, Jenkins, Python, Bash, Kubernetes, KQL, Grafana, and ELK, with a strong focus on reliability, developer enablement, and reducing friction in day-to-day engineering workflows.
 
 <br>
 
 ## **Core Skills**
 
-- **Platform Engineering**: GitHub Actions, self-service infrastructure, Kubernetes, Docker
-- **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins
-- **Azure Security & Access**: Entra ID, RBAC, Azure Policy, compliance controls
-- **Azure Architecture**: landing zones, governance, subscription design, IAM, policy guardrails
-- **Cost & Governance:** Azure Advisor, cost optimization templates
-- **Scripting & Tooling:** Python, Bash, PowerShell, Ansible
-- **Cloud Operations & Observability**: Azure Monitor, KQL, Grafana, ELK
-- **Stakeholder Collaboration**: requirement analysis, platform standardization, cross-team alignment
+- **Platform Engineering**: developer tooling, workflow automation, self-service infrastructure, Kubernetes, Docker, GitOps
+- **Cloud Platforms & Architecture**: Azure, AWS, hybrid and private cloud environments, landing zones, governance, IAM
+- **Infrastructure as Code**: Terraform, reusable module libraries, ARM templates, infrastructure standardization
+- **CI/CD & Delivery**: GitHub Actions, Azure DevOps, Jenkins, build and release automation, automated developer workflows
+- **Security & Compliance**: Entra ID, RBAC, Azure Policy, least-privilege access, policy guardrails, secrets-aware platform patterns
+- **Observability & Reliability**: Azure Monitor, KQL, Grafana, Prometheus, ELK, monitoring and operational visibility
+- **Cost & Governance**: cloud cost optimization templates, governance controls, policy-driven infrastructure
+- **Scripting & Tooling**: Python, Bash, PowerShell, Ansible
+- **Collaboration**: requirement analysis, platform standardization, stakeholder alignment, cross-team enablement
  
 
 <!--
@@ -40,38 +41,36 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
-- Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana**, enabling version-controlled, automated infrastructure provisioning.  
+- Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana, cert-manager, and sealed-secrets**, improving reliability, automation, and the day-to-day developer workflow through version-controlled platform operations.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 - Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
 
 
 **Assignment: Ericsson AB**  
 
-- Supported engineering teams by maintaining reliable radio communication tools for test infrastructure and CI workflows, helping improve platform stability and reducing friction in daily delivery and validation processes.
-
-
+- Supported engineering teams by maintaining test infrastructure and CI workflows, troubleshooting issues quickly and reducing friction in daily delivery, validation, and developer support workflows.
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
 - Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and platform guardrails for enterprise Azure usage.  
-- Implemented **Terraform and Azure Pipelines**-based infrastructure patterns aligned with **Azure governance** standards, enabling more consistent and controlled platform provisioning.  
+- Implemented **Terraform and Azure Pipelines**-based infrastructure patterns aligned with **Azure governance** standards, enabling more consistent, reusable, and controlled platform provisioning across environments.  
 - Defined and implemented **Azure Policy guardrails, Entra ID and RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency across Azure environments.
 - Improved reliability with **KQL-based monitoring**, reducing downtime by **20%**.  
+- Contributed to secure and reusable platform patterns that supported event-driven integrations, automated workflows, and improved operational visibility.
 - Developed reusable **Azure cost optimization templates** (sanitized) for standardized cost-saving practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
 - Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
-
 
 ### **Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(Sep 2021 – Jul 2024)*  
 
 **Assignment: Volvo Cars Car Safety R&D**  
+
 - Implemented **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%**.
-- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency in data workflows.  
-- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE).
+- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency in data workflows and support for data-platform operations.  
+- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE) to support ML-adjacent platform needs.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, and support delivery decisions for internal platform initiatives.  
 - Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
 - Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
-- Maintained a **DevOps Python automation toolkit** for infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
-
+- Maintained a **Python-based automation toolkit** for infrastructure and operational tasks, strengthening scripting, command-line tooling, and workflow automation capabilities ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 ### **Senior Business Consultant (DevOps) – Tech Mahindra** *(Feb 2017 – Sep 2021)*  
 
@@ -83,12 +82,17 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.  
 - Published a **sanitized OpenStack DevOps solution**  (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
+Assignment: Cisco Systems
 
+- Supported AWS-hosted networking and firmware platforms across Development, Staging, and Production environments, contributing to reliable and scalable application operations.
+- Designed and implemented AWS-based CI/CD workflows using **EC2**, Jenkins, Maven, Git, SonarQube, and an in-house orchestration tool to improve delivery automation and platform consistency.
+- Built and operated containerized microservices with Docker and **Amazon ECS**, contributing to scalable distributed application deployment patterns.
+- Strengthened platform observability through **Amazon CloudWatch**, ELK Stack, and Graylog, improving operational visibility and issue resolution.
 
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
 
-- Managed AWS and VMware environments, improving uptime by **15%** through optimized resource utilization.  
-- Automated operations using **Ansible** and shell scripting.
+- Managed AWS and VMware environments, improving uptime by **15%** through optimized resource utilization and automated operations using **Ansible** and shell scripting.  
+- Provisioned and optimized AWS infrastructure using **VPCs, security groups, and EC2**, supporting scalable and secure application environments.
 
 
 
