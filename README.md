@@ -3,6 +3,12 @@
 
 Welcome to my professional resume repository. Here you will find my up-to-date resumes and cover letters in various formats, tailored for Cloud, DevOps, and Engineering roles. This repository is intended for recruiters, hiring managers, and anyone interested in my professional background.
 
+## Master Resume
+
+- **Primary resume:** `Arnab-Dey-Resume.md`
+- **Current master source:** `Arnab-Dey-Cloud-DevOps-Engineer.md`
+- Use the master resume when a single default version is needed.
+
 ## 📄 Contents
 
 - **Resumes**: Markdown, PDF, and DOCX versions for different roles
@@ -12,25 +18,34 @@ Welcome to my professional resume repository. Here you will find my up-to-date r
 ## 📁 File Structure
 
 ```text
-├── Arnab-Dey-Cloud-Engineer.md
+├── Arnab-Dey-Resume.md                          # Master resume / default version
+├── Arnab-Dey-Cloud-DevOps-Engineer.md          # Cloud & DevOps-focused source variant
+├── Arnab-Dey-Cloud-DevOps-Engineer.pdf
+├── Arnab-Dey-Cloud-Engineer-Openstack.md
+├── Arnab-Dey-Cloud-Engineer-Openstack.pdf
+├── Arnab-Dey-DevOps-Engineer.md
+├── Arnab-Dey-DevOps-Engineer.pdf
+├── Arnab-Dey-Platform-Engineer.md
+├── Arnab-Dey-Platform-Engineer.pdf
+├── arnab-dey-devops-cover-letter.md
+├── arnab-dey-devops-cover-letter.pdf
+├── arnab-dey-motorica-platform-engineer-cover-letter.md
 ├── README.md
 └── Backlog/
-	├── Arnab-Dey-Cloud-DevOps-Engineer.md/.pdf   # Resume focused on Cloud & DevOps roles (Markdown & PDF)
-	├── Arnab-Dey-DevOps-Engineer.md/.pdf         # Resume for DevOps Engineer roles (Markdown & PDF)
-	├── arnab-dey-resume.md/.pdf/.docx            # General resume (Markdown, PDF, DOCX)
-	├── arnab-dey-cover-letter.md/.pdf            # Sample cover letter for DevOps/Cloud positions
+    ├── Arnab-Dey-Cloud-DevOps-Engineer.md      # Archived resume iteration
+    ├── arnab-dey-resume.md                     # Older general resume version
+    ├── arnab-dey-cover-letter.md               # Archived cover letter template
 ```
 
 ## 📂 Backlog Folder Context
 
-- **Arnab-Dey-Cloud-DevOps-Engineer.md / .pdf**: Resume tailored for Cloud and DevOps Engineer positions, highlighting experience with Azure, CI/CD, Kubernetes, and automation tools.
-- **Arnab-Dey-DevOps-Engineer.md / .pdf**: Resume focused on DevOps Engineer roles, emphasizing DevOps toolchain, automation, and platform engineering skills.
-- **arnab-dey-resume.md / .pdf / .docx**: General resume covering overall IT, Cloud, and DevOps experience, suitable for a wide range of technical roles.
-- **arnab-dey-cover-letter.md / .pdf**: Customizable cover letter template for job applications in Cloud/DevOps, demonstrating motivation and relevant skills.
+- **Backlog** contains archived resumes, earlier drafts, and supporting documents.
+- The active default resume is now the root-level `Arnab-Dey-Resume.md`.
+- Role-specific root files remain available for targeted applications.
 
 ## 🛠️ Usage
 
-Feel free to browse, download, or print any of the documents. For the latest version, refer to the files in the root or the `Backlog` folder for previous versions and supporting materials.
+Feel free to browse, download, or print any of the documents. For the default latest version, refer to `Arnab-Dey-Resume.md`. Use the root-level role-specific files for tailored applications, and the `Backlog` folder for previous versions and supporting materials.
 
 ## 👤 About Me
 
@@ -40,6 +55,7 @@ I am Arnab Dey, a Cloud & DevOps Engineer with experience in designing, deployin
 
 ## 📜 Changelog
 
+- March 14, 2026: Promoted `Arnab-Dey-Cloud-DevOps-Engineer.md` to the master resume as `Arnab-Dey-Resume.md`
 - August 27, 2025: Professional README added, changelog moved to bottom, and updated with latest changes
 - resume Updated
 - Updating resume once again

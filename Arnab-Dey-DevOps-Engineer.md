@@ -37,6 +37,10 @@ Additional experience with **AWS** and **OpenStack** cloud platforms, enabling h
 - Built **RPA workflows** in Power Automate for automation of data collection.  
 - Maintained the GitOps platform as a live demo project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 
+#### Assignment: Ericsson AB
+
+- Support and maintain radio communication test infrastructure across **hardware, servers, Gerrit for SCM and code review, and Jenkins-based CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
+
 
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  

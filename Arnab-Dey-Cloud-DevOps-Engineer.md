@@ -109,8 +109,6 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Administered Unix-based and VMware platforms, enhancing system performance and reliability.  
 - Authored **SOPs and UML diagrams**, reducing incident response times by **20%**.
 
-<br>
-
 
 ## **Education**
 
