@@ -10,21 +10,21 @@
 
 ## **Professional Summary**
 
-Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating internal platforms that improve developer workflows through Infrastructure as Code, CI/CD, scripting, automation, observability, and platform standardization. Hands-on background in Terraform, GitHub Actions, Azure DevOps, Jenkins, Python, Bash, Kubernetes, KQL, Grafana, and ELK, with a strong focus on reliability, developer enablement, and reducing friction in day-to-day engineering workflows.
+Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid and private cloud environments. Experienced in building and operating internal platforms that improve developer workflows through Infrastructure as Code, reusable CI/CD, scripting, automation, observability, and platform standardization. Hands-on background in Terraform, GitLab, GitHub Actions, Azure DevOps, Jenkins, ArgoCD, Python, Bash, Kubernetes, Prometheus, Grafana, KQL, and ELK, with a strong focus on reliability, developer enablement, and reducing friction in day-to-day engineering workflows.
 
 <br>
 
 ## **Core Skills**
 
-- **Platform Engineering**: developer tooling, workflow automation, self-service infrastructure, Kubernetes, Docker, GitOps
+- **Platform Engineering**: developer tooling, workflow automation, self-service infrastructure, Kubernetes, Docker, GitOps, ArgoCD
 - **Cloud Platforms & Architecture**: Azure, AWS, hybrid and private cloud environments, landing zones, governance, IAM
 - **Infrastructure as Code**: Terraform, reusable module libraries, ARM templates, infrastructure standardization
-- **CI/CD & Delivery**: GitHub Actions, Azure DevOps, Jenkins, build and release automation, automated developer workflows
+- **CI/CD & Delivery**: GitLab, GitHub Actions, Azure DevOps, Jenkins, ArgoCD, build and release automation, automated developer workflows
 - **Security & Compliance**: Entra ID, RBAC, Azure Policy, least-privilege access, policy guardrails, secrets-aware platform patterns
-- **Observability & Reliability**: Azure Monitor, KQL, Grafana, Prometheus, ELK, monitoring and operational visibility
+- **Observability & Reliability**: Prometheus, Grafana, Azure Monitor, KQL, ELK, monitoring and operational visibility
 - **Cost & Governance**: cloud cost optimization templates, governance controls, policy-driven infrastructure
 - **Scripting & Tooling**: Python, Bash, PowerShell, Ansible
-- **Collaboration**: requirement analysis, platform standardization, stakeholder alignment, cross-team enablement
+- **Collaboration**: requirement analysis, platform standardization, stakeholder alignment, troubleshooting, cross-team enablement
  
 
 <!--
@@ -41,14 +41,14 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
-- Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana, cert-manager, and sealed-secrets**, improving reliability, automation, and the day-to-day developer workflow through version-controlled platform operations.  
+- Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, Grafana, cert-manager, and sealed-secrets**, improving reliability, automation, and the day-to-day developer workflow through version-controlled platform operations and reusable deployment patterns.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 - Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
 
 
 **Assignment: Ericsson AB**  
 
-- Supported engineering teams by maintaining test infrastructure and CI workflows, troubleshooting issues quickly and reducing friction in daily delivery, validation, and developer support workflows.
+- Supported engineering teams by maintaining test infrastructure and CI workflows, troubleshooting issues across daily delivery and validation workflows, and reducing friction in developer support workflows.
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
@@ -69,7 +69,7 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 - Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE) to support ML-adjacent platform needs.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, and support delivery decisions for internal platform initiatives.  
 - Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
-- Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
+- Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)), strengthening workflow automation capabilities.  
 - Maintained a **Python-based automation toolkit** for infrastructure and operational tasks, strengthening scripting, command-line tooling, and workflow automation capabilities ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 ### **Senior Business Consultant (DevOps) – Tech Mahindra** *(Feb 2017 – Sep 2021)*  
@@ -82,7 +82,11 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.  
 - Published a **sanitized OpenStack DevOps solution**  (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
-Assignment: Cisco Systems
+**Assignment: CA ANZ**
+
+- Architected and guided adoption of a **GitLab**-based CI and source control model, establishing a revised **GitFlow** branching strategy, standardizing repository and pipeline practices, and supporting team-wide implementation through documentation and knowledge transfer.
+
+**Assignment: Cisco Systems**
 
 - Supported AWS-hosted networking and firmware platforms across Development, Staging, and Production environments, contributing to reliable and scalable application operations.
 - Designed and implemented AWS-based CI/CD workflows using **EC2**, Jenkins, Maven, Git, SonarQube, and an in-house orchestration tool to improve delivery automation and platform consistency.
