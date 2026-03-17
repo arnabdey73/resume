@@ -1,12 +1,16 @@
-# Arnab Dey
+<div align="center">
+	<h1><b>Arnab Dey</b></h1>
+	<p>
+		Stockholm, Sweden | +46 0764516092 | <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a><br>
+		<a href="https://www.linkedin.com/in/arnabdey73">LinkedIn</a> | <a href="https://github.com/arnabdey73">GitHub</a>
+	</p>
+</div>
 
-Stockholm, Sweden | +46 0764516092 | [arnabdey009@gmail.com](mailto:arnabdey009@gmail.com)
-
-[LinkedIn](https://www.linkedin.com/in/arnabdey73) | [GitHub](https://github.com/arnabdey73)
+<br>
 
 ## Professional Summary
 
-Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating secure, scalable cloud platforms with focus on automation, CI/CD, Infrastructure as Code, and observability. Hands-on background in Terraform, Kubernetes, Azure DevOps, GitHub Actions, AWS services, and monitoring tooling, with a track record of improving reliability, operational efficiency, and platform consistency. Strong at working with engineering and business stakeholders to translate requirements into practical cloud solutions that support delivery and day-to-day operations.
+Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and evolving secure, scalable cloud platforms with a focus on Azure governance, landing zones, Infrastructure as Code, CI/CD, and observability. Hands-on background in Terraform, Azure DevOps, Kubernetes, GitHub Actions, Entra ID, RBAC, Azure Policy, and monitoring tooling, with a track record of improving platform reliability, operational consistency, and delivery efficiency. Strong at collaborating with engineering teams and business stakeholders to translate requirements into practical cloud solutions, contribute to technical decisions, and support platform standardization.
 
 ## Core Skills
 
@@ -33,25 +37,24 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 
 ### Cloud Engineer - Stena Metall AB *(Aug 2024 - Jan 2025)*
 
-- Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and platform guardrails for enterprise Azure usage.
-- Implemented **Terraform and Azure Pipelines**-based infrastructure patterns aligned with **Azure governance** standards, enabling more consistent and controlled platform provisioning.
-- Defined and implemented **Azure Policy guardrails, Entra ID and RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency across Azure environments.
-- Improved reliability with **KQL-based monitoring**, reducing downtime by **20%**.
-- Contributed to secure and reusable Azure platform patterns that supported event-driven integrations, automated workflows, and improved operational visibility.
-- Developed reusable **Azure cost optimization templates** (sanitized) for standardized cost-saving practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
-- Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
+- Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and **landing zone** setup, helping define governance, compliance, and platform guardrails for enterprise Azure adoption.
+- Implemented **Terraform**- and **Azure Pipelines**-based infrastructure patterns aligned with Azure governance standards, enabling more consistent and controlled platform provisioning across environments.
+- Defined and implemented **Azure Policy** guardrails, **Entra ID** and **RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency.
+- Improved platform reliability and operational visibility through **KQL-based monitoring**, contributing to a **20% reduction in downtime**.
+- Contributed reusable Azure platform patterns supporting event-driven integrations, automated workflows, and improved operational visibility across Azure environments.
+- Developed reusable **Azure cost optimization templates** to support standardized cloud cost management practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
+- Published a reusable **Terraform module library** to support consistent Azure infrastructure deployment and platform standardization ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
 
 ### Senior Software Engineer (DevOps) - Capgemini Sverige AB *(Sep 2021 - Jul 2024)*
 
 #### Assignment: Volvo Cars Car Safety R&D
 
-- Implemented **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%**.
-- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency in data workflows.
-- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE).
+- Implemented **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%** and improving delivery consistency.
+- Automated **Azure Databricks** cluster scaling with **Terraform** and **GitHub Actions**, improving efficiency and operational control in data workflows.
+- Contributed to Azure-focused platform improvements by shaping reusable infrastructure patterns and delivery workflows that improved operational consistency.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, and support delivery decisions for internal platform initiatives.
-- Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
-- Configured secure programmatic access to AWS resources using IAM roles and policies, improving access governance and operational efficiency.
-- Assessed **Amazon EBS and S3** for workload fit, storage performance, and data access patterns in support of ML platform evaluation.
+<!-- Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.-->
+- Upgraded infrastructure for **Kubeflow** workloads integrated with **Kubernetes (Rancher RKE)**, supporting platform reliability and engineering productivity.
 - Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).
 - Maintained a **DevOps Python automation toolkit** for infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
@@ -64,6 +67,14 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Managed the **ELK Stack** for centralized logging and data indexing.
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.
 - Published a **sanitized OpenStack DevOps solution** (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
+
+#### Assignment: Greenstone Financial Services
+
+- Led DevOps transformation for .NET-based applications and microservices using **Azure DevOps**, improving delivery automation and release consistency.
+- Provisioned and managed **Azure** infrastructure using **Terraform**, establishing Infrastructure as Code practices for repeatable and controlled deployments.
+- Containerized and orchestrated microservices using **Docker** and **Docker Swarm**, integrated with **Azure Container Registry** to streamline build and deployment workflows.
+- Improved operational visibility using **Azure Monitor** and supported artifact management through **Azure Storage**, strengthening platform observability and delivery support.
+- Supported agile delivery and team enablement through **Azure DevOps boards**, documentation, knowledge sharing, and mentoring team members on DevOps practices.
 
 #### Assignment: Cisco Systems
 
