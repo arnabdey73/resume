@@ -21,7 +21,8 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins
 - **Identity, Security & Compliance**: Entra ID, IAM, RBAC, Azure Policy, policy guardrails, compliance controls
 - **Cost & Governance:** cost optimization templates, governance controls, policy-driven infrastructure
-- **Scripting & Tooling:** Python, Bash, PowerShell, Ansible
+- **Scripting & Tooling:** Python and Bash command-line automation, PowerShell, Ansible
+- **Operating Systems:** Linux, Unix
 - **Cloud Operations & Observability**: Amazon CloudWatch, Azure Monitor, KQL, Grafana, ELK
 - **Stakeholder Collaboration**: requirement analysis, platform standardization, cross-team alignment
  
@@ -56,7 +57,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Defined and implemented **Azure Policy guardrails, Entra ID and RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency across Azure environments.
 - Improved reliability with **KQL-based monitoring**, reducing downtime by **20%**.  
 - Contributed to secure and reusable Azure platform patterns that supported event-driven integrations, automated workflows, and improved operational visibility.
-- Developed reusable **Azure cost optimization templates** (sanitized) for standardized cost-saving practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
+- Developed reusable **Azure cost optimization templates** (sanitized) to support cloud cost governance, optimization, and reporting practices, including alignment with **Azure Cost Management** for standardized cost-saving recommendations ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
 - Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
 
 
@@ -81,6 +82,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 
 - Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications.  
 - Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.  
+- Supported core cloud networking and load-balancing configuration for distributed application environments, improving service reliability and operational stability.
 - Managed the **ELK Stack** for centralized logging and data indexing.  
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.  
 - Published a **sanitized OpenStack DevOps solution**  (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
