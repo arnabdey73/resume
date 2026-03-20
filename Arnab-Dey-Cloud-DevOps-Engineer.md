@@ -10,21 +10,21 @@
 
 ## **Professional Summary**
 
-Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating secure, scalable cloud platforms with focus on automation, CI/CD, Infrastructure as Code, and observability. Hands-on background in Terraform, Kubernetes, Azure DevOps, GitHub Actions, AWS services, and monitoring tooling, with a track record of improving reliability, operational efficiency, and platform consistency. Strong at working with engineering and business stakeholders to translate requirements into practical cloud solutions that support delivery and day-to-day operations.
+ Platform Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating secure, scalable Azure platforms with focus on automation, governance, Infrastructure as Code, identity and access control, and observability. Hands-on background in Terraform, PowerShell, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, and cost-aware platform operations, with a track record of improving reliability, operational efficiency, and platform consistency. Strong at working with engineering teams, architects, and business stakeholders to translate requirements into practical cloud solutions that support day-to-day operations and long-term platform evolution.
 
 <br>
 
 ## **Core Skills**
 
-- **Platform Engineering**: GitHub Actions, self-service infrastructure, Kubernetes, Docker
-- **Cloud Platforms & Architecture**: Azure, AWS, hybrid environments, landing zones, governance, subscription design, scalable cloud platforms
-- **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins
-- **Identity, Security & Compliance**: Entra ID, IAM, RBAC, Azure Policy, policy guardrails, compliance controls
-- **Cost & Governance:** cost optimization templates, governance controls, policy-driven infrastructure
-- **Scripting & Tooling:** Python and Bash command-line automation, PowerShell, Ansible
-- **Operating Systems:** Linux, Unix
-- **Cloud Operations & Observability**: Amazon CloudWatch, Azure Monitor, KQL, Grafana, ELK
-- **Stakeholder Collaboration**: requirement analysis, platform standardization, cross-team alignment
+- **Azure Platform Operations**: Azure subscriptions, resource groups, landing zones, governance, identity, scalable cloud platforms
+- **Azure Core Services**: compute, networking, storage, Entra ID, RBAC, Azure Policy
+- **Infrastructure as Code and Automation**: Terraform, ARM templates, Azure DevOps, PowerShell, Azure CLI, Ansible
+- **Security, Governance & Compliance**: IAM, policy guardrails, access controls, compliance controls, secure-by-design infrastructure
+- **Cloud Operations & Observability**: Azure Monitor, KQL, reliability improvement, operational visibility, incident support
+- **Cost Optimization & Governance**: Azure Cost Management, cost optimization templates, governance controls, policy-driven infrastructure
+- **DevOps & Delivery Support**: CI/CD, GitHub Actions, Jenkins, reusable platform patterns, cross-team enablement
+- **Operating Systems & Tooling**: Linux, Unix, Python, Bash
+- **Stakeholder Collaboration**: requirement analysis, platform standardization, documentation, cross-team alignment
  
 
 <!--
@@ -47,18 +47,18 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 
 **Assignment: Ericsson AB**  
 
-- Support and maintain radio communication test infrastructure across **hardware, servers, and end-to-end CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
+- Supported and maintained radio communication test infrastructure across **hardware, servers, and end-to-end CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
 
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
 - Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and platform guardrails for enterprise Azure usage.  
-- Implemented **Terraform and Azure Pipelines**-based infrastructure patterns aligned with **Azure governance** standards, enabling more consistent and controlled platform provisioning.  
-- Defined and implemented **Azure Policy guardrails, Entra ID and RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency across Azure environments.
-- Improved reliability with **KQL-based monitoring**, reducing downtime by **20%**.  
-- Contributed to secure and reusable Azure platform patterns that supported event-driven integrations, automated workflows, and improved operational visibility.
-- Developed reusable **Azure cost optimization templates** (sanitized) to support cloud cost governance, optimization, and reporting practices, including alignment with **Azure Cost Management** for standardized cost-saving recommendations ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).  
-- Published a **Terraform module library** (sanitized) for consistent Azure infrastructure deployment ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
+- Implemented **Terraform**, **PowerShell**, and **Azure Pipelines** based infrastructure patterns aligned with Azure governance standards, enabling more consistent and controlled platform provisioning.  
+- Managed and strengthened **Entra ID**, **RBAC**, and **Azure Policy** guardrails to improve identity governance, access control, and secure-by-design platform operations across Azure environments.  
+- Supported Azure platform operations across core services including identity, storage, and platform-level configuration while contributing to reliable day-to-day cloud operations.  
+- Improved reliability and operational visibility with **Azure Monitor** and **KQL-based monitoring**, contributing to a **20% reduction in downtime**.  
+- Developed reusable Azure platform patterns and **Terraform module libraries** to support standardized provisioning, automation, and platform consistency ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
+- Developed reusable **Azure cost optimization templates** (sanitized) aligned with **Azure Cost Management** to support cost governance, optimization, and reporting practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
 
 
 ### **Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(Sep 2021 – Jul 2024)*  
@@ -72,7 +72,6 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
 - Configured secure programmatic access to AWS resources using IAM roles and policies, improving access governance and operational efficiency.
 - Assessed **Amazon EBS and S3** for workload fit, storage performance, and data access patterns in support of ML platform evaluation.
-- Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
 - Maintained a **DevOps Python automation toolkit** for infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 

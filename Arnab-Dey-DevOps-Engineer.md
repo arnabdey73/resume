@@ -10,22 +10,22 @@
 
 ## **Professional Summary**
 
-DevOps Engineer with 8+ years of experience building and automating **Azure cloud platforms** with a focus on **security, scalability, and developer enablement**. Skilled in **RBAC**, infrastructure as code with **Terraform**, CI/CD automation, and Kubernetes orchestration. Experienced in implementing **Azure best practices**, including elements of the Cloud Adoption Framework (CAF), and improving operational visibility through advanced monitoring and logging.
+Senior DevOps Engineer with 9+ years (15+ years in IT) of experience building and automating cloud and platform environments across **Azure**, **AWS**, and hybrid infrastructure. Strong hands-on experience with **Jenkins**, **Terraform**, **Ansible**, **Git**, **Python**, **Bash**, and **PowerShell** for CI/CD, infrastructure automation, and operational reliability.
 
-Additional experience with **AWS** and **OpenStack** cloud platforms, enabling hybrid and multi-cloud solutions. Passionate about streamlining workflows, enhancing reliability, and enabling teams to deliver high-quality solutions efficiently.
+Worked in engineering-driven environments supporting **build, integration, and test infrastructure**, including assignments with **Ericsson** and **Volvo Cars**. Experienced in improving pipeline stability, automating deployments, strengthening observability, and enabling cross-functional teams to deliver reliable solutions at scale.
 
 
 
 ## **Core Skills**
 
-- **Cloud Platforms:** Azure (Entra ID, RBAC, Logic Apps, Cloud Adoption Framework), AWS, OpenStack  
-- **Infrastructure as Code (IaC):** Terraform, ARM templates, GitOps (ArgoCD)  
-- **CI/CD Pipelines:** Azure DevOps, GitHub Actions, Jenkins  
+- **Cloud Platforms:** Azure, AWS, OpenStack  
+- **CI/CD & SCM:** Jenkins, Azure DevOps, GitHub Actions, Git, Gerrit  
+- **Infrastructure as Code (IaC):** Terraform, Ansible, ARM templates, GitOps (ArgoCD)  
+- **Scripting & Automation:** Python, Bash, PowerShell  
 - **Containers & Orchestration:** Kubernetes (Rancher, K3s), Docker  
 - **Monitoring & Observability:** Azure Monitor, App Insights, Prometheus, Grafana, ELK Stack, KQL  
-- **Identity & Security:** Entra ID, Role-based access controls, policy automation  
-- **Scripting & Automation:** Python, Bash, PowerShell  
-- **Ways of Working:** Agile/SAFe, DevOps mentoring, documentation, cross-team collaboration  
+- **Platform & Security:** Entra ID, RBAC, policy automation, Linux systems administration  
+- **Ways of Working:** Agile/SAFe, Scrum, Kanban, documentation, cross-team collaboration  
 
 <br>
 
@@ -39,7 +39,10 @@ Additional experience with **AWS** and **OpenStack** cloud platforms, enabling h
 
 #### Assignment: Ericsson AB
 
-- Support and maintain radio communication test infrastructure across **hardware, servers, Gerrit for SCM and code review, and Jenkins-based CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
+- Support and maintain radio communication **test infrastructure** across hardware, Linux servers, **Gerrit** code review workflows, and **Jenkins-based CI pipelines**.  
+- Improve reliability and continuity of **smoke and regression testing** workflows by troubleshooting build, environment, and integration issues.  
+- Automate operational and support tasks using **Python**, **Bash**, and **PowerShell** in engineering-focused environments.  
+- Collaborate with development and test teams to stabilize CI workflows and improve day-to-day delivery efficiency.
 
 
 
@@ -56,9 +59,10 @@ Additional experience with **AWS** and **OpenStack** cloud platforms, enabling h
 
 **Assignment: Volvo Cars Car Safety R&D**  
 
-- Designed and optimized **CI/CD pipelines in Azure DevOps**, reducing release cycle times by **30%**.  
-- Automated **Azure Databricks scaling** with Terraform and GitHub Actions.  
-- Upgraded infrastructure for **Kubeflow workloads** with Kubernetes and Rancher, improving platform scalability and performance.
+- Designed and optimized **CI/CD pipelines in Azure DevOps** for automotive engineering workflows, reducing release cycle times by **30%**.  
+- Automated infrastructure and deployment workflows using **Terraform** and **GitHub Actions**, improving repeatability and delivery speed.  
+- Supported scalable **Kubernetes** and **Rancher** platform environments used by engineering and data-intensive workloads.  
+- Collaborated with cross-functional teams in an **Agile** setup to improve delivery flow, platform reliability, and operational efficiency.
 
 **Internal Initiatives**  
 
