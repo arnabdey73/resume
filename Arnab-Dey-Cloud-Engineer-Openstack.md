@@ -10,19 +10,19 @@
 
 ## **Professional Summary**
 
-Cloud Engineer with 15+ years of overall IT experience, including **9+ years** across cloud and infrastructure engineering in **public and hybrid** cloud environments. Experienced with **OpenStack**, Azure, AWS, and **Linux-based infrastructure**, with hands-on work in **cloud operations, automation, platform reliability, and infrastructure standardization**. Strong background in building, operating, and troubleshooting cloud platforms using Terraform, Ansible, CI/CD, and observability tooling across compute, storage, networking, and virtualization, while collaborating across infrastructure teams to improve **reliability, scalability, and day-to-day operability**.
+Cloud Engineer with 15+ years of overall IT experience, including **9+ years** across cloud and infrastructure engineering in **public, private, and hybrid** cloud environments. Hands-on experience operating **Linux-based platforms** across **OpenStack**, Azure, AWS, Kubernetes, and cloud-native infrastructure, with a strong focus on **platform reliability, production operations, automation, observability, and infrastructure standardization**. Strong background in building, operating, and troubleshooting distributed platforms using Terraform, Ansible, CI/CD, **Bash**, **Python**, and observability tooling across compute, storage, networking, and virtualization, while collaborating across infrastructure teams to improve **reliability, scalability, and day-to-day operability**.
 
 <br>
 
 ## **Core Skills**
 
-- **Private Cloud & Virtualization**: OpenStack, virtualized infrastructure, compute and platform operations
-- **Linux & Systems Administration**: Linux/Unix administration, shell scripting, operational support
-- **Infrastructure as Code & Automation**: Terraform, Ansible, ARM templates, Jenkins, Azure DevOps, GitHub Actions
-- **Monitoring & Observability**: Grafana, ELK, Azure Monitor, KQL
-- **Container & Platform Engineering**: Kubernetes, Docker, self-service infrastructure
-- **Networking & Platform Operations**: troubleshooting, infrastructure reliability, cross-team incident support
-- **Azure Experience**: landing zones, governance, IAM, policy guardrails, Entra ID, RBAC
+- **Cloud Platforms**: OpenStack, AWS, Azure, hybrid and private cloud infrastructure
+- **Linux & Systems Operations**: Linux/Unix administration, shell scripting, production support, troubleshooting
+- **Kubernetes & Containers**: Kubernetes, Docker, Rancher exposure, platform operations
+- **Infrastructure as Code & Automation**: Terraform, Ansible, GitOps, ArgoCD, Jenkins, Azure DevOps, GitHub Actions
+- **Observability & Monitoring**: Prometheus, Grafana, ELK, Azure Monitor, KQL, centralized logging and alerting
+- **Reliability & Platform Operations**: incident support, root cause analysis, infrastructure reliability, cross-team operational collaboration
+- **Scripting & Tooling**: Bash, Python, PowerShell
 
 <!--
 - **Infrastructure Automation:** Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)
@@ -45,7 +45,7 @@ Cloud Engineer with 15+ years of overall IT experience, including **9+ years** a
 
 **Assignment: Ericsson AB**  
 
-- Maintain radio communication test infrastructure across **hardware, servers, and end-to-end CI pipelines**, improving reliability and continuity in smoke and regression testing workflows.
+- Supported **Linux-based** radio communication test infrastructure across **hardware, servers, and end-to-end CI pipelines**, troubleshooting environment and integration issues to improve reliability and continuity in smoke and regression testing workflows.
 
 
 
@@ -75,24 +75,24 @@ Cloud Engineer with 15+ years of overall IT experience, including **9+ years** a
 
 **Assignment: Deutsche Telekom**  
 
-- Supported production operations of OpenStack-based cloud environments at scale, helping improve platform reliability, automation, and day-to-day operability across hybrid infrastructure.
-- Automated infrastructure provisioning and operational tasks using Terraform and Ansible, reducing operational overhead by 20%.
-- Monitored and troubleshot cloud platform issues using centralized logging and observability tooling, improving operational visibility and support efficiency.
-- Designed and managed CI/CD pipelines using Jenkins for cloud-hosted applications and infrastructure delivery workflows.
-- Worked with containerized and microservice-based environments using Docker and Kubernetes, improving resource utilization by 25%.
+- Supported production operations of **OpenStack-based cloud environments** at scale, improving platform reliability, operational stability, and day-to-day service operability across hybrid infrastructure.
+- Automated infrastructure provisioning and operational workflows using **Terraform** and **Ansible**, reducing manual effort and improving consistency of platform operations.
+- Monitored and troubleshot cloud platform issues using centralized logging and observability tooling, strengthening incident support and operational visibility across distributed environments.
+- Designed and maintained **Jenkins**-based CI/CD workflows for infrastructure and cloud-hosted application delivery.
+- Supported containerized and microservice-based workloads running on **Docker** and **Kubernetes**, improving platform utilization, scalability, and service reliability.
 - Published a sanitized OpenStack DevOps solution showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
 
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
 
-- Managed AWS and VMware environments, improving uptime by **15%** through optimized resource utilization.  
-- Automated operations using **Ansible** and shell scripting.
+- Managed AWS and VMware environments in production, improving uptime by **15%** through optimized resource utilization and operational support.  
+- Automated operational tasks using **Ansible** and shell scripting, improving consistency and reducing manual support effort.
 
 
 
 ### **Unix/Linux Systems Administrator – Hewlett Packard Enterprise** *(Nov 2011 – Aug 2015)*  
 
-- Administered Unix/Linux-based production environments and VMware platforms, improving system reliability and operational stability.
+- Administered Unix/Linux-based production environments and VMware platforms, improving system reliability, operational stability, and day-to-day supportability.
 - Authored SOPs and UML diagrams, improving operational consistency and reducing incident response times by 20%.
 
 <br>
