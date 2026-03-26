@@ -10,19 +10,19 @@
 
 ## **Professional Summary**
 
- Platform Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and operating secure, scalable Azure platforms with a strong focus on automation, Infrastructure as Code, CI/CD, identity and access control, observability, and platform standardization. Hands-on background in Terraform, PowerShell, Python, GitHub Actions, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, and Kubernetes, with a track record of improving reliability, operational efficiency, and engineering consistency. Strong at enabling development teams through secure-by-design cloud platforms, reusable automation, and practical cloud solutions that support delivery at scale.
+  Cloud and DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid cloud environments. Experienced in designing, implementing, and operating secure, scalable Azure platforms with a strong focus on Infrastructure as Code (IaC), CI/CD, identity and access control, observability, monitoring, and cloud operations. Hands-on background in Terraform, PowerShell, Python, GitHub Actions, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, Logic Apps, Azure Container Registry, Azure Storage, and Kubernetes, with a track record of improving reliability, operational efficiency, and engineering consistency. Strong at translating requirements into secure, practical cloud solutions that support delivery at scale.
 
 <br>
 
 ## **Core Skills**
 
-- **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity, scalable cloud platforms, secure-by-design cloud environments
-- **Azure Services & Platform Capabilities**: compute, networking, storage, Entra ID, RBAC, Azure Policy, platform-oriented Azure operations
-- **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI
-- **CI/CD & Delivery Engineering**: GitHub Actions, Azure DevOps, Jenkins, reusable delivery workflows, deployment automation
-- **Security, Governance & Compliance**: IAM, policy guardrails, least-privilege access controls, compliance controls, secure platform standards
-- **Observability & Reliability**: Azure Monitor, KQL, logging, monitoring, alerting, operational visibility, incident support
-- **Containers & Platform Tooling**: Kubernetes, Docker, cloud-native platforms, engineering enablement
+- **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity and access management, scalable cloud platforms, secure-by-design cloud environments
+- **Azure Services & Platform Capabilities**: compute, networking, storage, IaaS, PaaS, Logic Apps, Azure Container Registry (ACR), Azure Storage, Azure platform operations
+- **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI, reusable module libraries, infrastructure provisioning
+- **CI/CD & Delivery Engineering**: GitHub Actions, Azure DevOps, Jenkins, Git-based workflows, reusable delivery workflows, deployment automation
+- **Security, Governance & Compliance**: Entra ID, identity and access management (IAM), RBAC, Azure Policy, least-privilege access controls, governance guardrails, compliance controls, secure platform standards
+- **Observability & Reliability**: Azure Monitor, Log Analytics, KQL, logging, monitoring, alerting, incident support, operational visibility
+- **Containers & Platform Tooling**: Kubernetes, Docker, Docker Swarm, containerized workloads, cloud-native platforms, engineering enablement
 - **Cost & Lifecycle Management**: Azure Cost Management, cost optimization templates, governance controls, lifecycle-aware platform operations
 - **Collaboration & Engineering Standards**: requirement analysis, documentation, platform standardization, cross-team alignment, knowledge sharing
  
@@ -43,7 +43,6 @@
 
 - Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, and Grafana**, enabling version-controlled infrastructure, improved observability, and more reliable platform operations for engineering workflows.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
-- Built **RPA workflows in Power Automate** to automate data collection from **Tendsign**, supporting business process optimization.  
 
 **Assignment: Ericsson AB**  
 
@@ -55,7 +54,7 @@
 - Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and secure platform guardrails for scalable enterprise Azure adoption.  
 - Implemented **Terraform**, **PowerShell**, and **Azure Pipelines** based infrastructure patterns aligned with Azure governance standards, enabling more consistent, automated, and secure platform provisioning across Azure environments.  
 - Managed and strengthened **Entra ID**, **RBAC**, and **Azure Policy** guardrails to improve identity governance, access control, and secure-by-design platform operations across Azure environments.  
-- Supported Azure platform operations across identity, storage, and platform-level configuration, contributing to secure, reliable, and cost-aware day-to-day cloud operations.  
+- Supported Azure platform operations across identity, storage, **Logic Apps**, and platform-level configuration, contributing to secure, reliable, and cost-aware day-to-day cloud operations.  
 - Improved reliability and operational visibility with **Azure Monitor** and **KQL-based monitoring**, contributing to a **20% reduction in downtime**.  
 - Developed reusable Azure platform patterns and **Terraform module libraries** to support standardized provisioning, automation, platform consistency, and faster adoption by engineering teams ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
 - Developed reusable **Azure cost optimization templates** (sanitized) aligned with **Azure Cost Management** to support cost governance, optimization, and reporting practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
@@ -70,8 +69,6 @@
 - Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE).
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, contribute to engineering standards, and support delivery decisions for internal platform initiatives.  
 - Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
-- Configured secure programmatic access to AWS resources using IAM roles and policies, improving access governance and operational efficiency.
-- Assessed **Amazon EBS and S3** for workload fit, storage performance, and data access patterns in support of ML platform evaluation.
 - Maintained a **DevOps Python automation toolkit** for infrastructure and operational tasks, strengthening internal tooling and workflow automation capabilities ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 
@@ -79,21 +76,27 @@
 
 **Assignment: Deutsche Telekom**  
 
-- Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications.  
-- Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.  
-- Supported core cloud networking and load-balancing configuration for distributed application environments, improving service reliability and operational stability.
-- Managed the **ELK Stack** for centralized logging and observability, improving operational visibility across distributed application environments.  
-- Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation, improving consistency across tooling and operational workflows.  
-- Published a **sanitized OpenStack DevOps solution**  (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
+- Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications, improving delivery consistency across distributed environments.  
+- Automated containerized microservice deployments with **Docker** and **Kubernetes**, improving resource utilization by **25%** and strengthening release reliability.  
+- Supported core cloud networking, load-balancing, and platform operations for distributed application environments, improving service stability and operational continuity.
+- Managed the **ELK Stack** for centralized logging and observability, improving troubleshooting efficiency and operational visibility across hybrid infrastructure.  
+- Reduced operational overhead by **20%** through **Terraform** and **Ansible**-based infrastructure automation for provisioning and operational workflows.  
+- Published a **sanitized OpenStack DevOps solution** showcasing provisioning, monitoring, and automation patterns for OpenStack-based environments ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
+
+**Assignment: Greenstone Financial Services**
+
+- Led DevOps transformation for **.NET-based applications** and microservices using **Azure DevOps**, improving delivery automation and release consistency.
+- Provisioned and managed **Azure** infrastructure using **Terraform**, establishing Infrastructure as Code practices for repeatable and controlled deployments.
+- Containerized and orchestrated microservices using **Docker** and **Docker Swarm**, integrated with **Azure Container Registry** to streamline build and deployment workflows.
+- Improved operational visibility using **Azure Monitor** and supported artifact management through **Azure Storage**, strengthening platform observability and delivery support.
+- Supported agile delivery and team enablement through **Azure DevOps** boards, documentation, knowledge sharing, and mentoring team members on DevOps practices.
 
 **Assignment: Cisco Systems**
 
 - Supported AWS-hosted networking and firmware platforms across Development, Staging, and Production environments, contributing to reliable and scalable application operations.
-- Designed and implemented AWS-based CI/CD workflows using **EC2**, Jenkins, Maven, Git, SonarQube, and an in-house orchestration tool to improve delivery automation and platform consistency.
-- Built and operated containerized microservices with Docker and **Amazon ECS**, contributing to scalable distributed application deployment patterns.
-- Strengthened platform observability through **Amazon CloudWatch**, ELK Stack, and Graylog, improving operational visibility and issue resolution.
-- Supported distributed application patterns and automated delivery workflows, improving scalability, resilience, and operational continuity across environments.
-- Mentored team members and shared technical guidance to improve delivery practices, engineering consistency, and team capability.
+- Designed and implemented AWS-based CI/CD workflows using **EC2**, Jenkins, Maven, Git, SonarQube, and orchestration tooling to improve delivery automation and platform consistency.
+- Built and operated containerized microservices with Docker and **Amazon ECS**, strengthening scalable distributed application deployment patterns.
+- Improved observability and team capability through **Amazon CloudWatch**, ELK Stack, Graylog, and mentoring across delivery workflows.
 
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
 

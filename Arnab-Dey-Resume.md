@@ -10,18 +10,18 @@
 
 ## Professional Summary
 
-Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in building and evolving secure, scalable cloud platforms with a focus on Azure governance, landing zones, Infrastructure as Code, CI/CD, and observability. Hands-on background in Terraform, Azure DevOps, Kubernetes, GitHub Actions, Entra ID, RBAC, Azure Policy, and monitoring tooling, with a track record of improving platform reliability, operational consistency, and delivery efficiency. Strong at collaborating with engineering teams and business stakeholders to translate requirements into practical cloud solutions, contribute to technical decisions, and support platform standardization.
+Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid environments. Experienced in designing and evolving secure, scalable cloud platforms in Azure with a focus on governance, landing zones, Infrastructure as Code, CI/CD, automation, and observability. Hands-on background in Terraform, Azure DevOps, Kubernetes, GitHub Actions, Entra ID, RBAC, Azure Policy, and monitoring tooling, with a track record of improving platform reliability, operational consistency, and delivery efficiency in enterprise environments. Strong at working with both engineering teams and business stakeholders to turn requirements into practical cloud solutions, guide technical direction, and support platform standardization.
 
 ## Core Skills
 
 - **Platform Engineering**: GitHub Actions, self-service infrastructure, Kubernetes, Docker
-- **Cloud Platforms & Architecture**: Azure, AWS, hybrid environments, landing zones, governance, subscription design, scalable cloud platforms
-- **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins
+- **Cloud Platforms & Solution Design**: Azure, AWS, hybrid environments, landing zones, governance, subscription design, scalable cloud platforms
+- **Infrastructure as Code and Delivery**: Terraform, ARM templates, Azure DevOps, Jenkins, reusable platform patterns
 - **Identity, Security & Compliance**: Entra ID, IAM, RBAC, Azure Policy, policy guardrails, compliance controls
-- **Cost & Governance**: cost optimization templates, governance controls, policy-driven infrastructure
+- **Cost & Governance**: cost optimization templates, governance controls, policy-driven infrastructure, cloud optimization
 - **Scripting & Tooling**: Python, Bash, PowerShell, Ansible
-- **Cloud Operations & Observability**: Amazon CloudWatch, Azure Monitor, KQL, Grafana, ELK
-- **Stakeholder Collaboration**: requirement analysis, platform standardization, cross-team alignment
+- **Cloud Operations & Observability**: Amazon CloudWatch, Azure Monitor, KQL, Grafana, ELK, resilient platform operations
+- **Stakeholder Collaboration**: requirement analysis, workshops, platform standardization, cross-team alignment
 
 ## Professional Experience
 
@@ -42,6 +42,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Defined and implemented **Azure Policy** guardrails, **Entra ID** and **RBAC** access controls, and secure-by-design infrastructure patterns to improve platform security, compliance, and operational consistency.
 - Improved platform reliability and operational visibility through **KQL-based monitoring**, contributing to a **20% reduction in downtime**.
 - Contributed reusable Azure platform patterns supporting event-driven integrations, automated workflows, and improved operational visibility across Azure environments.
+- Facilitated internal discussions around governance, platform standards, and cost-aware Azure usage, helping align delivery teams on practical implementation patterns.
 - Developed reusable **Azure cost optimization templates** to support standardized cloud cost management practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
 - Published a reusable **Terraform module library** to support consistent Azure infrastructure deployment and platform standardization ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
 
@@ -53,6 +54,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Automated **Azure Databricks** cluster scaling with **Terraform** and **GitHub Actions**, improving efficiency and operational control in data workflows.
 - Contributed to Azure-focused platform improvements by shaping reusable infrastructure patterns and delivery workflows that improved operational consistency.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, and support delivery decisions for internal platform initiatives.
+- Supported solution design discussions for internal platform initiatives, helping connect engineering needs with delivery, operational, and business priorities.
 <!-- Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.-->
 - Upgraded infrastructure for **Kubeflow** workloads integrated with **Kubernetes (Rancher RKE)**, supporting platform reliability and engineering productivity.
 - Led the **AI-powered Resume Builder Agent** project (sanitized version [GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).
@@ -66,6 +68,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.
 - Managed the **ELK Stack** for centralized logging and data indexing.
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.
+- Contributed to large-scale delivery environments by supporting platform automation, containerized workloads, and cross-team operational reliability.
 - Published a **sanitized OpenStack DevOps solution** (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
 #### Assignment: Greenstone Financial Services
@@ -75,6 +78,7 @@ Cloud & DevOps Engineer with 15+ years of IT experience, including 9+ years in c
 - Containerized and orchestrated microservices using **Docker** and **Docker Swarm**, integrated with **Azure Container Registry** to streamline build and deployment workflows.
 - Improved operational visibility using **Azure Monitor** and supported artifact management through **Azure Storage**, strengthening platform observability and delivery support.
 - Supported agile delivery and team enablement through **Azure DevOps boards**, documentation, knowledge sharing, and mentoring team members on DevOps practices.
+- Worked with technical stakeholders to shape practical Azure delivery approaches that balanced reliability, security, and implementation speed.
 
 #### Assignment: Cisco Systems
 

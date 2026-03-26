@@ -1,0 +1,9 @@
+I am applying for the Azure Cloud Engineer role at VIPAS AB. With 15+ years of IT experience, including 9+ years in cloud and platform engineering, I bring hands-on experience designing, implementing, and operating Azure environments with a strong focus on Infrastructure as Code, CI/CD, automation, observability, and secure cloud operations.
+
+In my recent work at Stena Metall, I supported Azure platform engineering and governance initiatives, including landing zone and Cloud Adoption Framework related work, Terraform and Azure Pipelines based infrastructure patterns, and security controls using Entra ID, RBAC, and Azure Policy. I also supported Azure platform operations across identity, storage, and Logic Apps, improved operational visibility using Azure Monitor and KQL, and contributed reusable Terraform modules and Azure cost optimization templates.
+
+I also bring Azure DevOps and application-platform experience from Greenstone Financial Services and Volvo Cars related assignments. At Greenstone, I led DevOps transformation for .NET applications and microservices using Azure DevOps, provisioned Azure infrastructure with Terraform, and supported delivery workflows using Azure Container Registry, Azure Monitor, and Azure Storage. Across my recent roles, I have worked with Kubernetes, Docker, GitHub Actions, Jenkins, and cloud automation tooling to improve delivery speed, operational reliability, and engineering consistency.
+
+What attracts me to VIPAS is the opportunity to work on Azure engineering in a consulting environment across different industries. I am comfortable working with developers, architects, and stakeholders to translate requirements into secure and scalable cloud solutions, and I would welcome the opportunity to contribute my Azure, Terraform, CI/CD, monitoring, and cloud operations experience.
+
+Arnab Dey
