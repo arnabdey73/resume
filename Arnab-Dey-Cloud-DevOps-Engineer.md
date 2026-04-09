@@ -10,19 +10,19 @@
 
 ## **Professional Summary**
 
-  Cloud and DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid cloud environments. Experienced in designing, implementing, and operating secure, scalable Azure platforms with a strong focus on Infrastructure as Code (IaC), CI/CD, identity and access control, observability, monitoring, and cloud operations. Hands-on background in Terraform, PowerShell, Python, GitHub Actions, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, Logic Apps, Azure Container Registry, Azure Storage, and Kubernetes, with a track record of improving reliability, operational efficiency, and engineering consistency. Strong at translating requirements into secure, practical cloud solutions that support delivery at scale.
+  Cloud and DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid cloud environments. Experienced in designing, implementing, and operating secure, scalable Azure platforms and Kubernetes environments across cloud-hosted and self-managed clusters, with a strong focus on Infrastructure as Code (IaC), CI/CD, GitHub-based workflows, identity and access control, observability, monitoring, and cloud operations. Hands-on background in Terraform, PowerShell, Python, GitHub Actions, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, Logic Apps, Azure Container Registry, Azure Storage, Azure Key Vault, and Kubernetes, with a track record of improving reliability, operational efficiency, and engineering consistency. Strong at translating requirements into secure, practical cloud solutions that support delivery at scale.
 
 <br>
 
 ## **Core Skills**
 
 - **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity and access management, scalable cloud platforms, secure-by-design cloud environments
-- **Azure Services & Platform Capabilities**: compute, networking, storage, IaaS, PaaS, Logic Apps, Azure Container Registry (ACR), Azure Storage, Azure platform operations
+- **Azure Services & Platform Capabilities**: compute, networking, storage, IaaS, PaaS, Logic Apps, Azure Container Registry (ACR), Azure Storage, Azure Key Vault, Azure platform operations
 - **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI, reusable module libraries, infrastructure provisioning
-- **CI/CD & Delivery Engineering**: GitHub Actions, Azure DevOps, Jenkins, Git-based workflows, reusable delivery workflows, deployment automation
+- **CI/CD & Delivery Engineering**: GitHub Actions, GitHub workflows, Azure DevOps, Jenkins, Git-based workflows, reusable delivery workflows, deployment automation
 - **Security, Governance & Compliance**: Entra ID, identity and access management (IAM), RBAC, Azure Policy, least-privilege access controls, governance guardrails, compliance controls, secure platform standards
 - **Observability & Reliability**: Azure Monitor, Log Analytics, KQL, logging, monitoring, alerting, incident support, operational visibility
-- **Containers & Platform Tooling**: Kubernetes, Docker, Docker Swarm, containerized workloads, cloud-native platforms, engineering enablement
+- **Containers & Platform Tooling**: Kubernetes, self-managed Kubernetes, Rancher RKE, K3s, Docker, Docker Swarm, ArgoCD, containerized workloads, cloud-native platforms, engineering enablement
 - **Cost & Lifecycle Management**: Azure Cost Management, cost optimization templates, governance controls, lifecycle-aware platform operations
 - **Collaboration & Engineering Standards**: requirement analysis, documentation, platform standardization, cross-team alignment, knowledge sharing
  
@@ -41,7 +41,7 @@
 
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
-- Designed and deployed a **GitOps-based Kubernetes platform** using **ArgoCD, Prometheus, and Grafana**, enabling version-controlled infrastructure, improved observability, and more reliable platform operations for engineering workflows.  
+- Designed and deployed a **GitOps-based self-managed Kubernetes platform** using **K3s, ArgoCD, Prometheus, and Grafana**, enabling version-controlled infrastructure, improved observability, and more reliable platform operations for engineering workflows.  
 - Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 
 **Assignment: Ericsson AB**  
@@ -54,7 +54,7 @@
 - Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and secure platform guardrails for scalable enterprise Azure adoption.  
 - Implemented **Terraform**, **PowerShell**, and **Azure Pipelines** based infrastructure patterns aligned with Azure governance standards, enabling more consistent, automated, and secure platform provisioning across Azure environments.  
 - Managed and strengthened **Entra ID**, **RBAC**, and **Azure Policy** guardrails to improve identity governance, access control, and secure-by-design platform operations across Azure environments.  
-- Supported Azure platform operations across identity, storage, **Logic Apps**, and platform-level configuration, contributing to secure, reliable, and cost-aware day-to-day cloud operations.  
+- Supported Azure platform operations across identity, storage, **Azure Key Vault**, networking services, **Logic Apps**, and platform-level configuration, contributing to secure, reliable, and cost-aware day-to-day cloud operations.  
 - Improved reliability and operational visibility with **Azure Monitor** and **KQL-based monitoring**, contributing to a **20% reduction in downtime**.  
 - Developed reusable Azure platform patterns and **Terraform module libraries** to support standardized provisioning, automation, platform consistency, and faster adoption by engineering teams ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
 - Developed reusable **Azure cost optimization templates** (sanitized) aligned with **Azure Cost Management** to support cost governance, optimization, and reporting practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
@@ -65,8 +65,8 @@
 **Assignment: Volvo Cars Car Safety R&D** 
  
 - Implemented **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%** and improving delivery reliability for engineering workflows.
-- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency, operational control, and repeatability in cloud-based data workflows.  
-- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with Kubernetes (Rancher RKE).
+- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency, operational control, repeatability, and GitHub-based workflow automation in cloud-based data workflows.  
+- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with **self-managed Kubernetes** using **Rancher RKE**.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, contribute to engineering standards, and support delivery decisions for internal platform initiatives.  
 - Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
 - Maintained a **DevOps Python automation toolkit** for infrastructure and operational tasks, strengthening internal tooling and workflow automation capabilities ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
@@ -77,7 +77,7 @@
 **Assignment: Deutsche Telekom**  
 
 - Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications, improving delivery consistency across distributed environments.  
-- Automated containerized microservice deployments with **Docker** and **Kubernetes**, improving resource utilization by **25%** and strengthening release reliability.  
+- Automated containerized microservice deployments with **Docker** and **Kubernetes** across non-managed cluster environments, improving resource utilization by **25%** and strengthening release reliability.  
 - Supported core cloud networking, load-balancing, and platform operations for distributed application environments, improving service stability and operational continuity.
 - Managed the **ELK Stack** for centralized logging and observability, improving troubleshooting efficiency and operational visibility across hybrid infrastructure.  
 - Reduced operational overhead by **20%** through **Terraform** and **Ansible**-based infrastructure automation for provisioning and operational workflows.  
