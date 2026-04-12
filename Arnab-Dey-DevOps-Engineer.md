@@ -10,22 +10,22 @@
 
 ## **Professional Summary**
 
-Senior DevOps Engineer with 9+ years of hands-on DevOps experience and 15+ years in IT, building, supporting, and improving CI/CD, cloud, and platform environments across **AWS**, **Azure**, and hybrid infrastructure. Strong experience with **Python**, **Bash**, **Terraform**, **Ansible**, **Jenkins**, **Git**, **Docker**, and **Kubernetes** for pipeline automation, infrastructure delivery, troubleshooting, and operational reliability in engineering-driven environments.
+Senior DevOps Engineer with 9+ years of hands-on DevOps experience and 15+ years in IT, building, supporting, and improving CI/CD, Linux-based platform, and hybrid infrastructure environments across **AWS**, **Azure**, and private cloud platforms. Strong experience with **Jenkins**, **Kubernetes**, **Python**, **Bash**, **Terraform**, **Ansible**, **Git**, and container platforms for pipeline engineering, infrastructure automation, troubleshooting, and operational reliability in engineering-driven environments.
 
-Worked with cross-functional teams in **automotive and telecom** environments, including assignments with **Ericsson** and **Volvo Cars**, supporting CI workflows, build and integration activities, platform operations, and day-to-day delivery continuity. Experienced in troubleshooting across infrastructure and application layers, improving observability with **Prometheus**, **Grafana**, and logging platforms, and partnering with multiple stakeholders to stabilize delivery pipelines and improve software reliability at scale.
+Worked with cross-functional teams in **automotive and telecom** environments, including assignments with **Ericsson** and **Volvo Cars**, supporting CI workflows, build and integration activities, platform operations, and day-to-day delivery continuity. Experienced in improving internal engineering platforms that support development and test workflows, troubleshooting across infrastructure, networking-adjacent platform issues, and application layers, and strengthening observability with **Prometheus**, **Grafana**, and logging platforms to improve reliability at scale.
 
 
 
 ## **Core Skills**
 
-- **CI/CD & SCM:** GitLab CI/CD, Jenkins, Azure DevOps, GitHub Actions, Git, Gerrit  
-- **Scripting & Automation:** Python, Bash, PowerShell  
-- **Containers & Orchestration:** Kubernetes (Rancher, K3s), Docker, microservices platforms  
+- **CI/CD & SCM:** Jenkins, GitLab CI/CD, Azure DevOps, GitHub Actions, Git, Gerrit  
+- **Linux, Scripting & Automation:** Linux operations, Python, Bash, PowerShell  
+- **Containers & Orchestration:** Kubernetes (self-managed, Rancher, K3s), Docker, microservices platforms  
 - **Monitoring & Observability:** Prometheus, Grafana, ELK Stack, App Insights, KQL, Amazon CloudWatch, alerting  
-- **Infrastructure as Code (IaC):** Terraform, Ansible, ARM templates, GitOps (ArgoCD)  
-- **Cloud Platforms:** AWS, Azure, OpenStack  
+- **Infrastructure as Code (IaC):** Terraform, Ansible, ARM templates, GitOps (ArgoCD), configuration automation  
+- **Cloud & Hybrid Platforms:** AWS, Azure, OpenStack, hybrid infrastructure  
 - **AWS & Azure Services:** EC2, S3, EBS, IAM, Azure Monitor, Entra ID, RBAC  
-- **Delivery & Support Operations:** solution deployment, customer support, incident response, technical documentation, end-to-end troubleshooting  
+- **Delivery & Support Operations:** solution deployment, incident response, technical documentation, end-to-end troubleshooting, platform support, internal development platform support  
 - **Ways of Working:** Agile/SAFe, Scrum, Kanban, documentation, cross-team collaboration, stakeholder coordination  
 
 <br>
@@ -34,8 +34,8 @@ Worked with cross-functional teams in **automotive and telecom** environments, i
 
 ### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
-- Designed and deployed a **GitOps-based single-node deployment platform** with ArgoCD, K3s, Prometheus, Grafana, sealed-secrets, and cert-manager to support automated, repeatable platform delivery and stronger pipeline observability.  
-- Improved a Kubernetes-based delivery platform by strengthening deployment consistency, observability, and infrastructure automation for more reliable day-to-day operations.  
+- Designed and deployed a **GitOps-based single-node deployment platform** with ArgoCD, **K3s**, Prometheus, Grafana, sealed-secrets, and cert-manager to support automated, repeatable platform delivery and stronger pipeline observability.  
+- Improved a **self-managed Kubernetes** delivery platform by strengthening deployment consistency, observability, and infrastructure automation for more reliable day-to-day operations in a developer-facing environment.  
 - Maintained the GitOps platform as a live demo project to showcase cloud-native delivery patterns ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 
 **Assignment: Ericsson AB**
@@ -43,7 +43,7 @@ Worked with cross-functional teams in **automotive and telecom** environments, i
 - Support and maintain radio communication **test infrastructure** across hardware, Linux servers, **Gerrit** workflows, and **Jenkins-based CI pipelines** in an engineering environment with multiple stakeholders.  
 - Troubleshoot build, environment, and integration issues to improve the reliability and continuity of **smoke and regression testing** workflows and reduce CI disruption.  
 - Automate operational and support tasks with **Python**, **Bash**, and **PowerShell** to reduce manual effort and improve response time in engineering-focused environments.  
-- Partner with development and test teams to stabilize CI workflows, resolve operational issues, and improve day-to-day delivery efficiency.
+- Partner with development and test teams to stabilize CI workflows, resolve operational issues, and improve day-to-day delivery efficiency in Linux-based internal engineering environments.
 
 
 
@@ -62,8 +62,8 @@ Worked with cross-functional teams in **automotive and telecom** environments, i
 
 - Designed and optimized **CI/CD pipelines in Azure DevOps** for automotive engineering workflows, reducing release cycle times by **30%** and improving pipeline reliability.  
 - Automated infrastructure and deployment workflows using **Terraform** and **GitHub Actions**, improving repeatability, delivery speed, and operational consistency.  
-- Supported scalable **Kubernetes** and **Rancher** platform environments used by engineering and data-intensive workloads, helping improve platform stability and troubleshooting across delivery workflows.  
-- Collaborated with cross-functional teams in an **Agile** setup to improve delivery flow, platform reliability, and operational efficiency across engineering stakeholders.
+- Supported scalable **self-managed Kubernetes** and **Rancher** platform environments used by engineering and data-intensive workloads, helping improve platform stability and troubleshooting across delivery workflows.  
+- Collaborated with cross-functional teams in an **Agile** setup to improve delivery flow, platform reliability, and operational efficiency across internal engineering stakeholders.
 - Maintained a **DevOps automation toolkit in Python** ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
 
 
@@ -77,6 +77,7 @@ Worked with cross-functional teams in **automotive and telecom** environments, i
 - Automated infrastructure and operational workflows using **Terraform** and **Ansible**, reducing manual effort and improving repeatability across cloud environments.  
 - Supported identity and access management workflows using **Keycloak**, helping standardize authentication and access control across distributed application environments.  
 - Strengthened observability with the **ELK stack**, improving operational visibility, troubleshooting efficiency, and day-to-day platform reliability.  
+- Supported Linux-based hybrid environments and containerized workloads, contributing to platform stability and day-to-day operational continuity for shared engineering and service platforms.  
 - Published a sanitized **OpenStack DevOps toolkit** for internal use ([GitHub link](https://github.com/arnabdey73/openstack-devops-suite)).
 
 **Assignment: Chartered Accountants ANZ (CA ANZ)**
@@ -95,7 +96,7 @@ Worked with cross-functional teams in **automotive and telecom** environments, i
 ### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
 
 - Administered AWS and VMware platforms, increasing uptime by **15%**.  
-- Automated repetitive tasks with Ansible and shell scripting.  
+- Automated repetitive tasks with Ansible and shell scripting in Linux-based operational environments.  
 
 ### **Unix/Linux Systems Administrator – Hewlett Packard Enterprise** *(Nov 2011 – Aug 2015)*  
 

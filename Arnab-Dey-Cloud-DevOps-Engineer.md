@@ -10,19 +10,20 @@
 
 ## **Professional Summary**
 
-  Cloud and DevOps Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid cloud environments. Experienced in designing, implementing, and operating secure, scalable Azure platforms and Kubernetes environments across cloud-hosted and self-managed clusters, with a strong focus on Infrastructure as Code (IaC), CI/CD, GitHub-based workflows, identity and access control, observability, monitoring, and cloud operations. Hands-on background in Terraform, PowerShell, Python, GitHub Actions, Azure DevOps, Azure Policy, Entra ID, RBAC, Azure Monitor, Logic Apps, Azure Container Registry, Azure Storage, Azure Key Vault, and Kubernetes, with a track record of improving reliability, operational efficiency, and engineering consistency. Strong at translating requirements into secure, practical cloud solutions that support delivery at scale.
+  Senior DevOps and Infrastructure Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid environments. Experienced in modernizing CI/CD and infrastructure delivery workflows for engineering teams, with hands-on work across Azure DevOps, Jenkins, GitHub Actions, Terraform, Ansible, Kubernetes, and cloud operations. Strong background in designing, building, and improving delivery pipelines for Azure-hosted and hybrid applications, including .NET-based services, while strengthening Infrastructure as Code, automation, observability, identity and access control, and platform reliability. Based in Stockholm, Sweden, with a practical approach to translating delivery and infrastructure requirements into scalable, secure, and maintainable engineering platforms.
 
 <br>
 
 ## **Core Skills**
 
-- **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity and access management, scalable cloud platforms, secure-by-design cloud environments
+- **CI/CD & Infrastructure Delivery**: Azure DevOps, Jenkins, GitHub Actions, GitHub workflows, Git-based delivery models, pipeline optimization, release automation, delivery reliability
+- **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI, reusable module libraries, infrastructure provisioning, configuration automation
+- **DevOps & Platform Engineering**: scalable cloud platforms, Kubernetes, self-managed Kubernetes, developer-facing platform operations, engineering enablement
+- **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity and access management, secure-by-design cloud environments
 - **Azure Services & Platform Capabilities**: compute, networking, storage, IaaS, PaaS, Logic Apps, Azure Container Registry (ACR), Azure Storage, Azure Key Vault, Azure platform operations
-- **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI, reusable module libraries, infrastructure provisioning
-- **CI/CD & Delivery Engineering**: GitHub Actions, GitHub workflows, Azure DevOps, Jenkins, Git-based workflows, reusable delivery workflows, deployment automation
 - **Security, Governance & Compliance**: Entra ID, identity and access management (IAM), RBAC, Azure Policy, least-privilege access controls, governance guardrails, compliance controls, secure platform standards
 - **Observability & Reliability**: Azure Monitor, Log Analytics, KQL, logging, monitoring, alerting, incident support, operational visibility
-- **Containers & Platform Tooling**: Kubernetes, self-managed Kubernetes, Rancher RKE, K3s, Docker, Docker Swarm, ArgoCD, containerized workloads, cloud-native platforms, engineering enablement
+- **Containers & Platform Tooling**: Kubernetes, Rancher RKE, K3s, Docker, Docker Swarm, ArgoCD, containerized workloads, cloud-native platforms
 - **Cost & Lifecycle Management**: Azure Cost Management, cost optimization templates, governance controls, lifecycle-aware platform operations
 - **Collaboration & Engineering Standards**: requirement analysis, documentation, platform standardization, cross-team alignment, knowledge sharing
  
@@ -46,7 +47,8 @@
 
 **Assignment: Ericsson AB**  
 
-- Supported and maintained engineering and test infrastructure across **hardware, servers, and end-to-end CI pipelines**, improving reliability, delivery continuity, and day-to-day operational support for smoke and regression testing workflows.
+- Supported and maintained engineering and test infrastructure across **hardware, Linux servers, Gerrit workflows, and Jenkins-based CI pipelines**, improving reliability, delivery continuity, and day-to-day support for smoke and regression testing workflows.
+- Troubleshot build, environment, and integration issues across CI and test infrastructure, helping stabilize engineering workflows in a multi-stakeholder environment.
 
 
 ### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
@@ -64,7 +66,7 @@
 
 **Assignment: Volvo Cars Car Safety R&D** 
  
-- Implemented **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%** and improving delivery reliability for engineering workflows.
+- Implemented and optimized **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%** and improving delivery reliability for engineering workflows.
 - Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency, operational control, repeatability, and GitHub-based workflow automation in cloud-based data workflows.  
 - Upgraded on-prem hardware for **Kubeflow** workloads, integrating with **self-managed Kubernetes** using **Rancher RKE**.
 - Worked across engineering and stakeholder groups to align requirements, shape technical approaches, contribute to engineering standards, and support delivery decisions for internal platform initiatives.  
@@ -86,6 +88,7 @@
 **Assignment: Greenstone Financial Services**
 
 - Led DevOps transformation for **.NET-based applications** and microservices using **Azure DevOps**, improving delivery automation and release consistency.
+- Designed and improved **Azure DevOps CI/CD pipelines** for **.NET/C# applications** and microservices, supporting more consistent build, release, and deployment workflows.
 - Provisioned and managed **Azure** infrastructure using **Terraform**, establishing Infrastructure as Code practices for repeatable and controlled deployments.
 - Containerized and orchestrated microservices using **Docker** and **Docker Swarm**, integrated with **Azure Container Registry** to streamline build and deployment workflows.
 - Improved operational visibility using **Azure Monitor** and supported artifact management through **Azure Storage**, strengthening platform observability and delivery support.
