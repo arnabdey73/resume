@@ -10,21 +10,22 @@
 
 ## **Professional Summary**
 
-Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid and private cloud environments. Experienced in building and operating internal platforms that improve developer workflows through Infrastructure as Code, reusable CI/CD, scripting, automation, observability, and platform standardization. Hands-on background in Terraform, GitHub Actions, Azure DevOps, Jenkins, ArgoCD, Python, Bash, Kubernetes, Prometheus, Grafana, KQL, and ELK, with a strong focus on platform reliability, observability, incident support, and reducing friction in day-to-day engineering workflows. Strong at partnering with engineering teams to turn reliability and infrastructure pain points into practical platform improvements, reusable abstractions, and better operational clarity.
+Platform Engineer with 15+ years of overall IT experience, including 9+ years in cloud and platform engineering across Azure, AWS, and hybrid and private cloud environments. Experienced in building and operating internal platforms that improve developer workflows through Infrastructure as Code, reusable CI/CD, scripting, automation, observability, and platform standardization. Hands-on background in Terraform, GitHub Actions, Azure DevOps, Jenkins, ArgoCD, **Helm**, Python, Bash, Kubernetes, Prometheus, Grafana, KQL, and ELK, with a strong focus on Linux-based platform operations, reliability, observability, incident support, and reducing friction in day-to-day engineering workflows. Strong at partnering with engineering teams to turn reliability and infrastructure pain points into practical platform improvements, reusable abstractions, and better operational clarity across cloud-native and AI-adjacent platform environments.
 
 <br>
 
 ## **Core Skills**
 
-- **Platform Engineering**: internal developer platforms, shared infrastructure abstractions, workflow automation, self-service infrastructure, Kubernetes, Docker, GitOps, ArgoCD
+- **Platform Engineering**: internal developer platforms, shared infrastructure abstractions, workflow automation, self-service infrastructure, Kubernetes, Docker, GitOps, ArgoCD, Helm
 - **Reliability & SRE Practices**: observability, alerting, incident response, fault tolerance, operational support, post-incident learning
 - **Cloud Platforms & Architecture**: Azure, AWS, hybrid and private cloud environments, landing zones, governance, IAM
-- **Infrastructure as Code**: Terraform, reusable module libraries, ARM templates, infrastructure standardization, everything-as-code mindset
+- **Infrastructure as Code**: Terraform, reusable module libraries, ARM templates, infrastructure standardization, everything-as-code mindset, configuration automation
 - **CI/CD & Delivery**: GitLab, GitHub Actions, Azure DevOps, Jenkins, ArgoCD, build and release automation, automated developer workflows, platform delivery workflows
-- **Security & Compliance**: Entra ID, RBAC, Azure Policy, least-privilege access, policy guardrails, secrets-aware platform patterns
+- **Security & Compliance**: Entra ID, RBAC, Azure Policy, least-privilege access, policy guardrails, secrets-aware platform patterns, DevSecOps-minded delivery
 - **Observability & Reliability**: Prometheus, Grafana, Azure Monitor, KQL, ELK, monitoring, logging, alerting, and operational visibility
 - **Cost & Governance**: cloud cost optimization templates, governance controls, policy-driven infrastructure
-- **Scripting & Tooling**: Python, Bash, PowerShell, Ansible
+- **Scripting & Tooling**: Python, Bash, PowerShell, Ansible, Helm
+- **AI / Data Platform Support**: Kubeflow exposure, AI-adjacent platform operations, developer enablement for data workflows, Python-based automation
 - **Collaboration**: requirement analysis, platform standardization, stakeholder alignment, troubleshooting, cross-team enablement, documentation, knowledge sharing, support-oriented communication
  
 
@@ -53,7 +54,7 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 
 **Assignment: Ericsson AB**  
 
-- Supported engineering teams by maintaining test infrastructure and CI workflows, troubleshooting issues across daily delivery and validation workflows, and reducing friction in developer support workflows.
+- Supported engineering teams by maintaining Linux-based test infrastructure and CI workflows, troubleshooting issues across daily delivery and validation workflows, and reducing friction in developer support workflows.
 - Worked closely with engineering stakeholders to improve delivery continuity and day-to-day operability of internal engineering platforms.
 - Supported engineering effectiveness through practical collaboration, clear communication, and hands-on problem solving across shared delivery workflows and support channels.
 - Contributed to incident handling and operational stability by troubleshooting infrastructure and workflow issues affecting engineering teams.
@@ -92,9 +93,10 @@ Platform Engineer with 15+ years of overall IT experience, including 9+ years in
 
 - Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications.  
 - Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.  
+- Deployed and configured **Zookeeper** and **Kafka** on Kubernetes using **Helm charts**, supporting repeatable setup and more consistent platform operations for distributed services.  
 - Managed the **ELK Stack** for centralized logging and data indexing.  
 - Reduced operational overhead by **20%** via **Terraform** and **Ansible**-based infrastructure automation.  
-- Contributed to shared engineering platform reliability through standardized automation, container platform support, and improved observability.  
+- Contributed to shared engineering platform reliability through standardized automation, container platform support, improved observability, and stronger deployment consistency.  
 - Supported platform stability in hybrid environments by improving monitoring, troubleshooting, and operational consistency for shared services.  
 - Published a **sanitized OpenStack DevOps solution**  (sanitized) showcasing provisioning, monitoring, and automation ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
 
