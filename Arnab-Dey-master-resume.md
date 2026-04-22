@@ -10,7 +10,7 @@
 
 ## Professional Summary
 
-Cloud and Platform Engineer with **15+ years in IT** and **9+ years focused on cloud and platform engineering** across Azure, AWS, OpenStack, and hybrid environments. I design and build with code — Terraform for infrastructure, Python and Bash for automation, GitOps for delivery — and favour reviewable, repeatable patterns over manual operations. Hands-on across the CAF Enterprise Scale / landing-zone pattern, Kubernetes (Rancher, K3s, EKS), GitHub Actions, Azure DevOps, Jenkins, ArgoCD, Prometheus/Grafana, and Azure Policy / RBAC. Consistent track record of moving platform teams off manual ClickOps toward self-service, audited, cost-aware infrastructure.
+Cloud and Platform Engineer with **15+ years in IT** and **9+ years focused on cloud and platform engineering** across Azure, AWS, OpenStack, and hybrid environments. I design and build with code — Terraform for infrastructure, Python and Bash for automation, GitOps for delivery — and favour reviewable, repeatable patterns over manual operations. Hands-on across the CAF Enterprise Scale / landing-zone pattern, Kubernetes (Rancher, AKS, EKS), GitHub Actions, Azure DevOps, Jenkins, ArgoCD, Prometheus/Grafana, and Azure Policy / RBAC. Consistent track record of moving platform teams off manual ClickOps toward self-service, audited, cost-aware infrastructure.
 
 ---
 
@@ -18,13 +18,13 @@ Cloud and Platform Engineer with **15+ years in IT** and **9+ years focused on c
 
 **Infrastructure as Code** — Terraform (AzureRM, AWS, OpenStack, Databricks providers), reusable module libraries, ARM templates, Ansible, archetype-driven CAF Enterprise Scale
 
-**Cloud Platforms** — Microsoft Azure (primary), AWS (EC2, S3, VPC, EKS, IAM, CloudWatch), OpenStack (PAN-NET / private cloud), hybrid and on-prem
+**Cloud Platforms** — Microsoft Azure (primary), AWS (EC2, S3, VPC, EKS, IAM, CloudWatch), OpenStack, hybrid and on-prem
 
-**Scripting** — Python (automation, CLI tooling, REST API integration), Bash, PowerShell
+**Scripting** — Python (automation, CLI tooling), Bash, PowerShell
 
 **CI/CD & GitOps** — GitHub Actions, Azure DevOps Pipelines, GitLab CI, Jenkins, ArgoCD, Git / Gerrit, trunk-based and GitFlow workflows
 
-**Containers & Orchestration** — Kubernetes (Rancher RKE, K3s, EKS, kubeadm), Docker, Helm, Kubeflow
+**Containers & Orchestration** — Kubernetes (Rancher RKE, K3s, EKS, AKS), Docker, Helm, Kubeflow
 
 **Identity, Security & Governance** — Entra ID, Azure RBAC (including custom role definitions), Azure Policy, IAM, SAML federation, Key Vault, least-privilege patterns, backup-integrity by RBAC
 
@@ -65,7 +65,7 @@ Cloud Infrastructure Engineer on the central Cloud Office (Governance side) of a
 - Contributed PowerShell tooling: subscription budget automation, ACR token expiry inventory, .NET runtime enumeration across App Services, Hybrid Benefit enablement.
 - Delivered fixes across multiple application landing-zone repositories (IdentityNow VA, Key Vault with disk-encryption-set, cost-allocation tagging, AzureRM version alignment).
 - KQL-based monitoring contributed to a **~20% reduction in downtime** across supported services.
-- Published sanitized sister repos on GitHub: `iac-azure-core-governance` (CAF Enterprise Scale governance platform), reusable Terraform module library, and Azure cost-optimisation templates.
+- Published sanitized sister repos on GitHub: <a href="https://github.com/arnabdey73/iac-azure-core-governance">`iac-azure-core-governance`</a> (CAF Enterprise Scale governance platform), reusable Terraform module library, and Azure cost-optimisation templates.
 
 ---
 
@@ -89,13 +89,13 @@ Cloud Infrastructure Engineer on the central Cloud Office (Governance side) of a
 - Built **two matched Terraform stacks** (AWS: EC2 + S3 + KMS + IAM  |  Azure: Linux VM + Premium BlockBlobStorage) as identically-shaped, disposable test rigs so data scientists could run MLCommons-style object-storage benchmarks on equal footing. Owned Terraform, IAM, dataset storage, and the tear-down pattern — the infrastructure was the control variable.
 
 *Other*
-- Led the internal **AI-powered Resume Builder Agent** side project (sanitized public repo).
+- Led the internal **AI-powered Resume Builder Agent** as a side project <a href="https://github.com/arnabdey73/resume-builder-agent">(sanitized public repo)</a>.
 - Maintained a Python automation toolkit for infrastructure and operational tasks (public repo).
 
 ---
 
 ### Senior Business Consultant (DevOps) — Tech Mahindra
-*Feb 2017 – Sep 2021*
+*Feb 2017 – Sep 2021 | Bangalore, India | Sydney, Australia* 
 
 **Assignment: Cisco Systems — CD 2.0 on AWS (Oct 2019 – Mar 2020, and ongoing platform support)**
 - **Authored the Terraform** for Cisco's CD 2.0 continuous-delivery platform on AWS — VPC, subnets, security groups, EKS cluster, IAM roles, Jenkins on EKS, ECR integration, build-agent fleet, ALB, DNS — extending an internal reference architecture originally built on on-prem OpenShift.
@@ -115,13 +115,13 @@ Cloud Infrastructure Engineer on the central Cloud Office (Governance side) of a
 **Assignment: Greenstone Financial Services — Insurance Portal (Sep 2019 – Jan 2020)**
 - Led DevOps transformation for .NET microservices: Azure DevOps pipelines, **Terraform for Azure infrastructure**, Docker + Docker Swarm with Azure Container Registry, Azure Monitor for observability.
 
-**Assignment: CA ANZ**
+**Assignment: CA ANZ (Sep 2019 – Jan 2020)**
 - Architected the GitLab-based CI and source-control model — defined branching strategy, repository standards, pipeline conventions; supported team adoption through documentation and knowledge transfer.
 
 ---
 
-### Senior AEM Administrator (Cloud) — ICF Next (formerly CITYTECH)
-*Sep 2015 – Jan 2017  |  Gothenburg / Remote*
+### Senior AEM Administrator (Cloud) — ICF Next
+*Sep 2015 – Jan 2017  |  Bangalore, India*
 
 **Assignment: Channel 7 (Australia) — AEM on AWS**
 - Built and operated a production Adobe Experience Manager platform on AWS for a national Australian broadcaster — VPC design, EC2 lifecycle (m3 family), Apache HTTPD + AEM Dispatcher hardening, SSL termination, and **SAML 2.0 federation** (Azure AD / ADFS → AWS IAM) replacing long-lived IAM user keys.
@@ -132,10 +132,10 @@ Cloud Infrastructure Engineer on the central Cloud Office (Governance side) of a
 ---
 
 ### Unix / Linux Systems Administrator — HP Enterprise Services
-*Nov 2011 – Aug 2015  |  India*
+*Nov 2011 – Aug 2015  |  Bangalore, India*
 
 Three-and-a-half years on HP Enterprise Services' Global Operations Center (Unix Service Delivery Unit) under the Best Shore Services model, rotating across three large outsourcing customers:
-- **Hindustan Unilever** (~18 months, L1/L2) — 24×7 shift-based incident handling on a SAP-heavy Linux/Unix estate (140+ servers).
+- **HUL** (~18 months, L1/L2) — 24×7 shift-based incident handling on a SAP-heavy Linux/Unix estate (140+ servers).
 - **E.ON** (~12 months, L2/L3) — multi-site German/UK operations; storage, DNS, console management; started authoring SOPs.
 - **Con-way Inc.** (~13 months, L2/L3 SOP author) — **authored a substantial portion of the BSS-ITO Con-way Linux procedure library** covering LVM filesystem resizes, Veritas SAN migration, kernel-parameter tuning, and ITO/OpsBridge agent management. Procedures used as team reference material.
 - Tooling fluency: HP Service Manager, HP OpenView / OpsBridge, HP Server Automation (Opsware), NIM, HPSA.
@@ -151,4 +151,4 @@ Three-and-a-half years on HP Enterprise Services' Global Operations Center (Unix
 ## Certifications
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** — Mar 2023 *(Credential ID: 801D970BAA49297)*
-- **Microsoft Certified: Azure AI Fundamentals (AI-900)** — *in progress*
+- **AWS Certified Solutions Architect - Associate (SAA-C03)** — *in progress*

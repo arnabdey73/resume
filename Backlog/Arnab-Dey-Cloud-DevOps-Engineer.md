@@ -1,110 +1,135 @@
 <div align="center">
-  <h1><b>Arnab Dey</b></h1><p> Solna, Sweden | +46764516092 |  
-    <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a> |  
-    <a href="https://www.linkedin.com/in/arnabdey73/">LinkedIn</a> |  
-    <a href="https://github.com/arnabdey73/">GitHub</a>
-  </p>
-  <br>
+	<h1><b>Arnab Dey</b></h1>
+	<p>
+		Stockholm, Sweden | +46 0764516092 | <a href="mailto:arnabdey009@gmail.com">arnabdey009@gmail.com</a><br>
+		<a href="https://www.linkedin.com/in/arnabdey73">LinkedIn</a> | <a href="https://github.com/arnabdey73">GitHub</a>
+	</p>
 </div>
 
-## Professional Summary
+<br>
 
-<!-- An accomplished Senior Cloud DevOps Engineer with 8+ years of experience in public cloud environments (14+ years in IT). Proven expertise in optimizing CI/CD pipelines for high-quality deployments on public and hybrid cloud platforms. Strong problem solver with a focus on performance monitoring, cloud security, and promoting DevOps best practices.
+## **Professional Summary**
+
+  Senior DevOps and Infrastructure Engineer with 15+ years of IT experience, including 9+ years in cloud and platform engineering across Microsoft Azure, AWS, and hybrid environments. Experienced in modernizing CI/CD and infrastructure delivery workflows for engineering teams, with hands-on work across Azure DevOps, Jenkins, GitHub Actions, Terraform, Ansible, Kubernetes, and cloud operations. Strong background in designing, building, and improving delivery pipelines for Azure-hosted and hybrid applications, including .NET-based services, while strengthening Infrastructure as Code, automation, observability, identity and access control, and platform reliability. Based in Stockholm, Sweden, with a practical approach to translating delivery and infrastructure requirements into scalable, secure, and maintainable engineering platforms.
+
+<br>
+
+## **Core Skills**
+
+- **CI/CD & Infrastructure Delivery**: Azure DevOps, Jenkins, GitHub Actions, GitHub workflows, Git-based delivery models, pipeline optimization, release automation, delivery reliability
+- **Infrastructure as Code & Automation**: Terraform, ARM templates, Ansible, PowerShell, Python, Azure CLI, reusable module libraries, infrastructure provisioning, configuration automation
+- **DevOps & Platform Engineering**: scalable cloud platforms, Kubernetes, self-managed Kubernetes, developer-facing platform operations, engineering enablement
+- **Azure Platform Engineering**: Azure subscriptions, resource groups, landing zones, governance, identity and access management, secure-by-design cloud environments
+- **Azure Services & Platform Capabilities**: compute, networking, storage, IaaS, PaaS, Logic Apps, Azure Container Registry (ACR), Azure Storage, Azure Key Vault, Azure platform operations
+- **Security, Governance & Compliance**: Entra ID, identity and access management (IAM), RBAC, Azure Policy, least-privilege access controls, governance guardrails, compliance controls, secure platform standards
+- **Observability & Reliability**: Azure Monitor, Log Analytics, KQL, logging, monitoring, alerting, incident support, operational visibility
+- **Containers & Platform Tooling**: Kubernetes, Rancher RKE, K3s, Docker, Docker Swarm, ArgoCD, containerized workloads, cloud-native platforms
+- **Cost & Lifecycle Management**: Azure Cost Management, cost optimization templates, governance controls, lifecycle-aware platform operations
+- **Collaboration & Engineering Standards**: requirement analysis, documentation, platform standardization, cross-team alignment, knowledge sharing
+ 
+
+<!--
+- **Infrastructure Automation:** Terraform, ARM templates, GitOps (ArgoCD), CI/CD (Azure DevOps, GitHub Actions, Jenkins)
+- **Cloud Platforms:** Azure (landing zones, governance, Entra ID, Logic Apps), AWS, Openstack  
+- **Observability & Reliability:** Monitoring and alerting systems, Grafana, Azure Monitor, KQL, ELK Stack  
+- **Security & Compliance:** DevSecOps, policy-driven infra, cloud governance frameworks  
+- **Containerization & Orchestration:** Kubernetes (Rancher, K3s), Docker
+- **Collaboration & Delivery:** Agile/SAFe, stakeholder engagement, product ownership  
 -->
-Senior DevOps & Platform Engineer with 8+ years of experience designing and operating cloud-native platforms in enterprise environments.
+<br>
 
-- Skilled in Azure DevOps, Jenkins, Kubernetes, Docker, GitHub, GitHub Actions, Ansible, and Terraform.
-- Proficient in scripting with Bash, Python, and PowerShell for automated infrastructure management.<!-- Experienced in the SAFe framework and Product Owner roles, aligning product vision with stakeholder needs.-->
-- Proven track record in platform scalability, observability (Prometheus, Grafana, Log Analytics), andDevSecOps practices to deliver secure, resilient systems.
+## **Professional Experience**
 
-## Core Skills
+### **DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
 
-- Cloud Platforms: Azure, AWS, OpenStack
-- CI/CD Tools: Azure DevOps, Jenkins, GitLab CI, GitHub Actions
-- Orchestration & Containerization: Kubernetes, Docker, Rancher
-- Configuration Management: Ansible
-- Scripting Languages: Bash, Python, PowerShell
-- Monitoring & Logging: Prometheus, Grafana, Azure Monitor, ELK Stack (Elasticsearch, Logstash, Kibana)
-- Infrastructure as Code (IaC): Terraform, ARM templates
-- Version Control: GitHub, GitLab
-- Virtualization: VMware
-- Operating Systems: Linux, Unix
+- Designed and deployed a **GitOps-based self-managed Kubernetes platform** using **K3s, ArgoCD, Prometheus, and Grafana**, enabling version-controlled infrastructure, improved observability, and more reliable platform operations for engineering workflows.  
+- Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).
 
-## Professional Experience
+**Assignment: Ericsson AB**  
 
-**DevOps Engineer – AFRY Digital Solutions AB** *(May 2025 – Present)*  
-
-- Designed and deployed a **single-node GitOps-based DevOps platform** on Dell PowerEdge R540 with **K3s, Argo CD, Prometheus, Grafana, cert-manager, and sealed-secrets** for automated, version-controlled environment provisioning.  
-- Built **RPA workflows in Power Automate** to scrape tender data from **Tendsign’s dynamic web pages**, supporting business process automation.  
-- Maintained the GitOps platform as a live project ([GitHub repository](https://github.com/arnabdey73/single-node-gitops)).  
+- Supported and maintained engineering and test infrastructure across **hardware, Linux servers, Gerrit workflows, and Jenkins-based CI pipelines**, improving reliability, delivery continuity, and day-to-day support for smoke and regression testing workflows.
+- Troubleshot build, environment, and integration issues across CI and test infrastructure, helping stabilize engineering workflows in a multi-stakeholder environment.
 
 
-**Cloud Engineer – Stena Metall AB** *(August 2024 – January 2025)*
+### **Cloud Engineer – Stena Metall AB** *(Aug 2024 – Jan 2025)*  
 
-- Upgraded the **Azure Cloud Adoption Framework** (v5.2.1 → v6.0.0) to strengthen governance and compliance.
-- Conducted **security audits** and automated infrastructure tasks with **Terraform** and **Azure Pipelines**, reducing manual intervention by **40%**.
-- Monitored platform patterns and anomalies using **KQL**, resolving incidents within SLAs and cutting downtime by **20%**.
-- Managed Azure services including **Logic Apps, IaaS, PaaS, and Entra ID (Azure AD)**.
-- Published **sanitized duplicates of production infrastructure projects**, including:
-  - An **IaC governance template** to demonstrate Azure governance practices without exposing company data ([GitHub repository](https://github.com/arnabdey73/iac-azure-core-governance)).
-  - A **reusable Terraform module library for Azure infrastructure** ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).
-  - An **Azure cost optimization template** for automated cost analysis and recommendations ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
-  
-**Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(September 2021 – July 2024)*  
-
-**Assignment: Volvo Cars Safety Department**  
-
-- Implemented **CI/CD pipeline automation** with **Azure DevOps**, reducing deployment time by **30%**.  
-- Upgraded on-prem hardware to support **Kubeflow** platform using **Ubuntu, xCAT, and Rancher RKE**.  
-- Automated **Azure Databricks** cluster scaling using **Terraform** and **GitHub Actions**.  
-
-**Internal Initiatives**  
-
-- Acted as **Product Owner** for internal initiatives, prioritizing backlogs and aligning deliverables with stakeholder vision.  
-- Led the **AI-powered Resume Builder Agent** project as a Product Owner and published a **sanitized version** to showcase workflow automation concepts ([GitHub repository](https://github.com/arnabdey73/resume-builder-agent)).  
-- Maintained an **internal DevOps Python automation project** to streamline infrastructure tasks ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).  
+- Contributed to the evolution of the **Azure Cloud Adoption Framework (CAF)** and landing zone setup, helping define governance, compliance, and secure platform guardrails for scalable enterprise Azure adoption.  
+- Implemented **Terraform**, **PowerShell**, and **Azure Pipelines** based infrastructure patterns aligned with Azure governance standards, enabling more consistent, automated, and secure platform provisioning across Azure environments.  
+- Managed and strengthened **Entra ID**, **RBAC**, and **Azure Policy** guardrails to improve identity governance, access control, and secure-by-design platform operations across Azure environments.  
+- Supported Azure platform operations across identity, storage, **Azure Key Vault**, networking services, **Logic Apps**, and platform-level configuration, contributing to secure, reliable, and cost-aware day-to-day cloud operations.  
+- Improved reliability and operational visibility with **Azure Monitor** and **KQL-based monitoring**, contributing to a **20% reduction in downtime**.  
+- Developed reusable Azure platform patterns and **Terraform module libraries** to support standardized provisioning, automation, platform consistency, and faster adoption by engineering teams ([GitHub repository](https://github.com/arnabdey73/iac-module-library-azure)).  
+- Developed reusable **Azure cost optimization templates** (sanitized) aligned with **Azure Cost Management** to support cost governance, optimization, and reporting practices ([GitHub repository](https://github.com/arnabdey73/azure-cost-optimizer)).
 
 
-**Senior Business Consultant (DevOps) – Tech Mahindra** *(February 2017 – September 2021)*  
+### **Senior Software Engineer (DevOps) – Capgemini Sverige AB** *(Sep 2021 – Jul 2024)*  
+
+**Assignment: Volvo Cars Car Safety R&D** 
+ 
+- Implemented and optimized **CI/CD pipeline automation** in **Azure DevOps**, reducing deployment times by **30%** and improving delivery reliability for engineering workflows.
+- Automated **Azure Databricks cluster scaling** with **Terraform** and **GitHub Actions**, improving efficiency, operational control, repeatability, and GitHub-based workflow automation in cloud-based data workflows.  
+- Upgraded on-prem hardware for **Kubeflow** workloads, integrating with **self-managed Kubernetes** using **Rancher RKE**.
+- Worked across engineering and stakeholder groups to align requirements, shape technical approaches, contribute to engineering standards, and support delivery decisions for internal platform initiatives.  
+- Enabled development teams through platform automation, CI/CD improvements, and reusable infrastructure patterns that simplified delivery workflows and improved operational consistency.
+- Maintained a **DevOps Python automation toolkit** for infrastructure and operational tasks, strengthening internal tooling and workflow automation capabilities ([GitHub repository](https://github.com/arnabdey73/devops-python-automation-project)).
+
+
+### **Senior Business Consultant (DevOps) – Tech Mahindra** *(Feb 2017 – Sep 2021)*  
 
 **Assignment: Deutsche Telekom**  
 
-- Deployed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for applications on public and hybrid cloud platforms.  
-- Automated **microservice orchestration** with **Docker** and **Kubernetes**, improving resource utilization by **25%**.  
-- Managed the **ELK stack** for centralized logging and product data indexing.  
-- Reduced operational overhead by **20%** through automated platform/infrastructure provisioning using **Terraform** and **Ansible**.  
-- Published a **sanitized version** of the project's OpenStack DevOps solution, showcasing provisioning, monitoring, and automation workflows ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).  
+- Designed and managed **CI/CD pipelines** using **Jenkins** and **Azure DevOps** for hybrid cloud applications, improving delivery consistency across distributed environments.  
+- Automated containerized microservice deployments with **Docker** and **Kubernetes** across non-managed cluster environments, improving resource utilization by **25%** and strengthening release reliability.  
+- Supported core cloud networking, load-balancing, and platform operations for distributed application environments, improving service stability and operational continuity.
+- Managed the **ELK Stack** for centralized logging and observability, improving troubleshooting efficiency and operational visibility across hybrid infrastructure.  
+- Reduced operational overhead by **20%** through **Terraform** and **Ansible**-based infrastructure automation for provisioning and operational workflows.  
+- Published a **sanitized OpenStack DevOps solution** showcasing provisioning, monitoring, and automation patterns for OpenStack-based environments ([GitHub repository](https://github.com/arnabdey73/openstack-devops-suite)).
+
+**Assignment: Greenstone Financial Services**
+
+- Led DevOps transformation for **.NET-based applications** and microservices using **Azure DevOps**, improving delivery automation and release consistency.
+- Designed and improved **Azure DevOps CI/CD pipelines** for **.NET/C# applications** and microservices, supporting more consistent build, release, and deployment workflows.
+- Provisioned and managed **Azure** infrastructure using **Terraform**, establishing Infrastructure as Code practices for repeatable and controlled deployments.
+- Containerized and orchestrated microservices using **Docker** and **Docker Swarm**, integrated with **Azure Container Registry** to streamline build and deployment workflows.
+- Improved operational visibility using **Azure Monitor** and supported artifact management through **Azure Storage**, strengthening platform observability and delivery support.
+- Supported agile delivery and team enablement through **Azure DevOps** boards, documentation, knowledge sharing, and mentoring team members on DevOps practices.
+
+**Assignment: Cisco Systems**
+
+- Supported AWS-hosted networking and firmware platforms across Development, Staging, and Production environments, contributing to reliable and scalable application operations.
+- Designed and implemented AWS-based CI/CD workflows using **EC2**, Jenkins, Maven, Git, SonarQube, and orchestration tooling to improve delivery automation and platform consistency.
+- Built and operated containerized microservices with Docker and **Amazon ECS**, strengthening scalable distributed application deployment patterns.
+- Improved observability and team capability through **Amazon CloudWatch**, ELK Stack, Graylog, and mentoring across delivery workflows.
+
+### **Senior AEM Administrator (Cloud) – ICF Next** *(Sep 2015 – Jan 2017)*  
+
+**Assignment: Channel 7**
+
+- Managed AWS and VMware environments, improving uptime by **15%** through optimized resource utilization and automated operations with **Ansible** and shell scripting.
+- Designed and maintained a production-like AWS sandbox environment for Channel 7, improving reliability of testing, validation, and release preparation.
+- Provisioned and optimized AWS infrastructure using **VPCs, security groups, and EC2**, supporting scalable and secure AEM application environments.
+- Improved platform security and operability through SSL configuration, infrastructure governance, and access management using AWS security best practices.
+- Supported AEM author/publish environments and Apache Dispatcher integration to improve content delivery and platform stability.
+
+### **Unix/Linux Systems Administrator – Hewlett Packard Enterprise** *(Nov 2011 – Aug 2015)*  
+
+- Administered Unix-based and VMware platforms, enhancing system performance and reliability.  
+- Authored **SOPs and UML diagrams**, reducing incident response times by **20%**.
 
 
-**Senior AEM Administrator (Cloud) – ICF Next** *(September 2015 - January 2017)*
+## **Education**
 
-- Managed AWS cloud and VMware infrastructure, improving uptime by 15% through optimized resource management.
-- Automated cloud operations with Ansible and Shell scripting.
-
-**Unix/Linux Systems Administrator – Hewlett Packard Enterprise** *(November 2011 - August 2015)*
-
-- Administered Unix-based cloud and on-prem VMware platforms, enhancing system performance and reliability.
-- Developed SOPs and UML diagrams, reducing incident response time by 20%.
-
-**Linux Systems Engineer – Axon Networks**(Now Trianz) *(May 2011 - October 2011)*
-
-<!-- Managed the installation and optimization of over 100 Linux servers, achieving high availability.-->
-
-**Jr. System Administrator – Bobcares**(AKA Poornam Info Vision) *(November 2009 - June 2010)*
-
-<!-- Maintained Linux VPS environments, ensuring high availability and performance.-->
-
-## Education
-
-- B.Tech in Computer Science – West Bengal University of Technology, Kolkata, India (2005 - 2009)
-
-## Certifications
-
-- Microsoft Certified: Azure Fundamentals (Issued March 2023)  
-**Credential ID:** 801D970BAA49297
+- **B.Tech in Computer Science** – West Bengal University of Technology, Kolkata, India (2005 – 2009)  
 
 
-## Languages
+## **Certifications**
 
-- English: Bi-lingual or Native Proficiency
-- Swedish: SFI C level proficiency
+- **Microsoft Certified: Azure Fundamentals** (Issued March 2023)  
+Credential ID: 801D970BAA49297  
+
+
+
+## **Languages**
+
+- English: Bilingual / Native Proficiency  
+- Swedish: SFI C Level Proficiency  
