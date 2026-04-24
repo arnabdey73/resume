@@ -1,0 +1,12 @@
+I'm applying for the Site Reliability Engineer role. The stack and operational shape line up with what I've been doing for the past several years — Kubernetes on AWS and OpenStack, Prometheus/Grafana and ELK-family observability, GitOps-driven IaC, and on-call as an operational default.
+
+Kubernetes on cloud-native and distributed platforms has been a recurring theme across my career. At Deutsche Telekom I owned the DevOps platform side of a ~30-microservice 5G BSS pilot on OpenStack — Terraform against the OpenStack provider, Rancher-managed Kubernetes, and a Jenkins / Nexus / Tuleap / Keycloak / ELK estate — and led a cross-tenant migration of the entire environment over a single weekend, without rebuilds. At Volvo Cars I stood up Rancher-managed RKE on a ~36-node CAE/HPC cluster alongside a production ELK stack (Elasticsearch, Logstash, Kibana on LXD with X-Pack, SSL, and snapshots) for fleet observability. More recently at AFRY I built a GitOps-based Kubernetes platform — K3s + Argo CD + Prometheus + Grafana + cert-manager + sealed-secrets — a working miniature of the stack in the JD.
+
+On the stack specifics: my Terraform across AWS, Azure, and OpenStack providers translates cleanly to OpenTofu, and my reusable module libraries adapt naturally to a Terragrunt-style DRY layout. My production ELK experience translates directly to OpenSearch — same query, ingest, and snapshot patterns — and Thanos sits on top of the Prometheus practice I already run day-to-day. Python and Bash are my primary automation languages, with Go as a deliberate reach-for. AI coding assistants (Claude Code, Copilot) are part of my daily workflow — useful for the scripting and review loop, still subject to the same judgement any IaC change needs.
+
+Operational discipline is the other half. The DT 5G pilot ran as production infrastructure and I was accountable for its reliability — weekend cutovers completed without rebuilds, incident paths traced through a multi-tool estate. At Stena Metall, KQL-based observability work contributed to a ~20% reduction in downtime across supported services. Three and a half years of 24×7 shift-based Linux operations at HP Enterprise Services is where my on-call reflexes come from.
+
+Gothenburg isn't new territory — I was based there through the Capgemini / Volvo Cars years and more recently at Stena Metall before moving back to Stockholm. Comfortable with hybrid work, and happy to pick up the thread in a conversation.
+
+Warm regards,
+Arnab Dey

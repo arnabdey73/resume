@@ -14,23 +14,25 @@ Each tailored resume is built from the master for a specific role or company, wi
 | File | Target role |
 | --- | --- |
 | `Arnab-Dey-platform-engineer-tailored.md` | Generic Platform Engineer (Scaleway / AWS, GenAI-emphasis) |
-| `Arnab-Dey-normative-devops-engineer.md` | Normative — DevOps Engineer (Stockholm, climate tech) |
 | `Arnab-Dey-senior-devsecops-engineer.md` | Generic Senior DevSecOps Engineer (security-led USP) |
 | `Arnab-Dey-imagimob-devops-engineer.md` | Imagimob / Infineon — DevOps Engineer (Edge AI / ML platform) |
 | `Arnab-Dey-medhelp-infrastructure-engineer.md` | MedHelp Care — Infrastructure Engineer (Kubernetes + Elasticsearch) |
 | `Arnab-Dey-nordea-devsecops-sre-engineer.md` | Nordea — Expert DevOps/SRE Engineer (Stockholm, data platform) |
-| `Arnab-Dey-tandemhealth-infrastructure-engineer.md` | Tandem Health — Infrastructure Engineer (Azure-primary, healthcare) |
 | `Arnab-Dey-bryntum-senior-devops-engineer.md` | Bryntum — Senior DevOps Engineer (AWS migration, hybrid physical/cloud) |
-| `Arnab-Dey-flightradar24-infrastructure-platform-manager.md` | Flightradar24 — Infrastructure and Platform Manager |
+| `Arnab-Dey-paligo-cloud-infrastructure-engineer.md` | Paligo — Cloud Infrastructure Engineer III (Solna, AWS + IaC SaaS) |
+| `Arnab-Dey-valuelabs-senior-cicd-engineer.md` | ValueLabs — Senior CI/CD Engineer (Jenkins → GitHub Actions, AKS) |
+| `Arnab-Dey-paypal-senior-system-cloud-engineer.md` | PayPal — Sr System & Cloud Engineer (Stockholm, AWS + IaC + K8s) |
+| `Arnab-Dey-etraveli-site-reliability-engineer.md` | Etraveli Group — Site Reliability Engineer (Gothenburg, AWS + OpenStack + K8s + observability) |
 
 ## Cover Letters
 
 | File | Matches |
 | --- | --- |
 | `Arnab-Dey-cover-letter-platform-engineer.md` | Generic Platform Engineer |
-| `Arnab-Dey-cover-letter-normative.md` | Normative DevOps Engineer |
 | `Arnab-Dey-cover-letter-imagimob.md` | Imagimob / Infineon DevOps Engineer |
-| `Arnab-Dey-cover-letter-flightradar24.md` | Flightradar24 Infrastructure and Platform Manager |
+| `Arnab-Dey-cover-letter-paligo.md` | Paligo Cloud Infrastructure Engineer III |
+| `Arnab-Dey-cover-letter-paypal.md` | PayPal Sr System & Cloud Engineer (Stockholm) |
+| `Arnab-Dey-cover-letter-etraveli.md` | Etraveli Group Site Reliability Engineer (Gothenburg) |
 
 Older cover letters archived in `Cover/`.
 
@@ -40,11 +42,10 @@ Short-form answers to application questionnaires (salary expectations, 140-chara
 
 | File | Company |
 | --- | --- |
-| `Questionnaires/normative.md` | Normative — salary, DevOps experience, strengths/gaps, pitch |
 | `Questionnaires/bryntum.md` | Bryntum — AWS/Docker experience, cover letter, 140-char pitch |
-| `Questionnaires/tandemhealth.md` | Tandem Health — why interested |
-| `Questionnaires/flightradar24.md` | Flightradar24 — 140-char pitch, cover letter reference |
 | `Questionnaires/aimo.md` | Aimo — AWS/K8s experience, incident walkthrough, automations, dream job, employer values, role interest, pitch |
+| `Questionnaires/paligo.md` | Paligo — motivation for next career move, 140-char pitch |
+| `Questionnaires/valuelabs.md` | ValueLabs — pre-screening questionnaire (notice, visa, salary, experience years) |
 
 ## Folder Structure
 
