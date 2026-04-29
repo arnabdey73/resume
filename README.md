@@ -23,6 +23,8 @@ Each tailored resume is built from the master for a specific role or company, wi
 | `Arnab-Dey-valuelabs-senior-cicd-engineer.md` | ValueLabs — Senior CI/CD Engineer (Jenkins → GitHub Actions, AKS) |
 | `Arnab-Dey-paypal-senior-system-cloud-engineer.md` | PayPal — Sr System & Cloud Engineer (Stockholm, AWS + IaC + K8s) |
 | `Arnab-Dey-etraveli-site-reliability-engineer.md` | Etraveli Group — Site Reliability Engineer (Gothenburg, AWS + OpenStack + K8s + observability) |
+| `Arnab-Dey-coody-devops-infra-engineer.md` | Coody — DevOps / Infra Engineer (Stockholm, consulting, CI/CD modernisation, Terraform + Ansible) |
+| `Arnab-Dey-bannerflow-senior-platform-engineer.md` | Bannerflow — Senior Platform Engineer (Stockholm, Azure + Kubernetes + Terraform + GitHub Actions + ArgoCD) |
 
 ## Cover Letters
 
@@ -33,6 +35,8 @@ Each tailored resume is built from the master for a specific role or company, wi
 | `Arnab-Dey-cover-letter-paligo.md` | Paligo Cloud Infrastructure Engineer III |
 | `Arnab-Dey-cover-letter-paypal.md` | PayPal Sr System & Cloud Engineer (Stockholm) |
 | `Arnab-Dey-cover-letter-etraveli.md` | Etraveli Group Site Reliability Engineer (Gothenburg) |
+| `Arnab-Dey-cover-letter-coody.md` | Coody DevOps / Infra Engineer (Stockholm) |
+| `Arnab-Dey-cover-letter-bannerflow.md` | Bannerflow Senior Platform Engineer (Stockholm) |
 
 Older cover letters archived in `Cover/`.
 
@@ -46,6 +50,7 @@ Short-form answers to application questionnaires (salary expectations, 140-chara
 | `Questionnaires/aimo.md` | Aimo — AWS/K8s experience, incident walkthrough, automations, dream job, employer values, role interest, pitch |
 | `Questionnaires/paligo.md` | Paligo — motivation for next career move, 140-char pitch |
 | `Questionnaires/valuelabs.md` | ValueLabs — pre-screening questionnaire (notice, visa, salary, experience years) |
+| `Questionnaires/bannerflow.md` | Bannerflow — SaaS experience, what I'm looking for, "good fit" pitch, 140-char pitch |
 
 ## Folder Structure
 
@@ -72,6 +77,8 @@ Cloud and Platform Engineer based in Stockholm. Deep hands-on experience across 
 
 ## Changelog
 
+- April 29, 2026: Added Bannerflow questionnaire (SaaS experience, what I'm looking for, "good fit" pitch, 140-char pitch).
+- April 28, 2026: Added tailored resumes and cover letters for Coody (DevOps / Infra Engineer) and Bannerflow (Senior Platform Engineer).
 - April 22, 2026: README restructured to reflect the current master-plus-tailored workflow. Added tailored resumes and cover letters for Normative, Imagimob, MedHelp, Nordea, Tandem Health, Bryntum, Flightradar24, and a generic Senior DevSecOps variant.
 - March 14, 2026: Promoted `Arnab-Dey-Cloud-DevOps-Engineer.md` to the master resume as `Arnab-Dey-Resume.md`
 - August 27, 2025: Professional README added, changelog moved to bottom
