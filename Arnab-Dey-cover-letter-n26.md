@@ -1,0 +1,12 @@
+I'm applying for the Site Reliability Engineer role on the Data Storage team. The shape of the work — AWS-and-Terraform infrastructure underneath operational data systems, observability that meets SLOs rather than decorates dashboards, and on-call as a real engineering activity — lines up with what I've been doing for the past several years.
+
+The stateful side of platforms has been a recurring thread for me. At Volvo Cars Car Safety R&D I stood up a **production Elasticsearch cluster on LXD** with X-Pack security, SSL, and **snapshot repositories** as the observability and search backbone for a ~36-node bare-metal CAE/HPC fleet — Elasticsearch is a different engine from PostgreSQL, but the operational shape is the same one your team works inside: replication topology, snapshot-and-restore lifecycle, security and TLS, capacity and storage growth. I also built **two matched Terraform stacks for object-storage benchmarking** — AWS S3 + KMS + IAM on one side, Azure Premium BlockBlobStorage on the other — so ML researchers could compare storage backends under identical workload shape; that work translates directly to the S3 + RDS + Postgres operational triangle in your stack.
+
+At Deutsche Telekom I owned the platform side of a ~30-microservice 5G BSS commercial pilot on PAN-NET (OpenStack), built a **Logstash → Elasticsearch ingestion pipeline** for 5G usage records, and led a **single-weekend cross-tenant migration** that rehomed 54 Tuleap repositories (PostgreSQL-backed), Jenkins jobs, Nexus artifact stores, Keycloak realm, and live Kubernetes workloads — incident-grade coordination, nothing rebuilt from scratch. Earlier, three and a half years of **24×7 shift-based Linux operations at HP Enterprise Services**, including E.ON's German and UK estate, is where my on-call reflexes and storage-systems instincts come from — LVM, Veritas SAN migration, kernel tuning, SOP authorship.
+
+On N26's stack: AWS, Terraform, EKS/Kubernetes, Docker, Prometheus, Grafana, GitHub Actions, Jenkins, ArgoCD, and Python are daily-driver tools for me; Datadog and OpenTelemetry are a quick ramp against the Prometheus/Grafana baseline. AWS Solutions Architect Associate is in progress. I would treat database internals — replication, sharding, performance tuning — as the area to ramp into, with the operational and IaC framing already in place.
+
+Currently Stockholm-based, open to relocation to Berlin under EU Blue Card sponsorship, and happy to pick up the thread in a conversation.
+
+Warm regards,
+Arnab Dey
